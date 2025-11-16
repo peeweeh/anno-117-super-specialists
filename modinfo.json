@@ -1,0 +1,24 @@
+{
+  "Anno": 8,
+  "ModID": "super-specialists-mod",
+  "Version": "1.0.0",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true
+  },
+  "ModName": {
+    "English": "Super Specialists"
+  },
+  "Description": {
+    "English": "Adds 9 overpowered specialists purchaseable from traders, providing extreme buffs across all gameplay areas."
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModType": "Regular",
+  "Author": "mrfixit",
+  "ModTags": ["Specialists", "Balance", "Gameplay"],
+  "IncompatibleIds": [],
+  "ModDependencies": []
+}

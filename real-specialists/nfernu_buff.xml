@@ -1,0 +1,46 @@
+<Asset>
+	<Template>AreaBuff</Template>
+	<Values>
+		<Standard>
+			<GUID>77649</GUID>
+			<Name>AllianceEffect Rival 07 Nfeneru Buff</Name>
+			<IconFilename>data/ui/2kimages/portraits/rival_07_neferneru.png</IconFilename>
+		</Standard>
+		<AreaNeedAttributeBuff>
+			<BonusAttributes>
+				<Money>
+					<ValueOrPercent>
+						<Value>10</Value>
+						<Percental>1</Percental>
+					</ValueOrPercent>
+				</Money>
+			</BonusAttributes>
+		</AreaNeedAttributeBuff>
+		<Text>
+			<OasisId>-6906977538261443667</OasisId>
+		</Text>
+		<AreaBuff/>
+		<Buff>
+			<SourceCategory>Assembly</SourceCategory>
+		</Buff>
+		<AreaPassiveTradeUpgrade>
+			<PassiveTradeReward>
+				<Item>
+					<RewardProduct>2163</RewardProduct>
+					<!--Good Chariots-->
+					<RewardAmount>1</RewardAmount>
+					<SoldProduct>2075</SoldProduct>
+					<!--Good Horses-->
+					<SoldAmount>10</SoldAmount>
+				</Item>
+			</PassiveTradeReward>
+		</AreaPassiveTradeUpgrade>
+		<AreaMaintenanceUpgrade>
+			<LandTax>
+				<Value>-15</Value>
+				<Percental>1</Percental>
+			</LandTax>
+		</AreaMaintenanceUpgrade>
+		<AreaFestivalAttributeUpgrade/>
+	</Values>
+</Asset>

@@ -1,0 +1,31 @@
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+*.zip
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Development notes (keep references folder though)
+/dev-notes/
+/scratch/
+
+# Keep these directories
+!data/
+!references/
+!scripts/
+guid.md

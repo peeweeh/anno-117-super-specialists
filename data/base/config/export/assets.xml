@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <!-- ================================================================
+       SUPER SPECIALISTS MOD - 9 Overpowered Specialists
+       All purchaseable from traders (GUIDs 43018,43021,43019,43020)
+       ================================================================ -->
+
+  <!-- ================================================================
+       DIRK DIGGLER - Production Master (GUID: 2001000001/2001000002)
+       ================================================================ -->
+
+  <!-- Dirk Diggler Item -->
+  <ModOp GUID="41350" Type="addNextSibling">
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000001</GUID>
+          <Name>Dirk Diggler</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_033.png</IconFilename>
+          <InfoDescription>2001000002</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Specialist</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <OasisId>2001000001</OasisId>
+        </Text>
+        <Effect>
+          <EffectScope>ObjectsInArea</EffectScope>
+          <Buffs>
+            <Item>
+              <GUID>2001000002</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>38370</GUID>
+            </Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Item>
+          <MaxStackSize>20</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>69</TradePrice>
+          <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
+          <Niche>None</Niche>
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Dirk Diggler Buff -->
+  <ModOp Type="addNextSibling" GUID="41350">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000002</GUID>
+          <Name>Dirk Diggler Buff</Name>
+        </Standard>
+        <Text>
+          <OasisId>2001000003</OasisId>
+        </Text>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>400</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- ================================================================
+       ROGER RABBIT - Peasant Master (GUID: 2001000004/2001000005)
+       ================================================================ -->
+
+  <!-- Roger Rabbit Item -->
+  <ModOp GUID="41350" Type="addNextSibling">
+    <Asset>
+      <Template>ItemWithBoost</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000004</GUID>
+          <Name>Roger Rabbit</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_72.png</IconFilename>
+
+          <InfoDescription>2001000005</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Specialist</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <OasisId>2001000004</OasisId>
+        </Text>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <Buffs>
+            <Item>
+              <GUID>2001000005</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>3142</GUID>
+            </Item>
+            <Item>
+              <GUID>3145</GUID>
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <MaxStackSize>20</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>69</TradePrice>
+          <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
+          <Niche>Civic</Niche>
+        </Item>
+        <ItemWithBoost>
+          <BoostBuffs>
+            <Item>
+              <GUID>2001000005</GUID>
+            </Item>
+          </BoostBuffs>
+          <BoostHint>-6903508852426753616</BoostHint>
+        </ItemWithBoost>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Roger Rabbit Buff -->
+  <ModOp Type="addNextSibling" GUID="41350">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000005</GUID>
+          <Name>Roger Rabbit Buff</Name>
+        </Standard>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <Text>
+          <OasisId>2001000006</OasisId>
+        </Text>
+        <BuildingUpgrade>
+          <AdditionalWorkforces>
+            <Item>
+              <WorkforceGUID>2181</WorkforceGUID>
+            </Item>
+            <Item>
+              <WorkforceGUID>2184</WorkforceGUID>
+            </Item>
+          </AdditionalWorkforces>
+        </BuildingUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- ================================================================
+       TONY STARK - Workshop Master (GUID: 2001000007/2001000008)
+       ================================================================ -->
+
+  <!-- Tony Stark Item -->
+  <ModOp GUID="41350" Type="addNextSibling">
+    <Asset>
+      <Template>ItemWithBoost</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000007</GUID>
+          <Name>Tony Stark</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_014.png</IconFilename>
+          <InfoDescription>2001000008</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Specialist</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <OasisId>2001000007</OasisId>
+        </Text>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <Buffs>
+            <Item>
+              <GUID>2001000008</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>6471</GUID>
+            </Item>          
+            <Item>
+              <GUID>6475</GUID>
+            </Item>
+            <Item>
+              <GUID>6472</GUID>
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <MaxStackSize>20</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>69</TradePrice>
+          <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
+          <Niche>Civic</Niche>
+        </Item>
+        <ItemWithBoost>
+          <BoostBuffs>
+            <Item>
+              <GUID>2001000008</GUID>
+            </Item>
+          </BoostBuffs>
+          <BoostHint>-6903508852426753616</BoostHint>
+        </ItemWithBoost>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Tony Stark Buff -->
+  <ModOp Type="addNextSibling" GUID="41350">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000008</GUID>
+          <Name>Tony Stark Buff</Name>
+        </Standard>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <Text>
+          <OasisId>2001000009</OasisId>
+        </Text>
+        <BuildingUpgrade>
+          <AdditionalWorkforces>
+            <Item>
+              <WorkforceGUID>2192</WorkforceGUID>
+            </Item>
+          </AdditionalWorkforces>
+        </BuildingUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- ================================================================
+       TRADER INTEGRATION - Add all specialists to trader pools
+       ================================================================ -->
+
+  <ModOp Type="add" GUID="43018,43021,43019,43020" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2001000001</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2001000004</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2001000007</ItemLink>
+    </Item>
+  </ModOp>
+
+</ModOps>
+

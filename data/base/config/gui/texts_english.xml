@@ -1,0 +1,68 @@
+<ModOps>
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Dirk Diggler</Text>
+      <LineId>2001000001</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>The Ultimate Production Overlord - This legendary figure from the silver screen will boost your factories to unimaginable heights, turning your production lines into money-printing machines!</Text>
+      <LineId>2001000002</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>900% Productivity Boost</Text>
+      <LineId>2001000003</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Roger Rabbit</Text>
+      <LineId>2001000004</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>The Toon That Adds Peasants - Straight out of Toontown, this animated ace will magically summon extra peasant workers to your Coopers and Cookhouses, making your food and drink production a cartoonishly efficient affair!</Text>
+      <LineId>2001000005</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Cooper &amp; Cookhouse Workforce Boost</Text>
+      <LineId>2001000006</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Tony Stark</Text>
+      <LineId>2001000007</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>The Billionaire Genius Inventor - With his JARVIS-like efficiency, Tony Stark will deploy extra peasant workers to your Artisans and Dressers in Albion, turning your workshops into high-tech production marvels!</Text>
+      <LineId>2001000008</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Albion Workshop Workforce Boost</Text>
+      <LineId>2001000009</LineId>
+    </Text>
+  </ModOp>
+
+
+
+
+</ModOps>

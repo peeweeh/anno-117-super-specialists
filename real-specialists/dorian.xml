@@ -1,0 +1,94 @@
+<Asset>
+	<Template>ItemWithBoost</Template>
+	<Values>
+		<Standard>
+			<GUID>41350</GUID>
+			<Name>Specialist Rival 01 Dorian</Name>
+			<IconFilename>data/ui/2kimages/portraits/rival_01_dorian.png</IconFilename>
+			<InfoDescription>-6910700460068032447</InfoDescription>
+		</Standard>
+		<Effect>
+			<EffectScope>Radius</EffectScope>
+			<Buffs>
+				<Item>
+					<GUID>40496</GUID>
+					<!--Specialist Rival 01 Dorian Buff-->
+				</Item>
+			</Buffs>
+			<Targets>
+				<Item>
+					<GUID>50606</GUID>
+					<!--Asset Pool Production All Coopers-->
+				</Item>
+				<Item>
+					<GUID>50610</GUID>
+					<!--Asset Pool Production All Cookhouses-->
+				</Item>
+				<Item>
+					<GUID>3142</GUID>
+					<!--[ empty field / noname ]-->
+				</Item>
+			</Targets>
+			<HideInGovernorsBar>1</HideInGovernorsBar>
+		</Effect>
+		<Item>
+			<Rarity>Unique</Rarity>
+			<Niche>Culture</Niche>
+			<BarkPool>90850</BarkPool>
+			<!--Bark Dorian-->
+		</Item>
+		<Locked>
+			<DefaultLockedState>0</DefaultLockedState>
+		</Locked>
+		<Text>
+			<OasisId>-6910154242256392644</OasisId>
+		</Text>
+		<ItemWithBoost>
+			<BoostCondition>
+				<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+				<Values>
+					<PreConditionList>
+						<Condition>
+							<Template>ConditionNeedAttributeCounter</Template>
+							<Values>
+								<Condition/>
+								<ConditionNeedAttributeCounter>
+									<NeedAttributeType>Health</NeedAttributeType>
+									<NeedAttributeAmount>800</NeedAttributeAmount>
+								</ConditionNeedAttributeCounter>
+								<ConditionLocationFilter>
+									<LocationFilter>
+										<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+										<Values>
+											<LocationFilter>
+												<ObjectLocations>
+													<ObjectFilter>
+														<Template>ObjectFilter</Template>
+														<Values>
+															<ObjectFilter>
+																<UseContextObjects>1</UseContextObjects>
+															</ObjectFilter>
+														</Values>
+													</ObjectFilter>
+												</ObjectLocations>
+											</LocationFilter>
+										</Values>
+									</LocationFilter>
+								</ConditionLocationFilter>
+								<ConditionCounterProps/>
+								<ConditionPropsComparable/>
+							</Values>
+						</Condition>
+					</PreConditionList>
+				</Values>
+			</BoostCondition>
+			<BoostBuffs>
+				<Item>
+					<GUID>113061</GUID>
+					<!--Specialist Rival 01 Dorian Buff Boosted-->
+				</Item>
+			</BoostBuffs>
+			<BoostHint>-6900310240908301779</BoostHint>
+		</ItemWithBoost>
+	</Values>
+</Asset>

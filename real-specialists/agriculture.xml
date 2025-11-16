@@ -1,0 +1,74 @@
+<ModOps>
+	<ModOp GUID="51282" Append="" />
+		<Asset>
+			<Template>ItemWithBoost</Template>
+			<Values>
+				<Standard>
+					<GUID>51282</GUID>
+					<Name>Specialist TechTree Agriculture</Name>
+					<IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_007.png</IconFilename>
+					<InfoDescription>-6912072577544661223</InfoDescription>
+				</Standard>
+				<Effect>
+					<EffectScope>Radius</EffectScope>
+					<Buffs>
+						<Item>
+							<GUID>51283</GUID>
+							<!--Specialist TechTree Agriculture Buff-->
+						</Item>
+					</Buffs>
+					<Targets>
+						<Item>
+							<GUID>42602</GUID>
+							<!--Asset Pool Production All Farms-->
+						</Item>
+						<Item>
+							<GUID>51905</GUID>
+							<!--Asset Pool Production All Plantations-->
+						</Item>
+					</Targets>
+					<HideInGovernorsBar>1</HideInGovernorsBar>
+				</Effect>
+				<Item>
+					<Rarity>Legendary</Rarity>
+					<Niche>Agriculture</Niche>
+					<TradePrice>1000000</TradePrice>
+					<BarkPool>83353</BarkPool>
+					<!--Bark f Nature: Top of Crops-->
+				</Item>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<Text>
+					<OasisId>-6900204572682916619</OasisId>
+				</Text>
+				<ItemWithBoost>
+					<BoostCondition>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<PreConditionList>
+								<Condition>
+									<Template>ConditionDominantPatron</Template>
+									<Values>
+										<Condition/>
+										<ConditionDominantPatron>
+											<PatronGUID>43594</PatronGUID>
+											<!--PatronCeres-->
+										</ConditionDominantPatron>
+									</Values>
+								</Condition>
+							</PreConditionList>
+						</Values>
+					</BoostCondition>
+					<BoostBuffs>
+						<Item>
+							<GUID>54669</GUID>
+							<!--Specialist TechTree Agriculture Buff Boosted-->
+						</Item>
+					</BoostBuffs>
+					<BoostHint>-6904324744489641815</BoostHint>
+				</ItemWithBoost>
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>

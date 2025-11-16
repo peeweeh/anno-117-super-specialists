@@ -1,0 +1,64 @@
+<Asset>
+	<Template>BuildingBuff</Template>
+	<Values>
+		<Standard>
+			<GUID>40496</GUID>
+			<Name>Specialist Rival 01 Dorian Buff</Name>
+			<IconFilename>data/ui/2kimages/portraits/rival_01_dorian.png</IconFilename>
+		</Standard>
+		<Text>
+			<OasisId>-6914359904474013107</OasisId>
+		</Text>
+		<HealthUpgrade/>
+		<BuildingUpgrade>
+			<AdditionalWorkforces>
+				<Item>
+					<WorkforceGUID>2181</WorkforceGUID>
+					<!--Workforce Peasants-->
+				</Item>
+			</AdditionalWorkforces>
+		</BuildingUpgrade>
+		<DistributionUpgrade/>
+		<Buff>
+			<SourceCategory>Item</SourceCategory>
+		</Buff>
+		<ResidenceUpgrade>
+			<NeedProvidedNeedAttributes>
+				<ChangeNeedAttributesOf>
+					<Item>
+						<ProvidedProduct>2685</ProvidedProduct>
+						<!--Service Roman Baths-->
+					</Item>
+				</ChangeNeedAttributesOf>
+				<AdditionalNeedAttributes>
+					<Health>
+						<AmountOrPercent>
+							<Value>5</Value>
+							<Percental>0</Percental>
+						</AmountOrPercent>
+					</Health>
+					<FireSafety>
+						<AmountOrPercent>
+							<Value>2</Value>
+							<Percental>0</Percental>
+						</AmountOrPercent>
+					</FireSafety>
+				</AdditionalNeedAttributes>
+			</NeedProvidedNeedAttributes>
+		</ResidenceUpgrade>
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>50</Value>
+				<Percental>1</Percental>
+			</ProductivityUpgrade>
+		</FactoryUpgrade>
+		<ModuleOwnerUpgrade/>
+		<MaintenanceUpgrade/>
+		<CityInstitutionUpgrade/>
+		<IncidentInfectableUpgrade/>
+		<RecruitmentUpgrade/>
+		<AqueductUpgrade/>
+		<WarehouseUpgrade/>
+		<IrrigationUpgrade/>
+	</Values>
+</Asset>
