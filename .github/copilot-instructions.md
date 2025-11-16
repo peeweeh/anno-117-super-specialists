@@ -1,0 +1,5 @@
+- if you are unsure about the plan less than 99% confidence level ask for clarification
+- always mention the then confidence level
+- keep everything simple
+- put short comments for people to undersstand why this is done
+- remove unncessary stuff that is so obvious

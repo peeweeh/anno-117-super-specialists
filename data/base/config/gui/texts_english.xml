@@ -1,14 +1,14 @@
 <ModOps>
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Dirk Diggler</Text>
+      <Text>Gracchus Tiberius</Text>
       <LineId>2001000001</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>The Ultimate Production Overlord - This legendary figure from the silver screen will boost your factories to unimaginable heights, turning your production lines into money-printing machines!</Text>
+      <Text>The People's Tribune - This legendary reformer will boost your factories to unimaginable heights with revolutionary efficiency that turns your production lines into engines of prosperity!</Text>
       <LineId>2001000002</LineId>
     </Text>
   </ModOp>
@@ -22,14 +22,14 @@
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Roger Rabbit</Text>
+      <Text>Gracchus Gaius</Text>
       <LineId>2001000004</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>The Toon That Adds Peasants - Straight out of Toontown, this animated ace will magically summon extra peasant workers to your Coopers and Cookhouses, making your food and drink production a cartoonishly efficient affair!</Text>
+      <Text>Brother of Reform - Following his brother's legacy, this champion of the people mobilizes extra peasant workers to your Coopers and Cookhouses, ensuring food and drink flow freely to all!</Text>
       <LineId>2001000005</LineId>
     </Text>
   </ModOp>
@@ -43,14 +43,14 @@
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Tony Stark</Text>
+      <Text>Gracchus Cornelia</Text>
       <LineId>2001000007</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>The Billionaire Genius Inventor - With his JARVIS-like efficiency, Tony Stark will deploy extra peasant workers to your Artisans and Dressers in Albion, turning your workshops into high-tech production marvels!</Text>
+      <Text>Mother of Heroes - The matriarch of the Gracchi, this wise and influential leader deploys extra peasant workers to your Artisans and Dressers in Albion, transforming your workshops into paragons of craftsmanship!</Text>
       <LineId>2001000008</LineId>
     </Text>
   </ModOp>
@@ -62,7 +62,68 @@
     </Text>
   </ModOp>
 
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Gracchus Scipio</Text>
+      <LineId>2001000010</LineId>
+    </Text>
+  </ModOp>
 
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Grandfather of Legends - The great Scipio Africanus enhances your residences with his wisdom and prestige, bringing happiness, health, fire safety, knowledge, piety, and honor to all dwellings!</Text>
+      <LineId>2001000011</LineId>
+    </Text>
+  </ModOp>
 
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Residence Excellence Boost</Text>
+      <LineId>2001000012</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Gracchus Fulvia</Text>
+      <LineId>2001000013</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Mistress of Logistics - This brilliant strategist doubles warehouse loading speed across the entire island, ensuring goods flow as swiftly as Roman legions on the march!</Text>
+      <LineId>2001000014</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Warehouse Speed Master</Text>
+      <LineId>2001000015</LineId>
+    </Text>
+  </ModOp>
+
+  <!-- Gracchus Duilius (Ship Captain) Texts -->
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Gracchus Duilius</Text>
+      <LineId>2001000016</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Master of heavy warships, Duilius Gracchus transforms Triremes and Quinquiremes into unstoppable flagships. His command grants triple attack speed, quadruple movement speed, 5000 additional hull strength, 9 item slots, expanded vision range, and drastically reduced maintenance costs. Large warships only.</Text>
+      <LineId>2001000017</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Warship Master</Text>
+      <LineId>2001000018</LineId>
+    </Text>
+  </ModOp>
 
 </ModOps>

@@ -7,18 +7,18 @@
        ================================================================ -->
 
   <!-- ================================================================
-       DIRK DIGGLER - Production Master (GUID: 2001000001/2001000002)
+       GRACCHUS TIBERIUS - Production Master (GUID: 2001000001/2001000002)
        ================================================================ -->
 
-  <!-- Dirk Diggler Item -->
+  <!-- Gracchus Tiberius Item -->
   <ModOp GUID="41350" Type="addNextSibling">
     <Asset>
       <Template>Item</Template>
       <Values>
         <Standard>
           <GUID>2001000001</GUID>
-          <Name>Dirk Diggler</Name>
-          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_033.png</IconFilename>
+          <Name>Gracchus Tiberius</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_002.png</IconFilename>
           <InfoDescription>2001000002</InfoDescription>
         </Standard>
         <Text>
@@ -61,14 +61,14 @@
     </Asset>
   </ModOp>
 
-  <!-- Dirk Diggler Buff -->
+  <!-- Gracchus Tiberius Buff -->
   <ModOp Type="addNextSibling" GUID="41350">
     <Asset>
       <Template>BuildingBuff</Template>
       <Values>
         <Standard>
           <GUID>2001000002</GUID>
-          <Name>Dirk Diggler Buff</Name>
+          <Name>Gracchus Tiberius Buff</Name>
         </Standard>
         <Text>
           <OasisId>2001000003</OasisId>
@@ -84,18 +84,18 @@
   </ModOp>
 
   <!-- ================================================================
-       ROGER RABBIT - Peasant Master (GUID: 2001000004/2001000005)
+       GRACCHUS GAIUS - Peasant Master (GUID: 2001000004/2001000005)
        ================================================================ -->
 
-  <!-- Roger Rabbit Item -->
+  <!-- Gracchus Gaius Item -->
   <ModOp GUID="41350" Type="addNextSibling">
     <Asset>
       <Template>ItemWithBoost</Template>
       <Values>
         <Standard>
           <GUID>2001000004</GUID>
-          <Name>Roger Rabbit</Name>
-          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_72.png</IconFilename>
+          <Name>Gracchus Gaius</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_001.png</IconFilename>
 
           <InfoDescription>2001000005</InfoDescription>
         </Standard>
@@ -146,14 +146,14 @@
     </Asset>
   </ModOp>
 
-  <!-- Roger Rabbit Buff -->
+  <!-- Gracchus Gaius Buff -->
   <ModOp Type="addNextSibling" GUID="41350">
     <Asset>
       <Template>BuildingBuff</Template>
       <Values>
         <Standard>
           <GUID>2001000005</GUID>
-          <Name>Roger Rabbit Buff</Name>
+          <Name>Gracchus Gaius Buff</Name>
         </Standard>
         <Buff>
           <SourceCategory>Item</SourceCategory>
@@ -176,18 +176,18 @@
   </ModOp>
 
   <!-- ================================================================
-       TONY STARK - Workshop Master (GUID: 2001000007/2001000008)
+       GRACCHUS CORNELIA - Workshop Master (GUID: 2001000007/2001000008)
        ================================================================ -->
 
-  <!-- Tony Stark Item -->
+  <!-- Gracchus Cornelia Item -->
   <ModOp GUID="41350" Type="addNextSibling">
     <Asset>
       <Template>ItemWithBoost</Template>
       <Values>
         <Standard>
           <GUID>2001000007</GUID>
-          <Name>Tony Stark</Name>
-          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_014.png</IconFilename>
+          <Name>Gracchus Cornelia</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_001.png</IconFilename>
           <InfoDescription>2001000008</InfoDescription>
         </Standard>
         <Text>
@@ -240,14 +240,14 @@
     </Asset>
   </ModOp>
 
-  <!-- Tony Stark Buff -->
+  <!-- Gracchus Cornelia Buff -->
   <ModOp Type="addNextSibling" GUID="41350">
     <Asset>
       <Template>BuildingBuff</Template>
       <Values>
         <Standard>
           <GUID>2001000008</GUID>
-          <Name>Tony Stark Buff</Name>
+          <Name>Gracchus Cornelia Buff</Name>
         </Standard>
         <Buff>
           <SourceCategory>Item</SourceCategory>
@@ -267,18 +267,383 @@
   </ModOp>
 
   <!-- ================================================================
+       GRACCHUS SCIPIO - Residence Master (GUID: 2001000010/2001000011)
+       ================================================================ -->
+
+  <!-- Gracchus Scipio Item -->
+  <ModOp GUID="41350" Type="addNextSibling">
+    <Asset>
+      <Template>ItemWithBoost</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000010</GUID>
+          <Name>Gracchus Scipio</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_003.png</IconFilename>
+          <InfoDescription>2001000011</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Specialist</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <OasisId>2001000010</OasisId>
+        </Text>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <Buffs>
+            <Item>
+              <GUID>2001000011</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>3087</GUID>
+            </Item>
+            <Item>
+              <GUID>3141</GUID>
+            </Item>
+            <Item>
+              <GUID>3142</GUID>
+            </Item>
+            <Item>
+              <GUID>3145</GUID>
+            </Item>
+            <Item>
+              <GUID>6414</GUID>
+            </Item>  
+            <Item>
+              <GUID>6471</GUID>
+            </Item>          
+            <Item>
+              <GUID>6475</GUID>
+            </Item>
+            <Item>
+              <GUID>6472</GUID>
+            </Item>
+            <Item>
+              <GUID>6514</GUID>
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <MaxStackSize>20</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>69</TradePrice>
+          <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
+          <Niche>Civic</Niche>
+        </Item>
+        <ItemWithBoost>
+          <BoostBuffs>
+            <Item>
+              <GUID>2001000011</GUID>
+            </Item>
+          </BoostBuffs>
+          <BoostHint>-6903508852426753616</BoostHint>
+        </ItemWithBoost>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Gracchus Scipio Buff -->
+  <ModOp Type="addNextSibling" GUID="41350">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000011</GUID>
+          <Name>Gracchus Scipio Buff</Name>
+        </Standard>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <Text>
+          <OasisId>2001000012</OasisId>
+        </Text>
+        <BuildingUpgrade>
+          <AdditionalAttributes>
+            <Happiness>
+              <AmountOrPercent>
+                <Value>10</Value>
+                <Percental>0</Percental>
+              </AmountOrPercent>
+            </Happiness>
+            <Health>
+              <AmountOrPercent>
+                <Value>10</Value>
+                <Percental>0</Percental>
+              </AmountOrPercent>
+            </Health>
+            <FireSafety>
+              <AmountOrPercent>
+                <Value>10</Value>
+                <Percental>0</Percental>
+              </AmountOrPercent>
+            </FireSafety>
+            <Knowledge>
+              <AmountOrPercent>
+                <Value>10</Value>
+                <Percental>0</Percental>
+              </AmountOrPercent>
+            </Knowledge>
+            <Belief>
+              <AmountOrPercent>
+                <Value>10</Value>
+                <Percental>0</Percental>
+              </AmountOrPercent>
+            </Belief>
+            <Prestige>
+              <AmountOrPercent>
+                <Value>10</Value>
+                <Percental>0</Percental>
+              </AmountOrPercent>
+            </Prestige>
+          </AdditionalAttributes>
+        </BuildingUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- ================================================================
+       GRACCHUS MARCUS - Warehouse Master (GUID: 2001000013/2001000014)
+       ================================================================ -->
+
+  <!-- Gracchus Fulvia Item -->
+  <ModOp GUID="41350" Type="addNextSibling">
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000013</GUID>
+          <Name>Gracchus Fulvia</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_002.png</IconFilename>
+          <InfoDescription>2001000014</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Specialist</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <OasisId>2001000013</OasisId>
+        </Text>
+        <Effect>
+          <EffectScope>ObjectsInArea</EffectScope>
+          <Buffs>
+            <Item>
+              <GUID>2001000014</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>38564</GUID>
+            </Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Item>
+          <MaxStackSize>20</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>69</TradePrice>
+          <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
+          <Niche>None</Niche>
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Gracchus Fulvia Buff -->
+  <ModOp Type="addNextSibling" GUID="41350">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000014</GUID>
+          <Name>Gracchus Fulvia Buff</Name>
+        </Standard>
+        <Text>
+          <OasisId>2001000015</OasisId>
+        </Text>
+        <WarehouseUpgrade>
+          <AdditionalLoadingSpeedInPercent>100</AdditionalLoadingSpeedInPercent>
+        </WarehouseUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- ================================================================
+       GRACCHUS NAUTICUS - Ship Captain (GUID: 2001000016/2001000017)
+       ================================================================ -->
+
+  <!-- Gracchus Duilius Item -->
+  <ModOp Type="addNextSibling" GUID="41350">
+    <Asset>
+      <Template>ItemWithBoost</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000016</GUID>
+          <Name>Gracchus Duilius</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_020.png</IconFilename>
+          <InfoDescription>2001000017</InfoDescription>
+        </Standard>
+        <Effect>
+          <Buffs>
+            <Item>
+              <GUID>2001000017</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>37224</GUID>
+            </Item>
+            <Item>
+              <GUID>37223</GUID>
+            </Item>
+            <Item>
+              <GUID>5473</GUID>
+            </Item>
+            <Item>
+              <GUID>39570</GUID>
+            </Item>
+            <Item>
+              <GUID>39571</GUID>
+            </Item>
+            <Item>
+              <GUID>39573</GUID>
+            </Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Item>
+          <MaxStackSize>20</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Captains</ItemType>
+          <Allocation>Ship</Allocation>
+          <TradePrice>69</TradePrice>
+          <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
+          <Niche>Military</Niche>
+          <OnlyEquippableOnce>0</OnlyEquippableOnce>
+        </Item>
+        <Text>
+          <OasisId>2001000016</OasisId>
+        </Text>
+        <ItemWithBoost>
+          <BoostBuffs>
+            <Item>
+              <GUID>2001000017</GUID>
+            </Item>
+          </BoostBuffs>
+          <BoostHint>-6903508852426753616</BoostHint>
+        </ItemWithBoost>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Gracchus Duilius Buff -->
+  <ModOp Type="addNextSibling" GUID="41350">
+    <Asset>
+      <Template>ShipBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000017</GUID>
+          <Name>Gracchus Duilius Buff</Name>
+        </Standard>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <Text>
+          <OasisId>2001000018</OasisId>
+        </Text>
+        <HealthUpgrade>
+          <BaseHealthUpgrade>
+            <Value>5000</Value>
+            <Percental>0</Percental>
+          </BaseHealthUpgrade>
+        </HealthUpgrade>
+        <MovementUpgrade>
+          <BuffBaseSpeedUpgrade>
+            <Value>300</Value>
+            <Percental>1</Percental>
+          </BuffBaseSpeedUpgrade>
+        </MovementUpgrade>
+        <MaintenanceUpgrade>
+          <MaintenanceFactorUpgrade>
+            <Value>-75</Value>
+            <Percental>1</Percental>
+          </MaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <ItemContainerUpgrade>
+          <AdditionalSlots>9</AdditionalSlots>
+        </ItemContainerUpgrade>
+        <UnitUpgrade>
+          <DiscoveryRadiusUpgrade>
+            <Value>100</Value>
+            <Percental>0</Percental>
+          </DiscoveryRadiusUpgrade>
+          <AttackSpeedArcherModulePercentualUpgrade>
+            <Value>300</Value>
+            <Percental>0</Percental>
+          </AttackSpeedArcherModulePercentualUpgrade>
+          <AttackSpeedCatapultModulePercentualUpgrade>
+            <Value>300</Value>
+            <Percental>0</Percental>
+          </AttackSpeedCatapultModulePercentualUpgrade>
+          <AttackSpeedBallistaModulePercentualUpgrade>
+            <Value>300</Value>
+            <Percental>0</Percental>
+          </AttackSpeedBallistaModulePercentualUpgrade>
+          <AttackSpeedTorchPercentualUpgrade>
+            <Value>300</Value>
+            <Percental>0</Percental>
+          </AttackSpeedTorchPercentualUpgrade>
+          <AttackSpeedRangedPercentualUpgrade>
+            <Value>300</Value>
+            <Percental>0</Percental>
+          </AttackSpeedRangedPercentualUpgrade>
+        </UnitUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- ================================================================
        TRADER INTEGRATION - Add all specialists to trader pools
        ================================================================ -->
 
   <ModOp Type="add" GUID="43018,43021,43019,43020" Path="/Values/RewardPool/ItemsPool">
     <Item>
       <ItemLink>2001000001</ItemLink>
+      <Weight>99</Weight>
     </Item>
     <Item>
       <ItemLink>2001000004</ItemLink>
+      <Weight>99</Weight>
     </Item>
     <Item>
       <ItemLink>2001000007</ItemLink>
+      <Weight>99</Weight>
+    </Item>
+    <Item>
+      <ItemLink>2001000010</ItemLink>
+      <Weight>99</Weight>
+    </Item>
+    <Item>
+      <ItemLink>2001000013</ItemLink>
+      <Weight>99</Weight>
+    </Item>
+    <Item>
+      <ItemLink>2001000016</ItemLink>
+      <Weight>99</Weight>
     </Item>
   </ModOp>
 
