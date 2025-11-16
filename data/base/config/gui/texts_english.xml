@@ -85,22 +85,14 @@
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-<<<<<<< HEAD
       <Text>Gracchus Fulvia</Text>
-=======
-      <Text>Gracchus Marcus</Text>
->>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
       <LineId>2001000013</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-<<<<<<< HEAD
       <Text>Mistress of Logistics - This brilliant strategist doubles warehouse loading speed across the entire island, ensuring goods flow as swiftly as Roman legions on the march!</Text>
-=======
-      <Text>Master of Logistics - This brilliant strategist doubles warehouse loading speed across the entire island, ensuring goods flow as swiftly as Roman legions on the march!</Text>
->>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
       <LineId>2001000014</LineId>
     </Text>
   </ModOp>
@@ -111,7 +103,6 @@
       <LineId>2001000015</LineId>
     </Text>
   </ModOp>
-<<<<<<< HEAD
 
   <!-- Gracchus Duilius (Ship Captain) Texts -->
   <ModOp Add="/TextExport/Texts">
@@ -134,7 +125,5 @@
       <LineId>2001000018</LineId>
     </Text>
   </ModOp>
-=======
->>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
 
 </ModOps>
