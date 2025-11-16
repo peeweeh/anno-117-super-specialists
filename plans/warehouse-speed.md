@@ -43,6 +43,7 @@
 
 Named **Marcus**, a common Roman praenomen (given name), continuing the Gracchi family theme with a focus on logistics and trade efficiency.
 
+<<<<<<< HEAD
 ## Key Implementation Snippet
 
 ```xml
@@ -56,13 +57,23 @@ Named **Marcus**, a common Roman praenomen (given name), continuing the Gracchi 
   </Targets>
 </Effect>
 
+=======
+## Reference Buff (Game Tech)
+
+Based on game's tech effect GUID 38563 which provides 25% warehouse speed increase. Our specialist provides 100% for 4x the effect.
+
+```xml
+>>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
 <WarehouseUpgrade>
   <AdditionalLoadingSpeedInPercent>100</AdditionalLoadingSpeedInPercent>
 </WarehouseUpgrade>
 ```
 
+<<<<<<< HEAD
 **Full XML examples in:** `/plans/SYNTAX-REFERENCE.md` (Example 2)
 
+=======
+>>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
 ## Files Modified
 
 - `data/base/config/export/assets.xml` - Item and buff definitions

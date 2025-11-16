@@ -412,15 +412,24 @@
        GRACCHUS MARCUS - Warehouse Master (GUID: 2001000013/2001000014)
        ================================================================ -->
 
+<<<<<<< HEAD
   <!-- Gracchus Fulvia Item -->
+=======
+  <!-- Gracchus Marcus Item -->
+>>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
   <ModOp GUID="41350" Type="addNextSibling">
     <Asset>
       <Template>Item</Template>
       <Values>
         <Standard>
           <GUID>2001000013</GUID>
+<<<<<<< HEAD
           <Name>Gracchus Fulvia</Name>
           <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_002.png</IconFilename>
+=======
+          <Name>Gracchus Marcus</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_004.png</IconFilename>
+>>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
           <InfoDescription>2001000014</InfoDescription>
         </Standard>
         <Text>
@@ -463,14 +472,22 @@
     </Asset>
   </ModOp>
 
+<<<<<<< HEAD
   <!-- Gracchus Fulvia Buff -->
+=======
+  <!-- Gracchus Marcus Buff -->
+>>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
   <ModOp Type="addNextSibling" GUID="41350">
     <Asset>
       <Template>BuildingBuff</Template>
       <Values>
         <Standard>
           <GUID>2001000014</GUID>
+<<<<<<< HEAD
           <Name>Gracchus Fulvia Buff</Name>
+=======
+          <Name>Gracchus Marcus Buff</Name>
+>>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
         </Standard>
         <Text>
           <OasisId>2001000015</OasisId>
@@ -483,6 +500,7 @@
   </ModOp>
 
   <!-- ================================================================
+<<<<<<< HEAD
        GRACCHUS NAUTICUS - Ship Captain (GUID: 2001000016/2001000017)
        ================================================================ -->
 
@@ -617,6 +635,8 @@
   </ModOp>
 
   <!-- ================================================================
+=======
+>>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
        TRADER INTEGRATION - Add all specialists to trader pools
        ================================================================ -->
 
@@ -640,10 +660,13 @@
     <Item>
       <ItemLink>2001000013</ItemLink>
       <Weight>99</Weight>
+<<<<<<< HEAD
     </Item>
     <Item>
       <ItemLink>2001000016</ItemLink>
       <Weight>99</Weight>
+=======
+>>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
     </Item>
   </ModOp>
 

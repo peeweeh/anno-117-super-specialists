@@ -46,6 +46,7 @@ Named after **Scipio Africanus** (c. 236-183 BC), grandfather of the Gracchi bro
 - `data/base/config/gui/texts_english.xml` - Name, description, and buff display text
 - Integrated into trader pools (43018, 43021, 43019, 43020)
 
+<<<<<<< HEAD
 ## Key Implementation Snippet
 
 ```xml
@@ -64,3 +65,75 @@ Named after **Scipio Africanus** (c. 236-183 BC), grandfather of the Gracchi bro
 ```
 
 **Full XML examples in:** `/plans/SYNTAX-REFERENCE.md` (Example 1)
+=======
+
+## Sample Buffs
+
+```xml
+<!-- Corrected Buff Structure (Excerpt) -->
+<Asset>
+  <Template>BuildingBuff</Template>
+  <Values>
+    <Standard>
+      <GUID>2001000011</GUID>
+      <Name>Gracchus Scipio Buff</Name>
+    </Standard>
+    <Buff>
+      <SourceCategory>Item</SourceCategory>
+    </Buff>
+    <Text>
+      <OasisId>2001000012</OasisId>
+    </Text>
+    <BuildingUpgrade>
+      <AdditionalAttributes>
+        <Happiness><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Happiness>
+        <Health><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Health>
+        <FireSafety><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></FireSafety>
+        <Knowledge><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Knowledge>
+        <Belief><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Belief>
+        <Prestige><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Prestige>
+      </AdditionalAttributes>
+    </BuildingUpgrade>
+  </Values>
+</Asset>
+```
+
+<Asset>
+	<Template>BuildingBuff</Template>
+	<Values>
+		<Standard>
+			<GUID>64971</GUID>
+			<Name>Specialist Balance Health Large Buff</Name>
+			<IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_female/icon_3d_celtic_female_002.png</IconFilename>
+		</Standard>
+		<Text>
+			<OasisId>-6915424537093066639</OasisId>
+		</Text>
+		<HealthUpgrade/>
+		<BuildingUpgrade>
+			<AdditionalAttributes>
+				<Health>
+					<AmountOrPercent>
+						<Value>2</Value>
+						<Percental>0</Percental>
+					</AmountOrPercent>
+				</Health>
+			</AdditionalAttributes>
+		</BuildingUpgrade>
+		<DistributionUpgrade/>
+		<Buff>
+			<SourceCategory>Item</SourceCategory>
+		</Buff>
+		<ResidenceUpgrade/>
+		<FactoryUpgrade/>
+		<ModuleOwnerUpgrade/>
+		<MaintenanceUpgrade/>
+		<CityInstitutionUpgrade/>
+		<IncidentInfectableUpgrade/>
+		<RecruitmentUpgrade/>
+		<AqueductUpgrade/>
+		<WarehouseUpgrade/>
+		<IrrigationUpgrade/>
+	</Values>
+</Asset>
+>>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
