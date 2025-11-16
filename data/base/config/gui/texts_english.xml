@@ -8,14 +8,14 @@
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>The People's Tribune - This legendary reformer will boost your factories to unimaginable heights with revolutionary efficiency that turns your production lines into engines of prosperity!</Text>
+      <Text>The People's Tribune - This legendary reformer supercharges your factories with revolutionary efficiency that turns your production lines into unstoppable engines of prosperity!</Text>
       <LineId>2001000002</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>900% Productivity Boost</Text>
+      <Text>Production Powerhouse</Text>
       <LineId>2001000003</LineId>
     </Text>
   </ModOp>
@@ -29,14 +29,14 @@
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Brother of Reform - Following his brother's legacy, this champion of the people mobilizes extra peasant workers to your Coopers and Cookhouses, ensuring food and drink flow freely to all!</Text>
+      <Text>Brother of Reform - Following his brother's legacy, this champion of the people summons eager workers to your Coopers and Cookhouses, ensuring food and drink flow like the Tiber itself!</Text>
       <LineId>2001000005</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Cooper &amp; Cookhouse Workforce Boost</Text>
+      <Text>Extra Hands Make Light Work</Text>
       <LineId>2001000006</LineId>
     </Text>
   </ModOp>
@@ -50,14 +50,14 @@
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Mother of Heroes - The matriarch of the Gracchi, this wise and influential leader deploys extra peasant workers to your Artisans and Dressers in Albion, transforming your workshops into paragons of craftsmanship!</Text>
+      <Text>Mother of Heroes - The matriarch of the Gracchi brings her legendary wisdom to Albion, rallying skilled laborers to your workshops and transforming them into beacons of excellence!</Text>
       <LineId>2001000008</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Albion Workshop Workforce Boost</Text>
+      <Text>Workshop Workforce Wonder</Text>
       <LineId>2001000009</LineId>
     </Text>
   </ModOp>
@@ -71,14 +71,14 @@
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Grandfather of Legends - The great Scipio Africanus enhances your residences with his wisdom and prestige, bringing happiness, health, fire safety, knowledge, piety, and honor to all dwellings!</Text>
+      <Text>Grandfather of Legends - The great Scipio Africanus blesses your residences with his legendary aura, elevating happiness, health, fire safety, knowledge, piety, and prestige to glorious heights!</Text>
       <LineId>2001000011</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Residence Excellence Boost</Text>
+      <Text>Living Legend's Blessing</Text>
       <LineId>2001000012</LineId>
     </Text>
   </ModOp>
@@ -92,14 +92,14 @@
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Mistress of Logistics - This brilliant strategist doubles warehouse loading speed across the entire island, ensuring goods flow as swiftly as Roman legions on the march!</Text>
+      <Text>Mistress of Logistics - This brilliant strategist supercharges all warehouses across the island, ensuring goods flow as swiftly as Roman legions conquering the world!</Text>
       <LineId>2001000014</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Warehouse Speed Master</Text>
+      <Text>Lightning Logistics</Text>
       <LineId>2001000015</LineId>
     </Text>
   </ModOp>
@@ -114,14 +114,14 @@
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Master of heavy warships, Duilius Gracchus transforms Triremes and Quinquiremes into unstoppable flagships. His command grants triple attack speed, quadruple movement speed, 5000 additional hull strength, 9 item slots, expanded vision range, and drastically reduced maintenance costs. Large warships only.</Text>
+      <Text>Admiral Supreme - The first Roman naval victor transforms heavy warships into legendary flagships! Grants incredible speed, devastating firepower, enhanced hull strength, expanded cargo capacity, superior vision range, and minimal upkeep. Your enemies will flee at the sight of your sails! (Large warships only)</Text>
       <LineId>2001000017</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>Warship Master</Text>
+      <Text>Naval Dominance Unleashed</Text>
       <LineId>2001000018</LineId>
     </Text>
   </ModOp>
