@@ -3,3 +3,4 @@
 - keep everything simple
 - put short comments for people to undersstand why this is done
 - remove unncessary stuff that is so obvious
+- for dcoumentations especially readme add emojis and make formatting nice to read

@@ -1,11 +1,7 @@
 # Super Specialists Mod for Anno 117: Pax Romana
 
 ## Overview
-<<<<<<< HEAD
 This mod adds **overpowered specialists** to Anno 117: Pax Romana, featuring six powerful specialists based on the historical Gracchi family. All specialists are purchaseable directly from traders and provide extreme buffs. Designed for players who want to dominate their empire efficiently.
-=======
-This mod adds **overpowered specialists** to Anno 117: Pax Romana, featuring three powerful specialists based on the historical Gracchi family. All specialists are purchaseable directly from traders and provide extreme buffs. Designed for players who want to dominate their empire efficiently.
->>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
 
 **Naming Convention:** All specialists use the **lastname firstname** format (e.g., "Gracchus Tiberius") to avoid copyright conflicts while maintaining thematic authenticity with Roman history.
 
@@ -26,28 +22,18 @@ All specialists are named after the historical **Gracchi family** of Roman refor
 | **Gracchus Gaius** | Workforce Master | roman_male_001 | Radius | 69 | Adds extra Peasant workforce to Coopers and Cookhouses |
 | **Gracchus Cornelia** | Workshop Master | roman_female_001 | Radius | 69 | Adds extra Peasant workforce to Albion Artisans and Dressers |
 | **Gracchus Scipio** | Residence Master | roman_male_003 | Radius | 69 | +10 happiness, health, fire safety, knowledge, belief, prestige (all residences) |
-<<<<<<< HEAD
 | **Gracchus Fulvia** | Warehouse Master | roman_female_002 | Island-wide | 69 | +100% warehouse loading speed (doubles speed) |
 | **Gracchus Duilius** | Ship Captain | roman_male_020 | Ship | 69 | +300% speed, +5000 health, +9 slots, +100 discovery, -75% maintenance, 3x attack speed (large warships only) |
 
 **Total Cost:** 414 Denarii (6 specialists)
-=======
-| **Gracchus Marcus** | Warehouse Master | roman_male_004 | Island-wide | 69 | +100% warehouse loading speed (doubles speed) |
-
-**Total Cost:** 345 Denarii (5 specialists)
->>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
 
 ### Historical Context
 - **Tiberius Gracchus** (163-133 BC): Roman tribune who championed land reform for the common people
 - **Gaius Gracchus** (154-121 BC): Younger brother who continued reform efforts with grain subsidies and colonies
 - **Cornelia Africana** (c. 190-100 BC): Mother of the Gracchi, celebrated for her wisdom and influence in Roman society
 - **Scipio Africanus** (c. 236-183 BC): Grandfather of the Gracchi, legendary general who defeated Hannibal at Zama
-<<<<<<< HEAD
 - **Fulvia** (c. 83-40 BC): Powerful Roman woman known for her political influence and administrative abilities
 - **Gaius Duilius** (c. 260 BC): First Roman admiral to win a major naval victory at the Battle of Mylae
-=======
-- **Marcus**: Common Roman praenomen representing the family's practical approach to logistics and trade
->>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
 
 ## How to Use
 1. Visit any trader ship or harbor
@@ -246,11 +232,7 @@ Created using Anno 1800 modding framework. Icons sourced from base game assets.
 ## Contributing
 Feel free to fork and extend this mod! This README contains comprehensive guidance for creating new specialists.
 
-<<<<<<< HEAD
 ⚠️ **CRITICAL:** Before creating new specialists, read `/plans/SYNTAX-REFERENCE.md` to avoid common XML errors that break the mod.
-
-=======
->>>>>>> 481f6cbdfc96a9375001cfc99662b7f47918032b
 ---
 
 ## Creating New Specialists - Detailed Guide
