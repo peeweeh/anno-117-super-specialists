@@ -16,10 +16,10 @@
       <Template>Item</Template>
       <Values>
         <Standard>
-          <GUID>2001000001</GUID>
+          <GUID>1500050001</GUID>
           <Name>Gracchus Tiberius</Name>
           <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_002.png</IconFilename>
-          <InfoDescription>2001000002</InfoDescription>
+          <InfoDescription>1500050002</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -29,13 +29,13 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>2001000001</OasisId>
+          <OasisId>1500050001</OasisId>
         </Text>
         <Effect>
           <EffectScope>ObjectsInArea</EffectScope>
           <Buffs>
             <Item>
-              <GUID>2001000002</GUID>
+              <GUID>1500050002</GUID>
             </Item>
           </Buffs>
           <Targets>
@@ -67,11 +67,11 @@
       <Template>BuildingBuff</Template>
       <Values>
         <Standard>
-          <GUID>2001000002</GUID>
+          <GUID>1500050002</GUID>
           <Name>Gracchus Tiberius Buff</Name>
         </Standard>
         <Text>
-          <OasisId>2001000003</OasisId>
+          <OasisId>1500050003</OasisId>
         </Text>
         <FactoryUpgrade>
           <ProductivityUpgrade>
@@ -93,11 +93,11 @@
       <Template>ItemWithBoost</Template>
       <Values>
         <Standard>
-          <GUID>2001000004</GUID>
+          <GUID>1500050004</GUID>
           <Name>Gracchus Gaius</Name>
           <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_001.png</IconFilename>
 
-          <InfoDescription>2001000005</InfoDescription>
+          <InfoDescription>1500050005</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -107,13 +107,13 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>2001000004</OasisId>
+          <OasisId>1500050004</OasisId>
         </Text>
         <Effect>
           <EffectScope>Radius</EffectScope>
           <Buffs>
             <Item>
-              <GUID>2001000005</GUID>
+              <GUID>1500050005</GUID>
             </Item>
           </Buffs>
           <Targets>
@@ -137,7 +137,7 @@
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
-              <GUID>2001000005</GUID>
+              <GUID>1500050005</GUID>
             </Item>
           </BoostBuffs>
           <BoostHint>-6903508852426753616</BoostHint>
@@ -152,14 +152,14 @@
       <Template>BuildingBuff</Template>
       <Values>
         <Standard>
-          <GUID>2001000005</GUID>
+          <GUID>1500050005</GUID>
           <Name>Gracchus Gaius Buff</Name>
         </Standard>
         <Buff>
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>2001000006</OasisId>
+          <OasisId>1500050006</OasisId>
         </Text>
         <BuildingUpgrade>
           <AdditionalWorkforces>
@@ -185,10 +185,10 @@
       <Template>ItemWithBoost</Template>
       <Values>
         <Standard>
-          <GUID>2001000007</GUID>
+          <GUID>1500050007</GUID>
           <Name>Gracchus Cornelia</Name>
           <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_001.png</IconFilename>
-          <InfoDescription>2001000008</InfoDescription>
+          <InfoDescription>1500050008</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -198,13 +198,13 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>2001000007</OasisId>
+          <OasisId>1500050007</OasisId>
         </Text>
         <Effect>
           <EffectScope>Radius</EffectScope>
           <Buffs>
             <Item>
-              <GUID>2001000008</GUID>
+              <GUID>1500050008</GUID>
             </Item>
           </Buffs>
           <Targets>
@@ -231,7 +231,7 @@
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
-              <GUID>2001000008</GUID>
+              <GUID>1500050008</GUID>
             </Item>
           </BoostBuffs>
           <BoostHint>-6903508852426753616</BoostHint>
@@ -246,14 +246,14 @@
       <Template>BuildingBuff</Template>
       <Values>
         <Standard>
-          <GUID>2001000008</GUID>
+          <GUID>1500050008</GUID>
           <Name>Gracchus Cornelia Buff</Name>
         </Standard>
         <Buff>
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>2001000009</OasisId>
+          <OasisId>1500050009</OasisId>
         </Text>
         <BuildingUpgrade>
           <AdditionalWorkforces>
@@ -276,10 +276,10 @@
       <Template>ItemWithBoost</Template>
       <Values>
         <Standard>
-          <GUID>2001000010</GUID>
+          <GUID>1500050010</GUID>
           <Name>Gracchus Scipio</Name>
           <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_003.png</IconFilename>
-          <InfoDescription>2001000011</InfoDescription>
+          <InfoDescription>1500050011</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -289,13 +289,13 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>2001000010</OasisId>
+          <OasisId>1500050010</OasisId>
         </Text>
         <Effect>
           <EffectScope>Radius</EffectScope>
           <Buffs>
             <Item>
-              <GUID>2001000011</GUID>
+              <GUID>1500050011</GUID>
             </Item>
           </Buffs>
           <Targets>
@@ -340,7 +340,7 @@
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
-              <GUID>2001000011</GUID>
+              <GUID>1500050011</GUID>
             </Item>
           </BoostBuffs>
           <BoostHint>-6903508852426753616</BoostHint>
@@ -355,14 +355,14 @@
       <Template>BuildingBuff</Template>
       <Values>
         <Standard>
-          <GUID>2001000011</GUID>
+          <GUID>1500050011</GUID>
           <Name>Gracchus Scipio Buff</Name>
         </Standard>
         <Buff>
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>2001000012</OasisId>
+          <OasisId>1500050012</OasisId>
         </Text>
         <BuildingUpgrade>
           <AdditionalAttributes>
@@ -418,10 +418,10 @@
       <Template>Item</Template>
       <Values>
         <Standard>
-          <GUID>2001000013</GUID>
+          <GUID>1500050013</GUID>
           <Name>Gracchus Fulvia</Name>
           <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_002.png</IconFilename>
-          <InfoDescription>2001000014</InfoDescription>
+          <InfoDescription>1500050014</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -431,13 +431,13 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>2001000013</OasisId>
+          <OasisId>1500050013</OasisId>
         </Text>
         <Effect>
           <EffectScope>ObjectsInArea</EffectScope>
           <Buffs>
             <Item>
-              <GUID>2001000014</GUID>
+              <GUID>1500050014</GUID>
             </Item>
           </Buffs>
           <Targets>
@@ -469,11 +469,11 @@
       <Template>BuildingBuff</Template>
       <Values>
         <Standard>
-          <GUID>2001000014</GUID>
+          <GUID>1500050014</GUID>
           <Name>Gracchus Fulvia Buff</Name>
         </Standard>
         <Text>
-          <OasisId>2001000015</OasisId>
+          <OasisId>1500050015</OasisId>
         </Text>
         <WarehouseUpgrade>
           <AdditionalLoadingSpeedInPercent>100</AdditionalLoadingSpeedInPercent>
@@ -492,15 +492,15 @@
       <Template>ItemWithBoost</Template>
       <Values>
         <Standard>
-          <GUID>2001000016</GUID>
+          <GUID>1500050016</GUID>
           <Name>Gracchus Duilius</Name>
           <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_020.png</IconFilename>
-          <InfoDescription>2001000017</InfoDescription>
+          <InfoDescription>1500050017</InfoDescription>
         </Standard>
         <Effect>
           <Buffs>
             <Item>
-              <GUID>2001000017</GUID>
+              <GUID>1500050017</GUID>
             </Item>
           </Buffs>
           <Targets>
@@ -536,12 +536,12 @@
           <OnlyEquippableOnce>0</OnlyEquippableOnce>
         </Item>
         <Text>
-          <OasisId>2001000016</OasisId>
+          <OasisId>1500050016</OasisId>
         </Text>
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
-              <GUID>2001000017</GUID>
+              <GUID>1500050017</GUID>
             </Item>
           </BoostBuffs>
           <BoostHint>-6903508852426753616</BoostHint>
@@ -556,14 +556,14 @@
       <Template>ShipBuff</Template>
       <Values>
         <Standard>
-          <GUID>2001000017</GUID>
+          <GUID>1500050017</GUID>
           <Name>Gracchus Duilius Buff</Name>
         </Standard>
         <Buff>
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>2001000018</OasisId>
+          <OasisId>1500050018</OasisId>
         </Text>
         <HealthUpgrade>
           <BaseHealthUpgrade>
@@ -622,27 +622,27 @@
 
   <ModOp Type="add" GUID="43018,43021,43019,43020" Path="/Values/RewardPool/ItemsPool">
     <Item>
-      <ItemLink>2001000001</ItemLink>
+      <ItemLink>1500050001</ItemLink>
       <Weight>99</Weight>
     </Item>
     <Item>
-      <ItemLink>2001000004</ItemLink>
+      <ItemLink>1500050004</ItemLink>
       <Weight>99</Weight>
     </Item>
     <Item>
-      <ItemLink>2001000007</ItemLink>
+      <ItemLink>1500050007</ItemLink>
       <Weight>99</Weight>
     </Item>
     <Item>
-      <ItemLink>2001000010</ItemLink>
+      <ItemLink>1500050010</ItemLink>
       <Weight>99</Weight>
     </Item>
     <Item>
-      <ItemLink>2001000013</ItemLink>
+      <ItemLink>1500050013</ItemLink>
       <Weight>99</Weight>
     </Item>
     <Item>
-      <ItemLink>2001000016</ItemLink>
+      <ItemLink>1500050016</ItemLink>
       <Weight>99</Weight>
     </Item>
   </ModOp>
