@@ -3,6 +3,7 @@
 [![Anno 117](https://img.shields.io/badge/Anno%20117-Pax%20Romana-red)](https://www.anno-union.com/games/anno-117-pax-romana/)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/peeweeh/anno-117-super-specialists/releases)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Me-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/mrfixit027)
 
 Overpowered specialists mod for Anno 117: Pax Romana featuring 12 legendary Gracchi family members. All purchasable from traders with extreme buffs for dominating your empire.
 
@@ -189,6 +190,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 - **Icons** - Sourced from Anno 117: Pax Romana base game assets
 - **Modding Framework** - Anno modding community
 - **Inspiration** - Historical Gracchi family of Rome
+- **Support** - ☕ [Buy me a coffee on Ko-fi](https://ko-fi.com/mrfixit027)
 
 ## 🔗 Links
 

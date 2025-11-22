@@ -1238,7 +1238,7 @@
         <Standard>
           <GUID>1500050031</GUID>
           <Name>Gracchus Crassus</Name>
-          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_082.png</IconFilename>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_006.png</IconFilename>
           <InfoDescription>1500050032</InfoDescription>
         </Standard>
         <Text>
@@ -1318,7 +1318,7 @@
         <Standard>
           <GUID>1500050032</GUID>
           <Name>Gracchus Crassus Buff</Name>
-          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_082.png</IconFilename>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_006.png</IconFilename>
         </Standard>
         <Buff>
           <SourceCategory>Item</SourceCategory>
