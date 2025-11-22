@@ -209,42 +209,45 @@ When uploading to mod.io, use these details:
 **Summary:** 12 overpowered legendary specialists from the Gracchi family - purchasable from traders for 69 Denarii each
 
 **Description:**
-```
-Overpowered specialists mod featuring 12 legendary Gracchi family members. All purchasable from traders with extreme buffs for dominating your empire.
+```html
+<p style="text-align: center;"><a href="https://ko-fi.com/mrfixit027"><img src="https://storage.ko-fi.com/cdn/brandasset/kofi_button_red.png" alt="Ko-fi" width="200" /></a></p>
+<p style="text-align: center;">⚠️ Found a bug? Report it on <a href="https://github.com/peeweeh/anno-117-super-specialists/issues">GitHub Issues</a> ⚠️</p>
 
-🎭 THE SPECIALISTS
+<hr />
 
-• Tiberius - +400% production (factories on steroids)
-• Gaius - Free peasant workers for Coopers & Cookhouses
-• Cornelia - Free Albion peasant workers for workshops
-• Scipio - +10 to ALL residence attributes
-• Fulvia - +100% warehouse speed (island-wide)
-• Duilius - Ship buffs (+300% speed, +5000 HP, +9 slots, 3x attack, -75% maintenance)
-• Julia - +5 pop +5 happiness per residence
-• Lucius - Elite workers (Citizens/Patricians) in Tier 1 Latium housing
-• Cassius - Elite workers (Patricians) in Tier 1 Albion housing
-• Sextus - Peasants appear at Tier 3 & 4 Latium buildings
-• Decimus - Peasants appear at Tier 3 & 4 Albion buildings
-• Crassus - -50% residence maintenance (more money!)
+<p>Overpowered specialists mod featuring 12 legendary Gracchi family members. All purchasable from traders with extreme buffs for when you want to absolutely <strong>DOMINATE</strong> your empire.</p>
 
-Total Cost: 828 Denarii (12 × 69 each)
+<h3>🎭 THE SPECIALISTS (69 Denarii each - nice)</h3>
 
-✨ FEATURES
+<ul>
+<li><strong>Tiberius</strong> - Production go BRRRRR (+400% productivity, factories on steroids)</li>
+<li><strong>Gaius</strong> - Guy with a van (free peasant workers for Coopers & Cookhouses)</li>
+<li><strong>Cornelia</strong> - Temp agency queen (free Albion peasant workers for workshops)</li>
+<li><strong>Scipio</strong> - Defeated Hannibal (+10 to EVERYTHING in residences)</li>
+<li><strong>Fulvia</strong> - Scary warehouse boss (+100% warehouse speed island-wide)</li>
+<li><strong>Duilius</strong> - Death boat admiral (ship buffs: +300% speed, +5000 HP, +9 slots, 3x attack, -75% maintenance)</li>
+<li><strong>Julia</strong> - Baby boom consultant (+5 pop +5 happiness per residence)</li>
+<li><strong>Lucius</strong> - Latium labor hacker (elite workers in Tier 1 Latium housing)</li>
+<li><strong>Cassius</strong> - Albion MLM guru (elite workers in Tier 1 Albion housing)</li>
+<li><strong>Sextus</strong> - LinkedIn influencer (peasants appear at Tier 3 & 4 Latium buildings)</li>
+<li><strong>Decimus</strong> - Uber for peasants (peasants appear at Tier 3 & 4 Albion buildings)</li>
+<li><strong>Crassus</strong> - Rich benefactor (-50% residence maintenance = more money in YOUR pocket!)</li>
+</ul>
 
-• 12 Legendary Specialists based on historical Romans
-• Instant Access - Purchasable from any trader
-• Extreme Buffs - Designed for late-game domination
-• Save Compatible - Works with existing saves
-• Mod Compatible - Safe GUID range
+<p><strong>Total Cost:</strong> 828 Denarii (12 × 69 each)</p>
 
-📦 INSTALLATION
+<h3>✨ WHY THIS MOD ROCKS</h3>
 
-1. Download and extract to Anno 117 mods folder
-2. Enable in-game mod menu
-3. Visit traders and start buying!
+<ul>
+<li>12 Legendary Specialists based on actual historical Romans (with personality!)</li>
+<li>Instant Access - Just buy from any trader, no grinding</li>
+<li>Extreme Buffs - For when "balanced" is boring</li>
+<li>Save Compatible - Drop it in anytime</li>
+<li>Mod Compatible - Safe GUID range, plays nice with others</li>
+</ul>
 
-☕ Support: https://ko-fi.com/mrfixit027
-🔗 GitHub: https://github.com/peeweeh/anno-117-super-specialists
+<p>Visit any trader → Buy specialists → Watch your empire ascend to godhood 🚀</p>
+
 ```
 
 **Tags:** specialists, gameplay, balance, overpowered, late-game, traders, buffs
