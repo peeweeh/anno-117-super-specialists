@@ -1,10 +1,10 @@
-# Gracchus Marcus - Warehouse Master
+# Gracchus Fulvia - Warehouse Master
 
-## Status: ✅ COMPLETED
+## Status: ✅ IMPLEMENTED (renamed from Marcus to Fulvia)
 
 ## Specialist Details
 
-**Name:** Gracchus Marcus  
+**Name:** Gracchus Fulvia  
 **GUID Range:** 2001000013 (Item), 2001000014 (Buff), 2001000015 (Text)  
 **Icon:** `icon_3d_roman_male_004.png`  
 **Template:** Item (simple, not ItemWithBoost)  

@@ -1,6 +1,6 @@
 # Gracchus Scipio - Residence Master
 
-## Status: ✅ COMPLETED
+## Status: ✅ IMPLEMENTED
 
 ## Specialist Details
 

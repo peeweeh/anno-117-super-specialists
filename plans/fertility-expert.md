@@ -1,6 +1,6 @@
 # Gracchus Columella - The Harvest Master
 
-## Status: 📋 PLANNED → ✅ IMPLEMENTING
+## Status: ❌ REMOVED - Effects were out of whack (per user feedback)
 
 ## Specialist Details
 

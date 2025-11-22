@@ -1,6 +1,6 @@
 # Gracchus Duilius - Ship Captain Specialist
 
-**Status:** ✅ COMPLETED
+**Status:** ✅ IMPLEMENTED
 
 ## Implementation
 

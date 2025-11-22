@@ -1,6 +1,6 @@
 # Gracchus Julia - The Population Booster
 
-## Status: 📋 PLANNED
+## Status: ✅ IMPLEMENTED
 
 ## Specialist Details
 
