@@ -948,10 +948,10 @@
         <BuildingUpgrade>
           <AdditionalWorkforces>
             <Item>
-              <WorkforceGUID>3142</WorkforceGUID>
+              <WorkforceGUID>2185</WorkforceGUID>
             </Item>
             <Item>
-              <WorkforceGUID>3145</WorkforceGUID>
+              <WorkforceGUID>2186</WorkforceGUID>
             </Item>
           </AdditionalWorkforces>
         </BuildingUpgrade>
@@ -1037,10 +1037,10 @@
         <BuildingUpgrade>
           <AdditionalWorkforces>
             <Item>
-              <WorkforceGUID>6472</WorkforceGUID>
+              <WorkforceGUID>2197</WorkforceGUID>
             </Item>
             <Item>
-              <WorkforceGUID>6514</WorkforceGUID>
+              <WorkforceGUID>2199</WorkforceGUID>
             </Item>
           </AdditionalWorkforces>
         </BuildingUpgrade>
