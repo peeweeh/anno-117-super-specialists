@@ -200,4 +200,68 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 ---
 
+## 📝 mod.io Submission Guide
+
+When uploading to mod.io, use these details:
+
+**Name:** Super Specialists
+
+**Summary:** 12 overpowered legendary specialists from the Gracchi family - purchasable from traders for 69 Denarii each
+
+**Description:**
+```
+Overpowered specialists mod featuring 12 legendary Gracchi family members. All purchasable from traders with extreme buffs for dominating your empire.
+
+🎭 THE SPECIALISTS
+
+• Tiberius - +400% production (factories on steroids)
+• Gaius - Free peasant workers for Coopers & Cookhouses
+• Cornelia - Free Albion peasant workers for workshops
+• Scipio - +10 to ALL residence attributes
+• Fulvia - +100% warehouse speed (island-wide)
+• Duilius - Ship buffs (+300% speed, +5000 HP, +9 slots, 3x attack, -75% maintenance)
+• Julia - +5 pop +5 happiness per residence
+• Lucius - Elite workers (Citizens/Patricians) in Tier 1 Latium housing
+• Cassius - Elite workers (Patricians) in Tier 1 Albion housing
+• Sextus - Peasants appear at Tier 3 & 4 Latium buildings
+• Decimus - Peasants appear at Tier 3 & 4 Albion buildings
+• Crassus - -50% residence maintenance (more money!)
+
+Total Cost: 828 Denarii (12 × 69 each)
+
+✨ FEATURES
+
+• 12 Legendary Specialists based on historical Romans
+• Instant Access - Purchasable from any trader
+• Extreme Buffs - Designed for late-game domination
+• Save Compatible - Works with existing saves
+• Mod Compatible - Safe GUID range
+
+📦 INSTALLATION
+
+1. Download and extract to Anno 117 mods folder
+2. Enable in-game mod menu
+3. Visit traders and start buying!
+
+☕ Support: https://ko-fi.com/mrfixit027
+🔗 GitHub: https://github.com/peeweeh/anno-117-super-specialists
+```
+
+**Tags:** specialists, gameplay, balance, overpowered, late-game, traders, buffs
+
+**Maturity Rating:** Everyone
+
+**File to Upload:** `super-specialists-v1.0.0.zip` (from GitHub Releases)
+
+**Changelog (v1.0.0):**
+```
+Initial release with 12 specialists:
+- Production, workforce, residence, warehouse, and ship specialists
+- All purchasable from traders for 69 Denarii each
+- Extreme buffs for late-game empire domination
+- Safe GUID range (1500050000-1500059999)
+```
+
+---
+
 Made with ⚡ for the Anno community
