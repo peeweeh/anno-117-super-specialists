@@ -8,7 +8,7 @@
 
   <ModOp Add="/TextExport/Texts">
     <Text>
-      <Text>The People's Tribune - This legendary reformer supercharges your factories with revolutionary efficiency that turns your production lines into unstoppable engines of prosperity!</Text>
+      <Text>This absolute UNIT makes your factories go BRRRRR! +400% productivity means everything produces at warp speed. Tiberius doesn't just optimize production—he redefines the laws of physics. Workers are confused but thrilled!</Text>
       <LineId>1500050002</LineId>
     </Text>
   </ModOp>
@@ -123,6 +123,141 @@
     <Text>
       <Text>Naval Dominance Unleashed</Text>
       <LineId>1500050018</LineId>
+    </Text>
+  </ModOp>
+
+  <!-- Gracchus Julia (Population Booster) Texts -->
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <!-- Specialist name displayed in inventory/trader -->
+      <Text>Gracchus Julia</Text>
+      <LineId>2001000097</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <!-- Description shown when hovering over specialist -->
+      <Text>Mother of Rome - This devoted matriarch brings the spirit of growth to your residences, welcoming more families into each dwelling and filling your city with bustling life!</Text>
+      <LineId>2001000098</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <!-- Buff name displayed when specialist is active on building -->
+      <Text>Population Growth Miracle</Text>
+      <LineId>2001000099</LineId>
+    </Text>
+  </ModOp>
+
+  <!-- Gracchus Lucius (Patrician Workforce Master Latium) Texts -->
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Gracchus Lucius</Text>
+      <LineId>1500050019</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Lucius convinced rich Latium citizens & patricians to "slum it" in Tier 1 housing for the good of the empire. How? Nobody knows. Possibly blackmail. Definitely effective! Elite workforce, peasant housing—economics SOLVED!</Text>
+      <LineId>1500050020</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Elite Latium Workforce</Text>
+      <LineId>1500050021</LineId>
+    </Text>
+  </ModOp>
+
+  <!-- Gracchus Cassius (Patrician Workforce Master Albion) Texts -->
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Gracchus Cassius</Text>
+      <LineId>1500050025</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Lucius convinced rich Latium citizens & patricians to "slum it" in Tier 1 housing for the good of the empire. How? Nobody knows. Possibly blackmail. Definitely effective! Elite workforce, peasant housing—economics SOLVED!</Text>
+      <LineId>1500050020</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Elite Albion Workforce</Text>
+      <LineId>1500050027</LineId>
+    </Text>
+  </ModOp>
+
+  <!-- Gracchus Sextus (Peasant Workforce Master Latium) Texts -->
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Gracchus Sextus</Text>
+      <LineId>1500050022</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Sextus has MASTERED the art of getting Latium peasants to work at your Tier 3 & 4 buildings. His secret? "It's networking, bro!" Nobody understands but peasants keep showing up. LinkedIn influencer energy!</Text>
+      <LineId>1500050023</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Latium Peasant Workforce</Text>
+      <LineId>1500050024</LineId>
+    </Text>
+  </ModOp>
+
+  <!-- Gracchus Decimus (Peasant Workforce Master Albion) Texts -->
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Gracchus Decimus</Text>
+      <LineId>1500050028</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Decimus runs "Uber but for Albion peasants"—they teleport to your Tier 3 & 4 buildings, work their shifts, vanish. No housing needed! British workers are confused but getting paid. Five-star rating!</Text>
+      <LineId>1500050029</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Albion Peasant Workforce</Text>
+      <LineId>1500050030</LineId>
+    </Text>
+  </ModOp>
+
+  <!-- Gracchus Crassus (Tax Collector) Texts -->
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Gracchus Crassus</Text>
+      <LineId>1500050031</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Crassus is SO RICH he pays your residence maintenance costs! -50% maintenance = more Denarii in YOUR pocket. He's basically subsidizing your entire housing economy because he can. Was Rome's wealthiest man until that Parthia trip went sideways. RIP king!</Text>
+      <LineId>1500050032</LineId>
+    </Text>
+  </ModOp>
+
+  <ModOp Add="/TextExport/Texts">
+    <Text>
+      <Text>Housing Subsidy</Text>
+      <LineId>1500050033</LineId>
     </Text>
   </ModOp>
 

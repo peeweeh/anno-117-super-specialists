@@ -30,3 +30,5 @@ super-specialists-v*.zip
 !references/
 !scripts/
 guid.md
+roadmap.md
+references/*.xml

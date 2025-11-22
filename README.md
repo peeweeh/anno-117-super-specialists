@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/peeweeh/anno-117-super-specialists/releases)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-Overpowered specialists mod for Anno 117: Pax Romana featuring 6 legendary Gracchi family members. All purchasable from traders with extreme buffs for dominating your empire.
+Overpowered specialists mod for Anno 117: Pax Romana featuring 12 legendary Gracchi family members. All purchasable from traders with extreme buffs for dominating your empire.
 
 ## 📋 Table of Contents
 - [Features](#-features)
@@ -17,7 +17,7 @@ Overpowered specialists mod for Anno 117: Pax Romana featuring 6 legendary Gracc
 
 ## ✨ Features
 
-- **6 Legendary Specialists** - Based on historical Roman Gracchi family
+- **12 Legendary Specialists** - Based on historical Roman Gracchi family
 - **Instant Access** - Purchasable from any trader for 69 Denarii each
 - **Extreme Buffs** - Designed for late-game empire domination
 - **Save Compatible** - Works with existing saves
@@ -43,16 +43,22 @@ cd anno-117-super-specialists
 
 All specialists follow the **lastname firstname** naming convention (e.g., "Gracchus Tiberius") for thematic consistency.
 
-| Name | Type | Scope | Effects |
-|------|------|-------|---------|
-| **Gracchus Tiberius** | Production Master | Island | +400% productivity for all production buildings |
-| **Gracchus Gaius** | Workforce Master | Radius | Adds Peasant workforce to Coopers & Cookhouses |
-| **Gracchus Cornelia** | Workshop Master | Radius | Adds Peasant workforce to Albion workshops |
-| **Gracchus Scipio** | Residence Master | Radius | +10 happiness, health, fire safety, knowledge, belief, prestige |
-| **Gracchus Fulvia** | Warehouse Master | Island | +100% warehouse loading speed |
-| **Gracchus Duilius** | Ship Captain | Ship | +300% speed, +5000 HP, +9 slots, -75% maintenance, 3x attack speed |
+| Name | Vibe | Scope | What They Do |
+|------|------|-------|--------------|
+| **Tiberius** | Production go BRRR | Island | +400% productivity (factories on steroids) |
+| **Gaius** | Guy with a van | Radius | Free peasant workers for Coopers & Cookhouses |
+| **Cornelia** | Temp agency queen | Radius | Free Albion peasant workers for workshops |
+| **Scipio** | Defeated Hannibal | Radius | +10 to EVERYTHING (happiness/health/fire safety/knowledge/belief/prestige) |
+| **Fulvia** | Scary warehouse boss | Island | +100% warehouse speed (goods go zoom) |
+| **Duilius** | Death boat admiral | Ship | +300% speed, +5000 HP, +9 slots, 3x attack, -75% maintenance |
+| **Julia** | Baby boom consultant | Radius | +5 pop + +5 happiness per residence |
+| **Lucius** | Latium labor hacker | Radius | Elite workers (Citizens/Patricians) in Tier 1 Latium housing |
+| **Cassius** | Albion MLM guru | Radius | Elite workers (Patricians) in Tier 1 Albion housing |
+| **Sextus** | LinkedIn influencer | Radius | Peasants appear at Tier 3 & 4 Latium buildings |
+| **Decimus** | Uber for peasants | Radius | Peasants appear at Tier 3 & 4 Albion buildings |
+| **Crassus** | Rich benefactor | Radius | -50% residence maintenance (more money in pocket!) |
 
-**Total Cost:** 414 Denarii (6 specialists)
+**Total Cost:** 828 Denarii (12 specialists × 69 each)
 
 ### Historical Context
 
@@ -64,6 +70,12 @@ Each specialist is named after a real Roman historical figure:
 - **Scipio Africanus** (c. 236-183 BC) - Grandfather, legendary general
 - **Fulvia** (c. 83-40 BC) - Powerful political administrator
 - **Gaius Duilius** (c. 260 BC) - First Roman admiral with major naval victory
+- **Julia** - Common Roman women's name representing family & population growth
+- **Lucius** - Lucius Licinius Lucullus (118-56 BC), wealthy Roman general and administrator
+- **Cassius** - Gaius Cassius Longinus, Roman senator known for organization and strategy
+- **Sextus** - Common Roman praenomen meaning "sixth," representing the people's recruiter
+- **Decimus** - Common Roman praenomen meaning "tenth," representing the people's organizer
+- **Crassus** - Marcus Licinius Crassus (115-53 BC), wealthiest man in Rome who subsidizes your housing costs
 
 ## 🎮 Usage
 
@@ -120,6 +132,8 @@ zip -r super-specialists-v$(jq -r '.Version' modinfo.json).zip \
   modinfo.json data/ README.md \
   -x "*.git*" "*.vscode*" "*plans/*" "*references/*" "*scripts/*" "*guids.md"
 ```
+### Assigned GUIDs
+1500050000->1500059999
 
 ### Versioning
 
@@ -137,6 +151,29 @@ Before releasing:
 5. Upload to mod.io and GitHub
 
 ## 📝 Changelog
+
+### [1.3.0] - 2024-11-22
+- Added Gracchus Crassus: Rich Benefactor (-50% residence maintenance within radius)
+- Removed Gracchus Columella: Effects were out of whack
+- Fixed broken icons for Cassius, Duilius, and Decimus
+- Fixed Crassus using MaintenanceUpgrade (income boost doesn't exist in Anno 117)
+- Total specialists: 12
+- Total cost: 828 Denarii
+
+### [1.2.0] - 2024-11-22
+- Added Gracchus Lucius: Patrician Workforce Master for Latium (adds Latium Citizen & Patrician workforce to Tier 1 Latium residences)
+- Added Gracchus Cassius: Patrician Workforce Master for Albion (adds Albion Patrician workforce to Tier 1 Albion residences)
+- Added Gracchus Sextus: Peasant Workforce Master for Latium (adds Latium Peasant workforce to Tier 3 & 4 Latium buildings)
+- Added Gracchus Decimus: Peasant Workforce Master for Albion (adds Albion Peasant workforce to Tier 3 & 4 Albion buildings)
+- All workforce specialists now region-specific to prevent cross-region conflicts
+- Total specialists: 12
+
+### [1.1.0] - 2024-11-20
+- Added Gracchus Julia: Population Booster (+5 pop per residence, +5 happiness)
+- Added Gracchus Columella: Harvest Master (-50% workforce, +50% field capacity, +50% transporter range, +10 happiness)
+- Updated trader integration: All specialists now available from traders
+- Added icons for all specialists
+- Total specialists: 8
 
 ### [1.0.0] - 2024-11-19
 - Initial public release

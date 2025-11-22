@@ -1,0 +1,65 @@
+﻿name: Create mod.io Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # Triggers on version tags like v1.0.0, v1.2.3, etc.
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Extract version from tag
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+      
+      - name: Create mod.io package
+        run: |
+          # Create temporary directory for mod files
+          mkdir -p super-specialists-mod
+          
+          # Copy essential mod files only
+          cp modinfo.json super-specialists-mod/
+          cp -r data super-specialists-mod/
+          cp README.md super-specialists-mod/
+          cp LICENSE super-specialists-mod/
+          
+          # Create zip file for mod.io
+          cd super-specialists-mod
+          zip -r ../super-specialists-v${{ steps.get_version.outputs.VERSION }}.zip .
+          cd ..
+          
+          # Show what's included
+          echo "📦 Package contents:"
+          unzip -l super-specialists-v${{ steps.get_version.outputs.VERSION }}.zip
+      
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: super-specialists-v${{ steps.get_version.outputs.VERSION }}.zip
+          body: |
+            ## Super Specialists v${{ steps.get_version.outputs.VERSION }}
+            
+            🎮 **Ready for mod.io!**
+            
+            ### Installation
+            1. Download `super-specialists-v${{ steps.get_version.outputs.VERSION }}.zip`
+            2. Extract to Anno 117 mods folder: `Documents/Anno 117 Pax Romana/mods/`
+            3. Launch game and enjoy 12 overpowered specialists!
+            
+            ### What's Included
+            - 12 legendary specialists (828 Denarii total from traders)
+            - Island-wide production buffs, workforce management, residence boosts
+            - Ship speed & combat enhancements
+            - Tax collector for reduced maintenance costs
+            
+            See [README.md](https://github.com/${{ github.repository }}/blob/main/README.md) for full specialist list.
+          generate_release_notes: true
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
