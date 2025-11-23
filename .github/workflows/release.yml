@@ -21,17 +21,13 @@ jobs:
       
       - name: Create mod.io package
         run: |
-          # Create temporary directory for mod files
-          mkdir -p super-specialists
-          
-          # Copy essential mod files only
-          cp modinfo.json super-specialists/
-          cp -r data super-specialists/
-          cp README.md super-specialists/
-          cp LICENSE super-specialists/
-          
-          # Create zip file with super-specialists folder inside
-          zip -r super-specialists-v${{ steps.get_version.outputs.VERSION }}.zip super-specialists
+          # Create zip file with mod files directly (no containing folder)
+          # This ensures extraction creates the mod folder in the user's mods directory
+          zip -r super-specialists-v${{ steps.get_version.outputs.VERSION }}.zip \
+            modinfo.json \
+            data/ \
+            README.md \
+            LICENSE
           
           # Show what's included
           echo "📦 Package contents:"

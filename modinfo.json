@@ -15,10 +15,5 @@
   },
   "Category": {
     "English": "Gameplay"
-  },
-  "ModType": "Regular",
-  "Author": "mrfixit",
-  "ModTags": ["Specialists", "Balance", "Gameplay"],
-  "IncompatibleIds": [],
-  "ModDependencies": []
+  }
 }
