@@ -20,7 +20,7 @@
           <GUID>1500050001</GUID>
           <Name>Gracchus Tiberius</Name>
           <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_041.png</IconFilename>
-          <InfoDescription>1500050002</InfoDescription>
+          <InfoDescription>1500059900</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -30,7 +30,7 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>1500050001</OasisId>
+          <OasisId>1500059900</OasisId>
         </Text>
         <Effect>
           <EffectScope>ObjectsInArea</EffectScope>
@@ -53,8 +53,11 @@
           <Allocation>GuildHouse</Allocation>
           <TradePrice>69</TradePrice>
           <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
-          <Niche>None</Niche>
+          <Niche>Economy</Niche>
         </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <Locked>
           <DefaultLockedState>0</DefaultLockedState>
         </Locked>
@@ -73,7 +76,7 @@
           <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_041.png</IconFilename>
         </Standard>
         <Text>
-          <OasisId>1500050003</OasisId>
+          <OasisId>1500059901</OasisId>
         </Text>
         <FactoryUpgrade>
           <ProductivityUpgrade>
@@ -108,7 +111,7 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>1500050004</OasisId>
+          <OasisId>1500059902</OasisId>
         </Text>
         <Effect>
           <EffectScope>Radius</EffectScope>
@@ -135,6 +138,9 @@
           <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
           <Niche>Civic</Niche>
         </Item>
+                <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
@@ -161,7 +167,7 @@
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>1500050006</OasisId>
+          <OasisId>1500059903</OasisId>
         </Text>
         <BuildingUpgrade>
           <AdditionalWorkforces>
@@ -200,7 +206,7 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>1500050007</OasisId>
+          <OasisId>1500059904</OasisId>
         </Text>
         <Effect>
           <EffectScope>Radius</EffectScope>
@@ -233,6 +239,9 @@
           <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
           <Niche>Civic</Niche>
         </Item>
+                <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
@@ -259,7 +268,7 @@
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>1500050009</OasisId>
+          <OasisId>1500059905</OasisId>
         </Text>
         <BuildingUpgrade>
           <AdditionalWorkforces>
@@ -295,7 +304,7 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>1500050010</OasisId>
+          <OasisId>1500059906</OasisId>
         </Text>
         <Effect>
           <EffectScope>Radius</EffectScope>
@@ -343,6 +352,9 @@
           <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
           <Niche>Civic</Niche>
         </Item>
+                <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
@@ -369,7 +381,7 @@
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>1500050012</OasisId>
+          <OasisId>1500059907</OasisId>
         </Text>
         <BuildingUpgrade>
           <AdditionalAttributes>
@@ -438,7 +450,7 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>1500050013</OasisId>
+          <OasisId>1500059908</OasisId>
         </Text>
         <Effect>
           <EffectScope>ObjectsInArea</EffectScope>
@@ -461,7 +473,7 @@
           <Allocation>GuildHouse</Allocation>
           <TradePrice>69</TradePrice>
           <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
-          <Niche>None</Niche>
+          <Niche>Economy</Niche>
         </Item>
         <Locked>
           <DefaultLockedState>0</DefaultLockedState>
@@ -481,7 +493,7 @@
           <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_028.png</IconFilename>
         </Standard>
         <Text>
-          <OasisId>1500050015</OasisId>
+          <OasisId>1500059909</OasisId>
         </Text>
         <WarehouseUpgrade>
           <AdditionalLoadingSpeedInPercent>100</AdditionalLoadingSpeedInPercent>
@@ -543,8 +555,11 @@
           <Niche>Military</Niche>
           <OnlyEquippableOnce>0</OnlyEquippableOnce>
         </Item>
+                <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <Text>
-          <OasisId>1500050016</OasisId>
+          <OasisId>1500059910</OasisId>
         </Text>
         <ItemWithBoost>
           <BoostBuffs>
@@ -572,7 +587,7 @@
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>1500050018</OasisId>
+          <OasisId>1500059911</OasisId>
         </Text>
         <HealthUpgrade>
           <BaseHealthUpgrade>
@@ -650,7 +665,7 @@
             </English>
           </LocaText>
           <!-- Item name text reference -->
-          <OasisId>2001000097</OasisId>
+          <OasisId>1500059912</OasisId>
         </Text>
         <Effect>
           <!-- Radius-based - affects residences within Villa/Officium influence area -->
@@ -702,6 +717,9 @@
           <!-- Civic category like other residence specialists -->
           <Niche>Civic</Niche>
         </Item>
+                <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <!-- ItemWithBoost section required for radius-based effects -->
         <ItemWithBoost>
           <BoostBuffs>
@@ -732,7 +750,7 @@
         </Buff>
         <Text>
           <!-- Buff display name text reference -->
-          <OasisId>2001000099</OasisId>
+          <OasisId>1500059913</OasisId>
         </Text>
         <!-- BuildingUpgrade used for residence attribute modifications -->
         <BuildingUpgrade>
@@ -784,7 +802,7 @@
             </English>
           </LocaText>
           <!-- Item name text reference -->
-          <OasisId>2001000100</OasisId>
+          <OasisId>1500059914</OasisId>
         </Text>
         <Effect>
           <!-- Radius-based - affects farms within Villa/Officium influence area -->
@@ -813,6 +831,9 @@
           <!-- Civic for radius-based farm specialist -->
           <Niche>Civic</Niche>
         </Item>
+                <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
@@ -840,7 +861,7 @@
         </Buff>
         <Text>
           <!-- Buff display name text reference -->
-          <OasisId>2001000102</OasisId>
+          <OasisId>1500059915</OasisId>
         </Text>
         <BuildingUpgrade>
           <WorkforceModifierInPercent>-50</WorkforceModifierInPercent>
@@ -893,7 +914,7 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>1500050019</OasisId>
+          <OasisId>1500059916</OasisId>
         </Text>
         <Effect>
           <EffectScope>Radius</EffectScope>
@@ -917,6 +938,9 @@
           <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
           <Niche>Civic</Niche>
         </Item>
+                <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
@@ -943,7 +967,7 @@
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>1500050021</OasisId>
+          <OasisId>1500059917</OasisId>
         </Text>
         <BuildingUpgrade>
           <AdditionalWorkforces>
@@ -982,7 +1006,7 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>1500050025</OasisId>
+          <OasisId>1500059918</OasisId>
         </Text>
         <Effect>
           <EffectScope>Radius</EffectScope>
@@ -1006,6 +1030,9 @@
           <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
           <Niche>Civic</Niche>
         </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
@@ -1032,7 +1059,7 @@
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>1500050027</OasisId>
+          <OasisId>1500059919</OasisId>
         </Text>
         <BuildingUpgrade>
           <AdditionalWorkforces>
@@ -1071,7 +1098,7 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>1500050022</OasisId>
+          <OasisId>1500059920</OasisId>
         </Text>
         <Effect>
           <EffectScope>Radius</EffectScope>
@@ -1098,6 +1125,9 @@
           <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
           <Niche>Civic</Niche>
         </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
@@ -1124,7 +1154,7 @@
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>1500050024</OasisId>
+          <OasisId>1500059921</OasisId>
         </Text>
         <BuildingUpgrade>
           <AdditionalWorkforces>
@@ -1160,7 +1190,7 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>1500050028</OasisId>
+          <OasisId>1500059922</OasisId>
         </Text>
         <Effect>
           <EffectScope>Radius</EffectScope>
@@ -1187,6 +1217,9 @@
           <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
           <Niche>Civic</Niche>
         </Item>
+      <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
@@ -1213,7 +1246,7 @@
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>1500050030</OasisId>
+          <OasisId>1500059923</OasisId>
         </Text>
         <BuildingUpgrade>
           <AdditionalWorkforces>
@@ -1249,7 +1282,7 @@
               <ExportCount>1</ExportCount>
             </English>
           </LocaText>
-          <OasisId>1500050031</OasisId>
+          <OasisId>1500059924</OasisId>
         </Text>
         <Effect>
           <!-- Radius-based - affects residences within Villa/Officium influence area -->
@@ -1298,6 +1331,9 @@
           <TradePriceOnlineCurrency>69</TradePriceOnlineCurrency>
           <Niche>Civic</Niche>
         </Item>
+      <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
         <ItemWithBoost>
           <BoostBuffs>
             <Item>
@@ -1324,7 +1360,7 @@
           <SourceCategory>Item</SourceCategory>
         </Buff>
         <Text>
-          <OasisId>1500050033</OasisId>
+          <OasisId>1500059925</OasisId>
         </Text>
         <MaintenanceUpgrade>
           <MaintenanceFactorUpgrade>
@@ -1415,5 +1451,31 @@
     </Item>
   </ModOp>
 
+<ModOp Type="replace" GUID="32777,27124,32778,27079" Path="/Values/Trader/ItemSlotUnlocks">
+<ItemSlotUnlocks>
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+</ItemSlotUnlocks>
+</ModOp>
 </ModOps>
 

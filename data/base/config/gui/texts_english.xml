@@ -2,7 +2,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Tiberius</Text>
-      <LineId>1500050001</LineId>
+      <LineId>1500059900</LineId>
     </Text>
   </ModOp>
 
@@ -16,14 +16,14 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Production Powerhouse</Text>
-      <LineId>1500050003</LineId>
+      <LineId>1500059901</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Gaius</Text>
-      <LineId>1500050004</LineId>
+      <LineId>1500059902</LineId>
     </Text>
   </ModOp>
 
@@ -37,14 +37,14 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Extra Hands Make Light Work</Text>
-      <LineId>1500050006</LineId>
+      <LineId>1500059903</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Cornelia</Text>
-      <LineId>1500050007</LineId>
+      <LineId>1500059904</LineId>
     </Text>
   </ModOp>
 
@@ -58,14 +58,14 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Workshop Workforce Wonder</Text>
-      <LineId>1500050009</LineId>
+      <LineId>1500059905</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Scipio</Text>
-      <LineId>1500050010</LineId>
+      <LineId>1500059906</LineId>
     </Text>
   </ModOp>
 
@@ -79,14 +79,14 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Living Legend's Blessing</Text>
-      <LineId>1500050012</LineId>
+      <LineId>1500059907</LineId>
     </Text>
   </ModOp>
 
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Fulvia</Text>
-      <LineId>1500050013</LineId>
+      <LineId>1500059908</LineId>
     </Text>
   </ModOp>
 
@@ -100,7 +100,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Lightning Logistics</Text>
-      <LineId>1500050015</LineId>
+      <LineId>1500059909</LineId>
     </Text>
   </ModOp>
 
@@ -108,7 +108,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Duilius</Text>
-      <LineId>1500050016</LineId>
+      <LineId>1500059910</LineId>
     </Text>
   </ModOp>
 
@@ -122,7 +122,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Naval Dominance Unleashed</Text>
-      <LineId>1500050018</LineId>
+      <LineId>1500059911</LineId>
     </Text>
   </ModOp>
 
@@ -131,7 +131,7 @@
     <Text>
       <!-- Specialist name displayed in inventory/trader -->
       <Text>Gracchus Julia</Text>
-      <LineId>2001000097</LineId>
+      <LineId>1500059912</LineId>
     </Text>
   </ModOp>
 
@@ -147,7 +147,7 @@
     <Text>
       <!-- Buff name displayed when specialist is active on building -->
       <Text>Population Growth Miracle</Text>
-      <LineId>2001000099</LineId>
+      <LineId>1500059913</LineId>
     </Text>
   </ModOp>
 
@@ -155,7 +155,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Lucius</Text>
-      <LineId>1500050019</LineId>
+      <LineId>1500059916</LineId>
     </Text>
   </ModOp>
 
@@ -169,7 +169,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Elite Latium Workforce</Text>
-      <LineId>1500050021</LineId>
+      <LineId>1500059917</LineId>
     </Text>
   </ModOp>
 
@@ -177,7 +177,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Cassius</Text>
-      <LineId>1500050025</LineId>
+      <LineId>1500059918</LineId>
     </Text>
   </ModOp>
 
@@ -191,7 +191,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Elite Albion Workforce</Text>
-      <LineId>1500050027</LineId>
+      <LineId>1500059919</LineId>
     </Text>
   </ModOp>
 
@@ -199,7 +199,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Sextus</Text>
-      <LineId>1500050022</LineId>
+      <LineId>1500059920</LineId>
     </Text>
   </ModOp>
 
@@ -213,7 +213,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Latium Peasant Workforce</Text>
-      <LineId>1500050024</LineId>
+      <LineId>1500059921</LineId>
     </Text>
   </ModOp>
 
@@ -221,7 +221,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Decimus</Text>
-      <LineId>1500050028</LineId>
+      <LineId>1500059922</LineId>
     </Text>
   </ModOp>
 
@@ -235,7 +235,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Albion Peasant Workforce</Text>
-      <LineId>1500050030</LineId>
+      <LineId>1500059923</LineId>
     </Text>
   </ModOp>
 
@@ -243,7 +243,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Gracchus Crassus</Text>
-      <LineId>1500050031</LineId>
+      <LineId>1500059924</LineId>
     </Text>
   </ModOp>
 
@@ -257,7 +257,7 @@
   <ModOp Add="/TextExport/Texts">
     <Text>
       <Text>Housing Subsidy</Text>
-      <LineId>1500050033</LineId>
+      <LineId>1500059925</LineId>
     </Text>
   </ModOp>
 
