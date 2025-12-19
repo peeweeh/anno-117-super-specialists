@@ -259,15 +259,39 @@ When uploading to mod.io, use these details:
 
 **Maturity Rating:** Everyone
 
-**File to Upload:** `super-specialists-v1.0.0.zip` (from GitHub Releases)
+**File to Upload:** `super-specialists-v1.0.4.zip` (from GitHub Releases)
 
-**Changelog (v1.0.0):**
+**Changelog:**
 ```
-Initial release with 12 specialists:
-- Production, workforce, residence, warehouse, and ship specialists
-- All purchasable from traders for 69 Denarii each
-- Extreme buffs for late-game empire domination
-- Safe GUID range (1500050000-1500059999)
+## [1.0.4] - 2025-12-20
+- Reverted Income attribute from Scipio (didn't display in-game)
+- Updated release workflow for better mod.io compatibility
+- Fixed workflow for proper folder structure in releases
+
+## [1.0.3] - 2024-11-22
+- Added Gracchus Crassus: Rich Benefactor (-50% residence maintenance within radius)
+- Removed Gracchus Columella: Effects were out of whack
+- Fixed broken icons for Cassius, Duilius, and Decimus
+- Fixed Crassus using MaintenanceUpgrade
+- Total specialists: 12
+- Total cost: 828 Denarii
+
+## [1.0.2] - 2024-11-22
+- Added Gracchus Lucius & Cassius (Patrician Workforce Masters)
+- Added Gracchus Sextus & Decimus (Peasant Workforce Masters)
+- All workforce specialists now region-specific
+
+## [1.0.1] - 2024-11-20
+- Added Gracchus Julia: Population Booster (+5 pop, +5 happiness)
+- Added Gracchus Columella: Harvest Master
+- Updated trader integration
+- Added specialist icons
+- Total specialists: 8
+
+## [1.0.0] - 2024-11-19
+- Initial public release
+- 6 specialists: Tiberius, Gaius, Cornelia, Scipio, Fulvia, Duilius
+- GUID range: 1500050000-1500059999
 ```
 
 ---
