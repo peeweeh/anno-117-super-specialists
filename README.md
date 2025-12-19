@@ -1,7 +1,7 @@
 # Super Specialists - Anno 117: Pax Romana
 
 [![Anno 117](https://img.shields.io/badge/Anno%20117-Pax%20Romana-red)](https://www.anno-union.com/games/anno-117-pax-romana/)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/peeweeh/anno-117-super-specialists/releases)
+[![Version](https://img.shields.io/badge/version-1.0.4-blue)](https://github.com/peeweeh/anno-117-super-specialists/releases)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Me-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/mrfixit027)
 
@@ -153,7 +153,12 @@ Before releasing:
 
 ## 📝 Changelog
 
-### [1.3.0] - 2024-11-22
+### [1.0.4] - 2025-12-20
+- Reverted Income attribute from Scipio (didn't display in-game)
+- Updated release workflow for better mod.io compatibility
+- Fixed workflow for proper folder structure in releases
+
+### [1.0.3] - 2024-11-22
 - Added Gracchus Crassus: Rich Benefactor (-50% residence maintenance within radius)
 - Removed Gracchus Columella: Effects were out of whack
 - Fixed broken icons for Cassius, Duilius, and Decimus
