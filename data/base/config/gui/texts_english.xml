@@ -1,264 +1,107 @@
-<ModOps>
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Tiberius</Text>
-      <LineId>1500059900</LineId>
-    </Text>
-  </ModOp>
+<?xml version="1.0" encoding="utf-8"?><ModOps>
+<ModOp Add="/TextExport/Texts"><Text><Text>Gracchi Materials Care Package</Text><LineId>1500059940</LineId></Text></ModOp>
+<ModOp Add="/TextExport/Texts"><Text><Text>Contains 100 of each of the 13 Construction Materials.</Text><LineId>1500059941</LineId></Text></ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>This absolute UNIT makes your factories go BRRRRR! +400% productivity means everything produces at warp speed. Tiberius doesn't just optimize production—he redefines the laws of physics. Workers are confused but thrilled!</Text>
-      <LineId>1500050002</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Production Powerhouse</Text>
-      <LineId>1500059901</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Gaius</Text>
-      <LineId>1500059902</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Brother of Reform - Following his brother's legacy, this champion of the people summons eager workers to your Coopers and Cookhouses, ensuring food and drink flow like the Tiber itself!</Text>
-      <LineId>1500050005</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Extra Hands Make Light Work</Text>
-      <LineId>1500059903</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Cornelia</Text>
-      <LineId>1500059904</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Mother of Heroes - The matriarch of the Gracchi brings her legendary wisdom to Albion, rallying skilled laborers to your workshops and transforming them into beacons of excellence!</Text>
-      <LineId>1500050008</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Workshop Workforce Wonder</Text>
-      <LineId>1500059905</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Scipio</Text>
-      <LineId>1500059906</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Grandfather of Legends - The great Scipio Africanus blesses your residences with his legendary aura, elevating happiness, health, fire safety, knowledge, piety, and prestige to glorious heights!</Text>
-      <LineId>1500050011</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Living Legend's Blessing</Text>
-      <LineId>1500059907</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Fulvia</Text>
-      <LineId>1500059908</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Mistress of Logistics - This brilliant strategist supercharges all warehouses across the island, ensuring goods flow as swiftly as Roman legions conquering the world!</Text>
-      <LineId>1500050014</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Lightning Logistics</Text>
-      <LineId>1500059909</LineId>
-    </Text>
-  </ModOp>
+  
 
   <!-- Gracchus Duilius (Ship Captain) Texts -->
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Duilius</Text>
-      <LineId>1500059910</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Admiral Supreme - The first Roman naval victor transforms heavy warships into legendary flagships! Grants incredible speed, devastating firepower, enhanced hull strength, expanded cargo capacity, superior vision range, and minimal upkeep. Your enemies will flee at the sight of your sails! (Large warships only)</Text>
-      <LineId>1500050017</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Naval Dominance Unleashed</Text>
-      <LineId>1500059911</LineId>
-    </Text>
-  </ModOp>
+  
 
   <!-- Gracchus Julia (Population Booster) Texts -->
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <!-- Specialist name displayed in inventory/trader -->
-      <Text>Gracchus Julia</Text>
-      <LineId>1500059912</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <!-- Description shown when hovering over specialist -->
-      <Text>Mother of Rome - This devoted matriarch brings the spirit of growth to your residences, welcoming more families into each dwelling and filling your city with bustling life!</Text>
-      <LineId>2001000098</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <!-- Buff name displayed when specialist is active on building -->
-      <Text>Population Growth Miracle</Text>
-      <LineId>1500059913</LineId>
-    </Text>
-  </ModOp>
+  
 
   <!-- Gracchus Lucius (Patrician Workforce Master Latium) Texts -->
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Lucius</Text>
-      <LineId>1500059916</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Lucius convinced rich Latium citizens & patricians to "slum it" in Tier 1 housing for the good of the empire. How? Nobody knows. Possibly blackmail. Definitely effective! Elite workforce, peasant housing—economics SOLVED!</Text>
-      <LineId>1500050020</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Elite Latium Workforce</Text>
-      <LineId>1500059917</LineId>
-    </Text>
-  </ModOp>
+  
 
   <!-- Gracchus Cassius (Patrician Workforce Master Albion) Texts -->
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Cassius</Text>
-      <LineId>1500059918</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Lucius convinced rich Latium citizens & patricians to "slum it" in Tier 1 housing for the good of the empire. How? Nobody knows. Possibly blackmail. Definitely effective! Elite workforce, peasant housing—economics SOLVED!</Text>
-      <LineId>1500050020</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Elite Albion Workforce</Text>
-      <LineId>1500059919</LineId>
-    </Text>
-  </ModOp>
-
-  <!-- Gracchus Sextus (Peasant Workforce Master Latium) Texts -->
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Sextus</Text>
-      <LineId>1500059920</LineId>
-    </Text>
-  </ModOp>
-
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Sextus has MASTERED the art of getting Latium peasants to work at your Tier 3 & 4 buildings. His secret? "It's networking, bro!" Nobody understands but peasants keep showing up. LinkedIn influencer energy!</Text>
-      <LineId>1500050023</LineId>
-    </Text>
-  </ModOp>
-
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Latium Peasant Workforce</Text>
-      <LineId>1500059921</LineId>
-    </Text>
-  </ModOp>
-
-  <!-- Gracchus Decimus (Peasant Workforce Master Albion) Texts -->
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Decimus</Text>
-      <LineId>1500059922</LineId>
-    </Text>
-  </ModOp>
-
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Decimus runs "Uber but for Albion peasants"—they teleport to your Tier 3 & 4 buildings, work their shifts, vanish. No housing needed! British workers are confused but getting paid. Five-star rating!</Text>
-      <LineId>1500050029</LineId>
-    </Text>
-  </ModOp>
-
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Albion Peasant Workforce</Text>
-      <LineId>1500059923</LineId>
-    </Text>
-  </ModOp>
+  
 
   <!-- Gracchus Crassus (Tax Collector) Texts -->
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Gracchus Crassus</Text>
-      <LineId>1500059924</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Crassus is SO RICH he pays your residence maintenance costs! -50% maintenance = more Denarii in YOUR pocket. He's basically subsidizing your entire housing economy because he can. Was Rome's wealthiest man until that Parthia trip went sideways. RIP king!</Text>
-      <LineId>1500050032</LineId>
-    </Text>
-  </ModOp>
+  
 
-  <ModOp Add="/TextExport/Texts">
-    <Text>
-      <Text>Housing Subsidy</Text>
-      <LineId>1500059925</LineId>
-    </Text>
-  </ModOp>
+  
 
-</ModOps>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Tiberius boosts production by 100% and warehouse and trading-post loading speed by 150%.</Text><LineId>1500050002</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Production 450% + Warehouse 150%</Text><LineId>1500059925</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Lucius</Text><LineId>1500059916</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Agrippa adds Aegyptus workforce to production buildings.</Text><LineId>1500050041</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Scipio</Text><LineId>1500059906</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Latium Higher Home Master</Text><LineId>1500059907</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Naval Dominance Unleashed</Text><LineId>1500059911</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Agrippa</Text><LineId>1500059930</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Gaius</Text><LineId>1500059902</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Tiberius</Text><LineId>1500059900</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Marius improves Aegyptus lower-tier residences with core attributes and higher-tier workforce.</Text><LineId>1500050035</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Julia improves Latium lower-tier residences with core attributes and higher-tier workforce.</Text><LineId>2001000098</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Albion Industry Workforce</Text><LineId>1500059917</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Cornelia</Text><LineId>1500059904</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Crassus boosts production by 450% and warehouse and trading-post loading speed by 150%.</Text><LineId>1500050032</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Production 250% + Warehouse 150%</Text><LineId>1500059909</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Albion Higher Home Master</Text><LineId>1500059905</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Scipio improves Latium higher-tier residences with core attributes and lower-tier workforce.</Text><LineId>1500050011</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Aegyptus Industry Workforce</Text><LineId>1500059931</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Julia</Text><LineId>1500059912</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Cornelia improves Albion higher-tier residences with core attributes and lower-tier workforce.</Text><LineId>1500050008</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Crassus</Text><LineId>1500059924</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Duilius strengthens heavy warships with +5000 hull, +300% speed and attack speed, +9 cargo, +100 discovery, and -75% maintenance.</Text><LineId>1500050017</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Appius improves Aegyptus higher-tier residences with core attributes and lower-tier workforce.</Text><LineId>1500050038</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Latium Lower Home Master</Text><LineId>1500059913</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Aegyptus Lower Home Master</Text><LineId>1500059927</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Cassius</Text><LineId>1500059918</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Fulvia boosts production by 250% and warehouse and trading-post loading speed by 150%.</Text><LineId>1500050014</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Appius</Text><LineId>1500059928</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchi Legacy Chest</Text><LineId>1500059936</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Lucius adds Albion workforce to production buildings.</Text><LineId>1500050020</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Production 100% + Warehouse 150%</Text><LineId>1500059901</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Gaius adds Latium workforce to production buildings.</Text><LineId>1500050005</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Cassius improves Albion lower-tier residences with core attributes and higher-tier workforce.</Text><LineId>1500050026</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Marius</Text><LineId>1500059926</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Duilius</Text><LineId>1500059910</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Albion Lower Home Master</Text><LineId>1500059919</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Latium Industry Workforce</Text><LineId>1500059903</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Fulvia</Text><LineId>1500059908</LineId></Text></ModOp><ModOp Add="/TextExport/Texts"><Text><Text>Aegyptus Higher Home Master</Text><LineId>1500059929</LineId></Text></ModOp></ModOps>

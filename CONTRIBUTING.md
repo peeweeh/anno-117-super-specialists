@@ -17,7 +17,7 @@ Thank you for your interest in contributing! This mod is open for community cont
 ### Adding New Specialists
 
 Each specialist requires:
-- **3 consecutive GUIDs** from the reserved range (see `guids.md`)
+- **3 consecutive GUIDs** from the reserved range (see [the GUID catalog](references/guid.md))
 - **XML definitions** in `data/base/config/export/assets.xml`
 - **Localization** in `data/base/config/gui/texts_english.xml`
 - **Trader integration** for purchaseability
@@ -34,7 +34,7 @@ See `/plans/SYNTAX-REFERENCE.md` for detailed syntax guide.
 ### GUID Management
 
 - Use GUID range: **1500050000-1500059999**
-- Next available: Check `guids.md` file
+- Next available: Check [the GUID catalog](references/guid.md)
 - Each specialist needs 3 consecutive GUIDs:
   - Item GUID (X)
   - Buff GUID (X+1)

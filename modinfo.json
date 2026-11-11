@@ -1,7 +1,7 @@
 {
   "Anno": 8,
   "ModID": "super-specialists-mod",
-  "Version": "1.0.4",
+  "Version": "2.1.0",
   "Difficulty": "unchanged",
   "GameSetup": {
     "RequiresNewGame": false,
@@ -11,7 +11,7 @@
     "English": "Super Specialists"
   },
   "Description": {
-    "English": "Adds 9 overpowered specialists purchaseable from traders, providing extreme buffs across all gameplay areas."
+    "English": "Adds 13 Gracchus specialists and two auto-granted chests: a specialist legacy chest and a one-use package with 100 of each of the 13 Construction Materials."
   },
   "Category": {
     "English": "Gameplay"

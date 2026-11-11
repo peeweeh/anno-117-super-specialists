@@ -15,11 +15,19 @@ Complete technical documentation for modders and contributors who want to unders
 
 ## Quick Reference
 
+### Release Checklist (maintainers)
+1) Bump `Version` in modinfo.json; update README badge + Latest Release summary.
+2) Ensure README stats/effects match `data/base/config/export/assets.xml` and localization.
+3) Update changelog in CHANGELOG.md; keep README to short highlights + link.
+4) Refresh mod.io block (summary, stats, changelog snippet, File to Upload `super-specialists-v<version>.zip`).
+5) Package: `zip -r super-specialists-v<version>.zip modinfo.json data/ README.md LICENSE -x "*.git*" "*.github*" "*.vscode*" "*plans/*" "*references/*" "*scripts/*" "*guids*" "*.zip"`.
+6) git status -> commit "Release <version>" -> tag `v<version>` -> push and push tags.
+
 ### Naming Convention
 All specialists use **lastname firstname** format (e.g., "Gracchus Tiberius") to maintain thematic consistency with Roman history.
 
 ### GUID Range
-This mod uses **1500050000-1500059999** (assigned range from community GUID registry).
+The roster uses the assigned `1500050000-1500059999` range plus legacy IDs. Check [references/guid.md](references/guid.md) and the community registry before allocating IDs.
 
 ## Installation
 1. Locate your Anno 117 mods folder (typically in game installation directory)
@@ -33,7 +41,13 @@ This mod uses **1500050000-1500059999** (assigned range from community GUID regi
 ### Quick Command
 When ready to package for mod.io upload, run:
 ```bash
-cd /Users/paul/dev/anno-117-super-specialists && zip -r super-specialists-v$(jq -r '.Version' modinfo.json).zip modinfo.json data/ README.md -x "*.git*" "*.vscode*" "*plans/*" "*references/*" "*scripts/*" "*guids.md"
+root=$PWD
+version=$(jq -r '.Version' modinfo.json)
+staging=$(mktemp -d)
+mkdir -p "$staging/super-specialists"
+cp -r modinfo.json data/ README.md LICENSE "$staging/super-specialists/"
+(cd "$staging" && zip -r "$root/super-specialists-v$version.zip" super-specialists)
+rm -rf "$staging"
 ```
 
 ### Versioning Structure
@@ -63,23 +77,27 @@ Follow semantic versioning (MAJOR.MINOR.PATCH):
 **What gets excluded:**
 - ❌ `.git/`, `.github/`, `.vscode/` (dev files)
 - ❌ `plans/`, `references/`, `scripts/` (internal docs)
-- ❌ `guids.md` (development notes)
+- ❌ `references/guid.md` (development-only GUID catalog)
 - ❌ `*.zip` files (previous builds)
 
 ## Current Specialists
 
-All specialists are named after the historical **Gracchi family** of Roman reformers, following the **lastname firstname** naming convention.
+All 13 items use Gracchus names. Each costs 99 Denarii and appears in the trader pool and Legacy Chest.
 
-| Name | Category | Icon | Scope | Price | Key Effects |
-|------|----------|------|-------|-------|-------------|
-| **Gracchus Tiberius** | Production Master | roman_male_002 | Island-wide | 69 | +400% productivity for all production buildings |
-| **Gracchus Gaius** | Workforce Master | roman_male_001 | Radius | 69 | Adds extra Peasant workforce to Coopers and Cookhouses |
-| **Gracchus Cornelia** | Workshop Master | roman_female_001 | Radius | 69 | Adds extra Peasant workforce to Albion Artisans and Dressers |
-| **Gracchus Scipio** | Residence Master | roman_male_003 | Radius | 69 | +10 happiness, health, fire safety, knowledge, belief, prestige (all residences) |
-| **Gracchus Fulvia** | Warehouse Master | roman_female_002 | Island-wide | 69 | +100% warehouse loading speed (doubles speed) |
-| **Gracchus Duilius** | Ship Captain | roman_male_020 | Ship | 69 | +300% speed, +5000 health, +9 slots, +100 discovery, -75% maintenance, 3x attack speed (large warships only) |
+| Specialist | Role | Fixed Effect |
+|------------|------|--------------|
+| Gracchus Tiberius | Production tier 1 | +100% productivity, +150% loading |
+| Gracchus Fulvia | Production tier 2 | +250% productivity, +150% loading |
+| Gracchus Crassus | Production tier 3 | +450% productivity, +150% loading |
+| Gracchus Julia / Scipio | Latium lower / higher homes | +5 population, +15 happiness, +10 to five other attributes, tier workforce |
+| Gracchus Cassius / Cornelia | Albion lower / higher homes | Same core home stats, tier workforce |
+| Gracchus Marius / Appius | Aegyptus lower / higher homes | Same core home stats, tier workforce |
+| Gracchus Gaius | Latium industry | Adds Latium workforce to production buildings |
+| Gracchus Lucius | Albion industry | Adds Albion workforce to production buildings |
+| Gracchus Agrippa | Aegyptus industry | Adds Aegyptus workforce to production buildings |
+| Gracchus Duilius | Ship captain | Retained heavy-warship buffs |
 
-**Total Cost:** 414 Denarii (6 specialists)
+See [references/guid.md](references/guid.md) for active GUIDs and target groups.
 
 ### Historical Context
 - **Tiberius Gracchus** (163-133 BC): Roman tribune who championed land reform for the common people
@@ -133,7 +151,8 @@ Based on our development experience, here's how to create effective and fun spec
 - **Icon**: Choose from extracted list using the PowerShell script
 
 ### 5. **Trader Integration**
-- Add to trader pools: `43018,43021,43019,43020`
+- Roman trader pools: `43018,43021,43019,43020`
+- Aegyptus pool candidates: `153068,153070` (inferred; verify with loader and in game)
 - Path: `/Values/RewardPool/ItemsPool`
 
 ### 6. **Testing Tips**
@@ -349,15 +368,15 @@ Each specialist needs **3 consecutive GUIDs**:
 - **X+1** - Buff GUID (used in Item's `<InfoDescription>` and Buff's `<GUID>`)
 - **X+2** - Buff display text (used in Buff's Text `<OasisId>`)
 
-**Next available:** 2001000016, 2001000017, 2001000018
+**Next available:** Check [references/guid.md](references/guid.md); do not infer availability from numeric order.
 
-**Safe range:** 2,001,000,000 - 2,001,009,999 (see `/references/guid.md`)
+**Safe range:** Use only a range confirmed in the community registry and recorded in `references/guid.md`.
 
 ### Step-by-Step: Create New Specialist
 
 #### Step 1: Choose GUIDs and Icon
 
-Pick 3 consecutive GUIDs (e.g., 2001000016-18)
+Pick a reserved three-GUID block recorded in `references/guid.md`.
 Choose icon from `/references/extracted_specialist_icons.txt`
 
 #### Step 2: Add Item to assets.xml
