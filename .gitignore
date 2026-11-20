@@ -29,6 +29,5 @@ super-specialists-v*.zip
 !data/
 !references/
 !scripts/
-guid.md
 roadmap.md
 references/*.xml

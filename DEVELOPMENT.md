@@ -82,7 +82,7 @@ Follow semantic versioning (MAJOR.MINOR.PATCH):
 
 ## Current Specialists
 
-All 13 items use Gracchus names. Each costs 99 Denarii and appears in the trader pool and Legacy Chest.
+All 11 active items use Gracchus names. Each costs 99 Denarii and appears in the trader pool and Legacy Chest.
 
 | Specialist | Role | Fixed Effect |
 |------------|------|--------------|
@@ -92,9 +92,7 @@ All 13 items use Gracchus names. Each costs 99 Denarii and appears in the trader
 | Gracchus Julia / Scipio | Latium lower / higher homes | +5 population, +15 happiness, +10 to five other attributes, tier workforce |
 | Gracchus Cassius / Cornelia | Albion lower / higher homes | Same core home stats, tier workforce |
 | Gracchus Marius / Appius | Aegyptus lower / higher homes | Same core home stats, tier workforce |
-| Gracchus Gaius | Latium industry | Adds Latium workforce to production buildings |
-| Gracchus Lucius | Albion industry | Adds Albion workforce to production buildings |
-| Gracchus Agrippa | Aegyptus industry | Adds Aegyptus workforce to production buildings |
+| Gracchus Gaius | All residences | Adds all known regional workforce tiers to residences in radius |
 | Gracchus Duilius | Ship captain | Retained heavy-warship buffs |
 
 See [references/guid.md](references/guid.md) for active GUIDs and target groups.
@@ -320,13 +318,13 @@ Feel free to fork and extend this mod! This README contains comprehensive guidan
 - **Targets:** 38370 (All Production Buildings)
 - **Icon:** icon_3d_roman_male_002.png
 
-#### 2. Gracchus Gaius - Workforce Master
-- **GUIDs:** 2001000004 / 2001000005 / 2001000006
-- **Effect:** Adds peasant workforce
+#### 2. Gracchus Gaius - All-Residence Workforce Master
+- **GUIDs:** Item 1500050004; buff 1500050005; text IDs 1500059902, 1500050005, 1500059903
+- **Effect:** Adds all 14 known regional workforce types to nearby residences
 - **Template:** ItemWithBoost
 - **Scope:** Radius
-- **Targets:** 3142 (Cooper), 3145 (Cookhouse)
-- **Icon:** icon_3d_roman_male_001.png
+- **Targets:** 14 residence assets across Latium, Albion, and Aegyptus
+- **Icon:** icon_3d_roman_male_027.png
 
 #### 3. Gracchus Cornelia - Workshop Master
 - **GUIDs:** 2001000007 / 2001000008 / 2001000009

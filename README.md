@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Me-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/mrfixit027)
 
-Overpowered specialists for Anno 117: Pax Romana, all bearing the Gracchus name. The 13-item roster is sold by traders and granted by the Gracchi Legacy Chest; a separate care package provides building materials.
+Overpowered specialists for Anno 117: Pax Romana, all bearing the Gracchus name. The 11-item roster is sold by traders and granted by the Gracchi Legacy Chest; a separate care package provides building materials.
 
 ## 📋 Table of Contents
 - [Features](#-features)
@@ -18,7 +18,7 @@ Overpowered specialists for Anno 117: Pax Romana, all bearing the Gracchus name.
 
 ## ✨ Features
 
-- **13 Gracchus Specialists** - Two home specialists and one industry specialist for each region, three production tiers, and a ship captain
+- **11 Gracchus Specialists** - Six regional home specialists, one all-residence workforce specialist, three production tiers, and a ship captain
 - **99 Denarii Each** - Purchasable from traders or granted by the
   **Gracchi Legacy Chest** (auto-granted at game start)
 - **Materials Care Package** - One-use chest with 100 of each of the 13 Construction Materials
@@ -58,14 +58,12 @@ All specialists follow the **lastname firstname** naming convention (e.g., "Grac
 | **Gracchus Cornelia** | Albion higher homes | Core residence stats and lower-tier workforce |
 | **Gracchus Marius** | Aegyptus lower homes | Core residence stats and higher-tier workforce |
 | **Gracchus Appius** | Aegyptus higher homes | Core residence stats and lower-tier workforce |
-| **Gracchus Gaius** | Latium industry | Adds Latium workforce to production buildings |
-| **Gracchus Lucius** | Albion industry | Adds Albion workforce to production buildings |
-| **Gracchus Agrippa** | Aegyptus industry | Adds Aegyptus workforce to production buildings |
+| **Gracchus Gaius** | All residences | Supplies all known regional workforce tiers to residences within radius |
 | **Gracchus Duilius** | Ships | +300% speed and attack speed, +5000 hull, +9 cargo, +100 discovery, -75% maintenance |
 
 Each home specialist adds +5 population, +15 happiness, and +10 health, fire safety, knowledge, belief, and prestige. The two Aegyptus home items cover Thresher/Potter/Scribe and Chanter/Gymnasiarch residences separately.
 
-**Total Cost:** 1,287 Denarii (13 specialists × 99 each)
+**Total Cost:** 1,089 Denarii (11 specialists × 99 each)
 
 ### Historical Context
 
@@ -78,12 +76,10 @@ Each specialist is named after a real Roman historical figure:
 - **Fulvia** (c. 83-40 BC) - Powerful political administrator
 - **Gaius Duilius** (c. 260 BC) - First Roman admiral with major naval victory
 - **Julia** - Common Roman women's name representing family & population growth
-- **Lucius** - Lucius Licinius Lucullus (118-56 BC), wealthy Roman general and administrator
 - **Cassius** - Gaius Cassius Longinus, Roman senator known for organization and strategy
 - **Crassus** - Marcus Licinius Crassus (115-53 BC), wealthiest man in Rome who subsidizes your housing costs
 - **Marius** - Gaius Marius (157-86 BC), general who reformed the Roman legions
 - **Appius** - Appius Claudius Caecus (c. 340-273 BC), censor known for public order and the Via Appia
-- **Agrippa** - Marcus Vipsanius Agrippa (63-12 BC), engineer who built Rome's Portus harbor
 
 ## 🎮 Usage
 
@@ -93,7 +89,7 @@ Each specialist is named after a real Roman historical figure:
 
 ### 🎁 Gracchi Legacy Chest
 
-The Legacy Chest is auto-granted once at game start and contains all 13 specialists plus 75 each of
+The Legacy Chest is auto-granted once at game start and contains all 11 specialists plus 75 each of
 Timber, Tiles, Concrete, Marble, Mosaics, Wattle & Daub, and Granite. The trader purchase option still
 works independently if you'd rather buy specialists one at a time.
 
@@ -221,7 +217,7 @@ When uploading to mod.io, use these details:
 
 **Name:** Super Specialists
 
-**Summary:** 13 Gracchus specialists for three regions, plus a one-use chest with 100 of each Construction Material.
+**Summary:** 11 Gracchus specialists for three regions, plus a one-use chest with 100 of each Construction Material.
 
 **Description:**
 ```html
@@ -230,7 +226,7 @@ When uploading to mod.io, use these details:
 
 <hr />
 
-<p>13 Gracchus specialists across Latium, Albion, and Aegyptus, plus a separate one-use chest with 100 of each Construction Material. Buy specialists from traders or claim them in the Gracchi Legacy Chest; each specialist costs 99 Denarii.</p>
+<p>11 Gracchus specialists across Latium, Albion, and Aegyptus, plus a separate one-use chest with 100 of each Construction Material. Buy specialists from traders or claim them in the Gracchi Legacy Chest; each specialist costs 99 Denarii.</p>
 
 <h3>🎭 THE SPECIALISTS (99 Denarii each)</h3>
 
@@ -244,19 +240,17 @@ When uploading to mod.io, use these details:
 <li><strong>Gracchus Cornelia</strong> - Albion higher homes: core residence stats and lower-tier workers</li>
 <li><strong>Gracchus Marius</strong> - Aegyptus lower homes: core residence stats and higher-tier workers</li>
 <li><strong>Gracchus Appius</strong> - Aegyptus higher homes: core residence stats and lower-tier workers</li>
-<li><strong>Gracchus Gaius</strong> - Adds Latium workforce to production buildings</li>
-<li><strong>Gracchus Lucius</strong> - Adds Albion workforce to production buildings</li>
-<li><strong>Gracchus Agrippa</strong> - Adds Aegyptus workforce to production buildings</li>
+<li><strong>Gracchus Gaius</strong> - Adds all known regional workforce tiers to nearby residences</li>
 <li><strong>Gracchus Duilius</strong> - Ship captain for heavy Roman warships</li>
 </ul>
 
 <p>Residence specialists add +5 population, +15 happiness, and +10 health, fire safety, knowledge, belief, and prestige. Each region has lower- and higher-home variants.</p>
-<p><strong>Total Cost:</strong> 1,287 Denarii (13 × 99 each)</p>
+<p><strong>Total Cost:</strong> 1,089 Denarii (11 × 99 each)</p>
 
 <h3>✨ WHY THIS MOD ROCKS</h3>
 
 <ul>
-<li>13 Gracchus specialists across three regions</li>
+<li>11 Gracchus specialists across three regions</li>
 <li>One care package chest with 100 of all 13 Construction Materials</li>
 <li>Fixed +100%, +250%, and +450% production variants</li>
 <li>+150% warehouse and trading-post loading on every production variant</li>
