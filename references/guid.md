@@ -42,18 +42,9 @@ Super Fertility currently has 28 module-limit operations. Wheat Farm variants `2
 
 The downloaded Praefectus Liberius XML contains the five workforce IDs but does not label their names. The current roster uses the IDs in tier bundles as a provisional crosswalk; confirm those names against extracted game assets before describing them as specific occupations.
 
-The home-specialist target split is the one confirmed in the conversation:
+Scipio is the single residence-stat specialist and targets all 14 residence assets. Gaius separately supplies all 14 known regional workforce GUIDs.
 
-| Gracchus home tier | Residence target GUIDs | Added workforce GUIDs |
-|---|---|---|
-| Latium lower homes (Julia) | Libertus `3087`, Plebeian `3141` | `2185`, `2186` |
-| Latium higher homes (Scipio) | Eques `3142`, Patrician `3145` | `2181`, `2184` |
-| Albion lower homes (Cassius) | Wader `6414`, Smith `6471`, Mercator `6475` | `2196`, `2197`, `2199` |
-| Albion higher homes (Cornelia) | Alderman `6472`, Noble `6514` | `2192`, `2198` |
-| Aegyptus lower homes (Marius) | Thresher `149684`, Potter `150584`, Scribe `150586` | `150544`, `150546` (mapping provisional) |
-| Aegyptus higher homes (Appius) | Chanter `150585`, Gymnasiarch `150587` | `149685`, `150543`, `150545` (mapping provisional) |
-
-Gracchus Gaius's all-residence buff grants all 14 known regional workforce GUIDs to the 14 listed residence assets. The Aegyptus workforce names remain provisional pending extracted game-data confirmation.
+The Aegyptus workforce names remain provisional pending extracted game-data confirmation.
 
 ## Other Residence Targets
 
@@ -75,6 +66,8 @@ Gracchus Gaius's all-residence buff grants all 14 known regional workforce GUIDs
 |---|---:|---|
 | Production Buildings | 38370 | Global productivity and regional industry target group; site lists 143 buildings |
 | Warehouses | 38564 | Standard warehouse loading target group; site lists five buildings |
+| Recruitment Building group | 53358 | Barracks, Equitum Campus, and Siege Workshop; reference/sample GUID, loader confirmation pending |
+| Storage capacity targets | Granary `152969`; Warehouse `3310`, `7055`, `149842`; Improved `3311`, `7056`, `149848`; Grand `3312`, `149849`; Large `7057`; Colossal `3313`; additional requested target `182646` | +30t per instance via `WarehouseStorage/StorageMax`; covers upgrade tiers |
 | Trading Posts | 37202 | Loading-speed target group, including Aegyptus river posts; site lists six buildings |
 | All Buildings in Aegyptus | 151971 | Catalog only; do not use as a production-only target |
 | All Aegyptus Province Residences | 152041 | Catalog group from the site; verify before using as a ModOp target |
@@ -109,17 +102,13 @@ All active item display names use the `Gracchus` prefix. `Name LineId` is the it
 |---|---|---:|---:|---:|---:|---:|
 | Production +100%, warehouse +150% | Gracchus Tiberius | 1500050001 | 1500050002 | 1500059900 | 1500050002 | 1500059901 |
 | All-region residence workforce | Gracchus Gaius | 1500050004 | 1500050005 | 1500059902 | 1500050005 | 1500059903 |
-| Albion higher home | Gracchus Cornelia | 1500050007 | 1500050008 | 1500059904 | 1500050008 | 1500059905 |
-| Latium higher home | Gracchus Scipio | 1500050010 | 1500050011 | 1500059906 | 1500050011 | 1500059907 |
+| Army recruitment and combat | Gracchus Marcellus | 1500050055 | 1500050056 | 1500059932 | 1500050056 | 1500059933 |
+| All-residence population/stats | Gracchus Scipio | 1500050010 | 1500050011 | 1500059906 | 1500050011 | 1500059907 |
 | Production +250%, warehouse +150% | Gracchus Fulvia | 1500050013 | 1500050014 | 1500059908 | 1500050014 | 1500059909 |
 | Ship captain | Gracchus Duilius | 1500050016 | 1500050017 | 1500059910 | 1500050017 | 1500059911 |
-| Latium lower home | Gracchus Julia | 2001000097 | 2001000098 | 1500059912 | 2001000098 | 1500059913 |
-| Albion lower home | Gracchus Cassius | 1500050025 | 1500050026 | 1500059918 | 1500050026 | 1500059919 |
 | Production +450%, warehouse +150% | Gracchus Crassus | 1500050031 | 1500050032 | 1500059924 | 1500050032 | 1500059925 |
-| Aegyptus lower home | Gracchus Marius | 1500050034 | 1500050035 | 1500059926 | 1500050035 | 1500059927 |
-| Aegyptus higher home | Gracchus Appius | 1500050037 | 1500050038 | 1500059928 | 1500050038 | 1500059929 |
 
-Retired specialist assets: Diocles item/buff `1500050043/1500050044`; Maecenas `1500050046/1500050047`; Varro `1500050048/1500050049`; Columella `2001000100/2001000101`; Lucius item/buff `1500050019/1500050020`; Agrippa item/buff `1500050040/1500050041`. Do not reuse retired GUIDs for a different specialist.
+Retired specialist assets: Diocles item/buff `1500050043/1500050044`; Maecenas `1500050046/1500050047`; Varro `1500050048/1500050049`; Columella `2001000100/2001000101`; Lucius `1500050019/1500050020`; Agrippa `1500050040/1500050041`; Cornelia `1500050007/1500050008`; Julia `2001000097/2001000098`; Cassius `1500050025/1500050026`; Marius `1500050034/1500050035`; Appius `1500050037/1500050038`. Do not reuse retired GUIDs for a different specialist.
 
 ## External Super Specialists GUID Reference
 

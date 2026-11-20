@@ -2,9 +2,9 @@
 <ModOps>
 
   <!-- ================================================================
-      SUPER SPECIALISTS MOD - 11 Gracchus Specialists
+      SUPER SPECIALISTS MOD - 7 Gracchus Specialists
        All purchaseable from traders (GUIDs 43018,43021,43019,43020)
-      Total Cost: 1089 Denarii (11 specialists × 99 each)
+      Total Cost: 693 Denarii (7 specialists × 99 each)
        ================================================================ -->
 
   <!-- ================================================================
@@ -75,69 +75,8 @@
     </Asset>
   </ModOp>
 
-  <!-- ================================================================
-      GRACCHUS CORNELIA - Albion Higher Homes (Item/Buff 1500050007/1500050008; text IDs: name 1500059904, description 1500050008, buff label 1500059905; targets 6472, 6514; workers 2192, 2198)
-       ================================================================ -->
 
-  <!-- Gracchus Cornelia Item -->
-  <ModOp GUID="41350" Type="addNextSibling">
-    <Asset>
-      <Template>ItemWithBoost</Template>
-      <Values>
-        <Standard>
-          <GUID>1500050007</GUID>
-          <Name>Gracchus Cornelia</Name>
-          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_013.png</IconFilename>
-          <InfoDescription>1500050008</InfoDescription>
-        </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Specialist</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <OasisId>1500059904</OasisId>
-        </Text>
-        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>1500050008</GUID></Item></Buffs><Targets><!-- Alderman Residence 6472; Noble Residence 6514 --><Item><GUID>6472</GUID></Item><Item><GUID>6514</GUID></Item></Targets></Effect>
-        <Item>
-          <MaxStackSize>20</MaxStackSize>
-          <Rarity>Legendary</Rarity>
-          <ItemType>Specialist</ItemType>
-          <Allocation>GuildHouse</Allocation>
-          <TradePrice>99</TradePrice>
-          <TradePriceOnlineCurrency>99</TradePriceOnlineCurrency>
-          <Niche>Civic</Niche>
-        </Item>
-                <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-        <ItemWithBoost><BoostBuffs><Item><GUID>1500050008</GUID></Item></BoostBuffs><BoostHint>-6903508852426753616</BoostHint></ItemWithBoost>
-      </Values>
-    </Asset>
-  </ModOp>
-
-  <!-- Gracchus Cornelia Buff -->
-  <ModOp Type="addNextSibling" GUID="41350">
-    <Asset>
-      <Template>BuildingBuff</Template>
-      <Values><Standard><GUID>1500050008</GUID><Name>Gracchus Cornelia Buff</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_013.png</IconFilename></Standard>
-        
-        <Buff>
-          <SourceCategory>Item</SourceCategory>
-        </Buff>
-        <Text>
-          <OasisId>1500059905</OasisId>
-        </Text>
-        
-      <BuildingUpgrade><AdditionalWorkforces><!-- Albion tier 1-2 workforce 2192, 2198 --><Item><WorkforceGUID>2192</WorkforceGUID></Item><Item><WorkforceGUID>2198</WorkforceGUID></Item></AdditionalWorkforces><AdditionalAttributes><Population><AmountOrPercent><Value>5</Value><Percental>0</Percental></AmountOrPercent></Population><Happiness><AmountOrPercent><Value>15</Value><Percental>0</Percental></AmountOrPercent></Happiness><Health><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Health><FireSafety><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></FireSafety><Knowledge><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Knowledge><Belief><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Belief><Prestige><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Prestige></AdditionalAttributes></BuildingUpgrade></Values>
-    </Asset>
-  </ModOp>
-
-  <!-- ================================================================
-      GRACCHUS SCIPIO - Latium Higher Homes (Item/Buff 1500050010/1500050011; text IDs: name 1500059906, description 1500050011, buff label 1500059907; targets 3142, 3145; workers 2181, 2184)
-       ================================================================ -->
+  <!-- GRACCHUS SCIPIO - All Regional Residences (Item/Buff 1500050010/1500050011; targets 14 residence assets) -->
 
   <!-- Gracchus Scipio Item -->
   <ModOp GUID="41350" Type="addNextSibling">
@@ -160,7 +99,7 @@
           </LocaText>
           <OasisId>1500059906</OasisId>
         </Text>
-        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>1500050011</GUID></Item></Buffs><Targets><!-- Eques Residence 3142; Patrician Residence 3145 --><Item><GUID>3142</GUID></Item><Item><GUID>3145</GUID></Item></Targets></Effect>
+        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>1500050011</GUID></Item></Buffs><Targets><!-- All 14 regional residence assets --><Item><GUID>3087</GUID></Item><Item><GUID>3141</GUID></Item><Item><GUID>3142</GUID></Item><Item><GUID>3145</GUID></Item><Item><GUID>6414</GUID></Item><Item><GUID>6471</GUID></Item><Item><GUID>6472</GUID></Item><Item><GUID>6475</GUID></Item><Item><GUID>6514</GUID></Item><Item><GUID>149684</GUID></Item><Item><GUID>150584</GUID></Item><Item><GUID>150585</GUID></Item><Item><GUID>150586</GUID></Item><Item><GUID>150587</GUID></Item></Targets></Effect>
         <Item>
           <MaxStackSize>20</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -191,7 +130,7 @@
           <OasisId>1500059907</OasisId>
         </Text>
         
-      <BuildingUpgrade><AdditionalWorkforces><!-- Latium lower-tier workforce 2181, 2184 --><Item><WorkforceGUID>2181</WorkforceGUID></Item><Item><WorkforceGUID>2184</WorkforceGUID></Item></AdditionalWorkforces><AdditionalAttributes><Population><AmountOrPercent><Value>5</Value><Percental>0</Percental></AmountOrPercent></Population><Happiness><AmountOrPercent><Value>15</Value><Percental>0</Percental></AmountOrPercent></Happiness><Health><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Health><FireSafety><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></FireSafety><Knowledge><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Knowledge><Belief><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Belief><Prestige><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Prestige></AdditionalAttributes></BuildingUpgrade></Values>
+      <BuildingUpgrade><AdditionalAttributes><Population><AmountOrPercent><Value>5</Value><Percental>0</Percental></AmountOrPercent></Population><Happiness><AmountOrPercent><Value>15</Value><Percental>0</Percental></AmountOrPercent></Happiness><Health><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Health><FireSafety><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></FireSafety><Knowledge><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Knowledge><Belief><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Belief><Prestige><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Prestige></AdditionalAttributes></BuildingUpgrade></Values>
     </Asset>
   </ModOp>
 
@@ -389,73 +328,6 @@
     </Asset>
   </ModOp>
 
-  <!-- ================================================================
-      GRACCHUS JULIA - Latium Lower Homes (Item/Buff 2001000097/2001000098; text IDs: name 1500059912, description 2001000098, buff label 1500059913; targets 3087, 3141; workers 2185, 2186)
-       ================================================================ -->
-
-  <!-- Gracchus Julia Item -->
-  <ModOp GUID="41350" Type="addNextSibling">
-    <Asset>
-      <Template>ItemWithBoost</Template>
-      <Values>
-        <Standard>
-          <GUID>2001000097</GUID>
-          <Name>Gracchus Julia</Name>
-          <!-- Using available female icon - verify icon exists before deploying -->
-          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_003.png</IconFilename>
-          <InfoDescription>2001000098</InfoDescription>
-        </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Specialist</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <!-- Item name text reference -->
-          <OasisId>1500059912</OasisId>
-        </Text>
-        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>2001000098</GUID></Item></Buffs><Targets><!-- Libertus Residence 3087; Plebeian Residence 3141 --><Item><GUID>3087</GUID></Item><Item><GUID>3141</GUID></Item></Targets></Effect>
-        <Item>
-          <MaxStackSize>20</MaxStackSize>
-          <Rarity>Legendary</Rarity>
-          <ItemType>Specialist</ItemType>
-          <!-- Goes in Guild House (Villa/Officium) -->
-          <Allocation>GuildHouse</Allocation>
-          <TradePrice>99</TradePrice>
-          <TradePriceOnlineCurrency>99</TradePriceOnlineCurrency>
-          <!-- Civic category like other residence specialists -->
-          <Niche>Civic</Niche>
-        </Item>
-                <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-        <!-- ItemWithBoost section required for radius-based effects -->
-        <ItemWithBoost><BoostBuffs><Item><GUID>2001000098</GUID></Item></BoostBuffs><BoostHint>-6903508852426753616</BoostHint></ItemWithBoost>
-      </Values>
-    </Asset>
-  </ModOp>
-
-  <!-- Gracchus Julia Buff -->
-  <ModOp Type="addNextSibling" GUID="41350">
-    <Asset>
-      <Template>BuildingBuff</Template>
-      <Values><Standard><GUID>2001000098</GUID><Name>Gracchus Julia Buff</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_003.png</IconFilename></Standard>
-        
-        <Buff>
-          <!-- Item-sourced buff (from specialist) -->
-          <SourceCategory>Item</SourceCategory>
-        </Buff>
-        <Text>
-          <!-- Buff display name text reference -->
-          <OasisId>1500059913</OasisId>
-        </Text>
-        <!-- BuildingUpgrade used for residence attribute modifications -->
-        
-      <BuildingUpgrade><AdditionalWorkforces><!-- Latium higher-tier workforce 2185, 2186 --><Item><WorkforceGUID>2185</WorkforceGUID></Item><Item><WorkforceGUID>2186</WorkforceGUID></Item></AdditionalWorkforces><AdditionalAttributes><Population><AmountOrPercent><Value>5</Value><Percental>0</Percental></AmountOrPercent></Population><Happiness><AmountOrPercent><Value>15</Value><Percental>0</Percental></AmountOrPercent></Happiness><Health><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Health><FireSafety><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></FireSafety><Knowledge><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Knowledge><Belief><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Belief><Prestige><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Prestige></AdditionalAttributes></BuildingUpgrade></Values>
-    </Asset>
-  </ModOp>
 
   
 
@@ -465,65 +337,6 @@
   
   
 
-  <!-- ================================================================
-      GRACCHUS CASSIUS - Albion Lower Homes (Item/Buff 1500050025/1500050026; text IDs: name 1500059918, description 1500050026, buff label 1500059919; targets 6414, 6471, 6475; workers 2196, 2197, 2199)
-       ================================================================ -->
-
-  <!-- Gracchus Cassius Item -->
-  <ModOp GUID="41350" Type="addNextSibling">
-    <Asset>
-      <Template>ItemWithBoost</Template>
-      <Values>
-        <Standard>
-          <GUID>1500050025</GUID>
-          <Name>Gracchus Cassius</Name>
-          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_019.png</IconFilename>
-          <InfoDescription>1500050026</InfoDescription>
-        </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Specialist</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <OasisId>1500059918</OasisId>
-        </Text>
-        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>1500050026</GUID></Item></Buffs><Targets><!-- Wader Residence 6414; Smith Residence 6471; Mercator Residence 6475 --><Item><GUID>6414</GUID></Item><Item><GUID>6471</GUID></Item><Item><GUID>6475</GUID></Item></Targets></Effect>
-        <Item>
-          <MaxStackSize>20</MaxStackSize>
-          <Rarity>Legendary</Rarity>
-          <ItemType>Specialist</ItemType>
-          <Allocation>GuildHouse</Allocation>
-          <TradePrice>99</TradePrice>
-          <TradePriceOnlineCurrency>99</TradePriceOnlineCurrency>
-          <Niche>Civic</Niche>
-        </Item>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-        <ItemWithBoost><BoostBuffs><Item><GUID>1500050026</GUID></Item></BoostBuffs><BoostHint>-6903508852426753616</BoostHint></ItemWithBoost>
-      </Values>
-    </Asset>
-  </ModOp>
-
-  <!-- Gracchus Cassius Buff -->
-  <ModOp Type="addNextSibling" GUID="41350">
-    <Asset>
-      <Template>BuildingBuff</Template>
-      <Values><Standard><GUID>1500050026</GUID><Name>Gracchus Cassius Buff</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_019.png</IconFilename></Standard>
-        
-        <Buff>
-          <SourceCategory>Item</SourceCategory>
-        </Buff>
-        <Text>
-          <OasisId>1500059919</OasisId>
-        </Text>
-        
-      <BuildingUpgrade><AdditionalWorkforces><!-- Albion tier 3-5 workforce 2196, 2197, 2199 --><Item><WorkforceGUID>2196</WorkforceGUID></Item><Item><WorkforceGUID>2197</WorkforceGUID></Item><Item><WorkforceGUID>2199</WorkforceGUID></Item></AdditionalWorkforces><AdditionalAttributes><Population><AmountOrPercent><Value>5</Value><Percental>0</Percental></AmountOrPercent></Population><Happiness><AmountOrPercent><Value>15</Value><Percental>0</Percental></AmountOrPercent></Happiness><Health><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Health><FireSafety><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></FireSafety><Knowledge><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Knowledge><Belief><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Belief><Prestige><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Prestige></AdditionalAttributes></BuildingUpgrade></Values>
-    </Asset>
-  </ModOp>
 
   <!-- ================================================================
       GRACCHUS CRASSUS - Production 450% + Warehouse 150% (Item/Buff 1500050031/1500050032; text IDs: name 1500059924, description 1500050032, buff label 1500059925; targets 38370, 38564, 152969, 153059, 153060, 37202)
@@ -585,155 +398,109 @@
     </Asset>
   </ModOp>
 
-  <!-- ================================================================
-      GRACCHUS MARIUS - Aegyptus Lower Homes (Item/Buff 1500050034/1500050035; text IDs: name 1500059926, description 1500050035, buff label 1500059927; targets 149684, 150584, 150586; workers 150544, 150546, mapping provisional)
-       ================================================================ -->
 
-  <!-- Gracchus Marius Item -->
+
+  <!-- Retired residence GUIDs are recorded in references/guid.md. -->
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  <!-- Add 30t to the Granary and every normal warehouse tier, including upgrades. -->
+  <ModOp Merge="//Asset[Values/Standard/GUID = '152969' or Values/Standard/GUID = '3310' or Values/Standard/GUID = '3311' or Values/Standard/GUID = '3312' or Values/Standard/GUID = '3313' or Values/Standard/GUID = '7055' or Values/Standard/GUID = '7056' or Values/Standard/GUID = '7057' or Values/Standard/GUID = '149842' or Values/Standard/GUID = '149848' or Values/Standard/GUID = '149849' or Values/Standard/GUID = '182646']/Values/Warehouse/WarehouseStorage/StorageMax">
+    <StorageMax>
+      <ModValue Insert="self::node() + 30" />
+    </StorageMax>
+  </ModOp>
+
+  <!-- Gracchus Marcellus Item GUID 1500050055; Buff GUID 1500050056; all-recruitment army specialist. -->
   <ModOp GUID="41350" Type="addNextSibling">
     <Asset>
-      <Template>ItemWithBoost</Template>
+      <Template>Item</Template>
       <Values>
         <Standard>
-          <GUID>1500050034</GUID>
-          <Name>Gracchus Marius</Name>
-          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_71.png</IconFilename>
-          <InfoDescription>1500050035</InfoDescription>
+          <GUID>1500050055</GUID>
+          <Name>Gracchus Marcellus</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_027.png</IconFilename>
+          <InfoDescription>1500050056</InfoDescription>
         </Standard>
         <Text>
-          <LocaText>
-            <English>
-              <Text>Specialist</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <OasisId>1500059926</OasisId>
+          <LocaText><English><Text>Specialist</Text><Status>Exported</Status><ExportCount>1</ExportCount></English></LocaText>
+          <OasisId>1500059932</OasisId>
         </Text>
-        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>1500050035</GUID></Item></Buffs><Targets><!-- Thresher Residence 149684; Potter Residence 150584; Scribe Residence 150586 --><Item><GUID>149684</GUID></Item><Item><GUID>150584</GUID></Item><Item><GUID>150586</GUID></Item></Targets></Effect>
-        <Item>
-          <MaxStackSize>20</MaxStackSize>
-          <Rarity>Legendary</Rarity>
-          <ItemType>Specialist</ItemType>
-          <Allocation>GuildHouse</Allocation>
-          <TradePrice>99</TradePrice>
-          <TradePriceOnlineCurrency>99</TradePriceOnlineCurrency>
-          <Niche>Military</Niche>
-        </Item>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-      <ItemWithBoost><BoostBuffs><Item><GUID>1500050035</GUID></Item></BoostBuffs><BoostHint>-6903508852426753616</BoostHint></ItemWithBoost></Values>
+        <Effect><EffectScope>ObjectsInArea</EffectScope><Buffs><Item><GUID>1500050056</GUID></Item></Buffs><Targets><!-- Recruitment Building group 53358: Barracks, Equitum Campus, Siege Workshop --><Item><GUID>53358</GUID></Item></Targets><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+        <Item><MaxStackSize>20</MaxStackSize><Rarity>Legendary</Rarity><ItemType>Specialist</ItemType><Allocation>GuildHouse</Allocation><TradePrice>99</TradePrice><TradePriceOnlineCurrency>99</TradePriceOnlineCurrency><Niche>Military</Niche></Item>
+        <Locked><DefaultLockedState>0</DefaultLockedState></Locked>
+      </Values>
     </Asset>
   </ModOp>
 
-  <!-- Gracchus Marius Buff -->
+  <!-- Gracchus Marcellus Buff GUID 1500050056; faster recruitment and stronger trained troops. -->
   <ModOp Type="addNextSibling" GUID="41350">
     <Asset>
       <Template>BuildingBuff</Template>
-      <Values><Standard><GUID>1500050035</GUID><Name>Gracchus Marius Buff</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_71.png</IconFilename></Standard>
-        
-        <Buff>
-          <SourceCategory>Item</SourceCategory>
-        </Buff>
-        <Text>
-          <OasisId>1500059927</OasisId>
-        </Text>
-        
-        
-        
-      <BuildingUpgrade><AdditionalWorkforces><!-- Aegyptus higher-tier workforce 150544, 150546; GUID mapping provisional --><Item><WorkforceGUID>150544</WorkforceGUID></Item><Item><WorkforceGUID>150546</WorkforceGUID></Item></AdditionalWorkforces><AdditionalAttributes><Population><AmountOrPercent><Value>5</Value><Percental>0</Percental></AmountOrPercent></Population><Happiness><AmountOrPercent><Value>15</Value><Percental>0</Percental></AmountOrPercent></Happiness><Health><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Health><FireSafety><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></FireSafety><Knowledge><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Knowledge><Belief><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Belief><Prestige><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Prestige></AdditionalAttributes></BuildingUpgrade></Values>
-    </Asset>
-  </ModOp>
-
-  <!-- ================================================================
-      GRACCHUS APPIUS - Aegyptus Higher Homes (Item/Buff 1500050037/1500050038; text IDs: name 1500059928, description 1500050038, buff label 1500059929; targets 150585, 150587; workers 149685, 150543, 150545, mapping provisional)
-       ================================================================ -->
-
-  <!-- Gracchus Appius Item -->
-  <ModOp GUID="41350" Type="addNextSibling">
-    <Asset>
-      <Template>ItemWithBoost</Template>
       <Values>
         <Standard>
-          <GUID>1500050037</GUID>
-          <Name>Gracchus Appius</Name>
-          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_89.png</IconFilename>
-          <InfoDescription>1500050038</InfoDescription>
+          <GUID>1500050056</GUID>
+          <Name>Gracchus Marcellus Buff</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_027.png</IconFilename>
         </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Specialist</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <OasisId>1500059928</OasisId>
-        </Text>
-        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>1500050038</GUID></Item></Buffs><Targets><!-- Chanter Residence 150585; Gymnasiarch Residence 150587 --><Item><GUID>150585</GUID></Item><Item><GUID>150587</GUID></Item></Targets></Effect>
-        <Item>
-          <MaxStackSize>20</MaxStackSize>
-          <Rarity>Legendary</Rarity>
-          <ItemType>Specialist</ItemType>
-          <Allocation>GuildHouse</Allocation>
-          <TradePrice>99</TradePrice>
-          <TradePriceOnlineCurrency>99</TradePriceOnlineCurrency>
-          <Niche>Military</Niche>
-        </Item>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-      <ItemWithBoost><BoostBuffs><Item><GUID>1500050038</GUID></Item></BoostBuffs><BoostHint>-6903508852426753616</BoostHint></ItemWithBoost></Values>
+        <Buff><SourceCategory>Item</SourceCategory></Buff>
+        <Text><OasisId>1500059933</OasisId></Text>
+        <RecruitmentUpgrade>
+          <RecruitmentCostInPercent>-75</RecruitmentCostInPercent>
+          <RecruitmentSpeedInPercent>300</RecruitmentSpeedInPercent>
+        </RecruitmentUpgrade>
+        <HealthUpgrade>
+          <BaseHealthUpgrade><Value>100</Value><Percental>1</Percental></BaseHealthUpgrade>
+        </HealthUpgrade>
+        <MovementUpgrade>
+          <BuffBaseSpeedUpgrade><Value>100</Value><Percental>1</Percental></BuffBaseSpeedUpgrade>
+        </MovementUpgrade>
+        <MaintenanceUpgrade>
+          <MaintenanceFactorUpgrade><Value>-50</Value><Percental>1</Percental></MaintenanceFactorUpgrade>
+          <WorkforceMaintenanceFactorUpgrade><Value>-50</Value><Percental>1</Percental></WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <UnitUpgrade>
+          <MaximumMoraleUpgrade><Value>100</Value><Percental>1</Percental></MaximumMoraleUpgrade>
+          <DefenseUpgrade><Value>100</Value><Percental>0</Percental></DefenseUpgrade>
+          <ArmorUpgrade><Value>100</Value><Percental>0</Percental></ArmorUpgrade>
+          <ShieldUpgrade><Value>100</Value><Percental>0</Percental></ShieldUpgrade>
+          <OffenseMeleeUpgrade><Value>100</Value><Percental>0</Percental></OffenseMeleeUpgrade>
+          <OffenseChargeUpgrade><Value>100</Value><Percental>0</Percental></OffenseChargeUpgrade>
+          <OffenseRangedUpgrade><Value>100</Value><Percental>0</Percental></OffenseRangedUpgrade>
+          <AttackSpeedTorchPercentualUpgrade><Value>100</Value><Percental>0</Percental></AttackSpeedTorchPercentualUpgrade>
+          <AttackSpeedRangedPercentualUpgrade><Value>100</Value><Percental>0</Percental></AttackSpeedRangedPercentualUpgrade>
+          <AttackSpeedBallistaModulePercentualUpgrade><Value>100</Value><Percental>0</Percental></AttackSpeedBallistaModulePercentualUpgrade>
+          <AttackSpeedCatapultModulePercentualUpgrade><Value>100</Value><Percental>0</Percental></AttackSpeedCatapultModulePercentualUpgrade>
+        </UnitUpgrade>
+      </Values>
     </Asset>
   </ModOp>
-
-  <!-- Gracchus Appius Buff -->
-  <ModOp Type="addNextSibling" GUID="41350">
-    <Asset>
-      <Template>BuildingBuff</Template>
-      <Values><Standard><GUID>1500050038</GUID><Name>Gracchus Appius Buff</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_89.png</IconFilename></Standard>
-        
-        <Buff>
-          <SourceCategory>Item</SourceCategory>
-        </Buff>
-        <Text>
-          <OasisId>1500059929</OasisId>
-        </Text>
-        
-      <BuildingUpgrade><AdditionalWorkforces><!-- Aegyptus lower-tier workforce 149685, 150543, 150545; GUID mapping provisional --><Item><WorkforceGUID>149685</WorkforceGUID></Item><Item><WorkforceGUID>150543</WorkforceGUID></Item><Item><WorkforceGUID>150545</WorkforceGUID></Item></AdditionalWorkforces><AdditionalAttributes><Population><AmountOrPercent><Value>5</Value><Percental>0</Percental></AmountOrPercent></Population><Happiness><AmountOrPercent><Value>15</Value><Percental>0</Percental></AmountOrPercent></Happiness><Health><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Health><FireSafety><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></FireSafety><Knowledge><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Knowledge><Belief><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Belief><Prestige><AmountOrPercent><Value>10</Value><Percental>0</Percental></AmountOrPercent></Prestige></AdditionalAttributes></BuildingUpgrade></Values>
-    </Asset>
-  </ModOp>
-
-  <!-- Retired: Lucius 1500050019/1500050020 and Agrippa 1500050040/1500050041 are replaced by Gaius. -->
-
-  
-
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
 
   <!-- TRADER POOLS: Roman 43018, 43021, 43019, 43020; Aegyptus candidate pools 153068, 153070 (unverified). -->
 
-  <ModOp Type="add" GUID="43018,43021,43019,43020,153068,153070" Path="/Values/RewardPool/ItemsPool"><Item><ItemLink>1500050001</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050004</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050007</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050010</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050013</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050016</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>2001000097</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050025</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050031</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050034</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050037</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item></ModOp>
+  <ModOp Type="add" GUID="43018,43021,43019,43020,153068,153070" Path="/Values/RewardPool/ItemsPool"><Item><ItemLink>1500050001</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050004</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050010</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050013</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050016</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050031</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050055</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item></ModOp>
 
 <!-- Trader slot GUIDs: Diana 32777, Procurator Corvinus 27124, Valeria 32778, Manx 27079, Heron 153067, Kandis 153069. -->
 <ModOp Type="replace" GUID="32777,27124,32778,27079,153067,153069" Path="/Values/Trader/ItemSlotUnlocks">
@@ -763,7 +530,7 @@
 </ItemSlotUnlocks>
 </ModOp>
 
-  <!-- GRACCHI LEGACY CHEST - Item GUID 1500050050; text GUID 1500059936; start trigger GUID 1500050052; grants all 11 active Gracchus items. -->
+  <!-- GRACCHI LEGACY CHEST - Item GUID 1500050050; text GUID 1500059936; start trigger GUID 1500050052; grants all 7 active Gracchus items. -->
 
   <ModOp GUID="41350" Type="addNextSibling">
     <Asset>
@@ -817,7 +584,7 @@
                         </ActionAddGoodsToItemContainer>
                       </Values>
                     </Action>
-                  </Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050001</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050004</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050007</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050010</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050013</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050016</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>2001000097</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050025</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050031</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050034</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050037</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item></Actions>
+                  </Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050001</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050004</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050010</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050013</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050016</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050031</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050055</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item></Actions>
               </ActionList>
             </Values>
           </ItemActions>

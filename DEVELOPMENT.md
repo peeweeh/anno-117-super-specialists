@@ -82,17 +82,16 @@ Follow semantic versioning (MAJOR.MINOR.PATCH):
 
 ## Current Specialists
 
-All 11 active items use Gracchus names. Each costs 99 Denarii and appears in the trader pool and Legacy Chest.
+All 7 active items use Gracchus names. Each costs 99 Denarii and appears in the trader pool and Legacy Chest.
 
 | Specialist | Role | Fixed Effect |
 |------------|------|--------------|
 | Gracchus Tiberius | Production tier 1 | +100% productivity, +150% loading |
 | Gracchus Fulvia | Production tier 2 | +250% productivity, +150% loading |
 | Gracchus Crassus | Production tier 3 | +450% productivity, +150% loading |
-| Gracchus Julia / Scipio | Latium lower / higher homes | +5 population, +15 happiness, +10 to five other attributes, tier workforce |
-| Gracchus Cassius / Cornelia | Albion lower / higher homes | Same core home stats, tier workforce |
-| Gracchus Marius / Appius | Aegyptus lower / higher homes | Same core home stats, tier workforce |
+| Gracchus Scipio | All residences | +5 population, +15 happiness, +10 to five other attributes |
 | Gracchus Gaius | All residences | Adds all known regional workforce tiers to residences in radius |
+| Gracchus Marcellus | Recruitment buildings | -75% recruitment cost, +300% recruitment speed, and broad unit upgrades |
 | Gracchus Duilius | Ship captain | Retained heavy-warship buffs |
 
 See [references/guid.md](references/guid.md) for active GUIDs and target groups.

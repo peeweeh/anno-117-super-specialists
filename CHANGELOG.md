@@ -4,7 +4,11 @@ All notable changes to this project are documented here. This project follows Se
 
 ## [Unreleased]
 - Consolidated the Latium, Albion, and Aegyptus workforce specialists into Gaius, covering all 14 known residence assets and workforce GUIDs
-- Retired Lucius and Agrippa from the item assets, trader pool, and Legacy Chest; the active roster is now 11 specialists
+- Retired Lucius and Agrippa from the item assets, trader pool, and Legacy Chest; the active roster is now 12 specialists with Marcellus
+- Consolidated the five regional residence-stat specialists into universal Scipio; Gaius remains the universal workforce specialist
+- Retired Julia, Cornelia, Cassius, Marius, and Appius; the active roster is now 7 specialists
+- Added 30t of storage to each Granary and all normal warehouse tiers, including upgrades
+- Added Marcellus: -75% recruitment cost, +300% recruitment speed, +100% troop health/morale/movement, and +100 offense/defense/armor/shields/attack speed
 
 ## [2.1.0] - 2026-11-09
 - Added a separately auto-granted, one-use Materials Care Package chest with 100 of each of the 13 Construction Materials
