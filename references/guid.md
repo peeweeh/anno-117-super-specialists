@@ -65,10 +65,12 @@ The Aegyptus workforce names remain provisional pending extracted game-data conf
 | Name | GUID | Use |
 |---|---:|---|
 | Production Buildings | 38370 | Global productivity and regional industry target group; site lists 143 buildings |
-| Warehouses | 38564 | Standard warehouse loading target group; site lists five buildings |
+| Warehouses | 38564 | Asset pool of all 13 land warehouse GUIDs, every level and variant (verified in extracted game data); Fulvia target |
 | Recruitment Building group | 53358 | Barracks, Equitum Campus, and Siege Workshop; reference/sample GUID, loader confirmation pending |
-| Storage capacity targets | Granary `152969`; Warehouse `3310`, `7055`, `149842`; Improved `3311`, `7056`, `149848`; Grand `3312`, `149849`; Large `7057`; Colossal `3313`; additional requested target `182646` | +30t per instance via `WarehouseStorage/StorageMax`; covers upgrade tiers |
-| Trading Posts | 37202 | Loading-speed target group, including Aegyptus river posts; site lists six buildings |
+| Storage capacity targets | Land warehouses `3310`, `3311`, `3312`, `3313`, `7055`, `7056`, `7057`, `149842`, `149848`, `149849`, `182646`, `182647`, `182648`; Granary `152969`, `153059`, `153060` | +50t per instance via `WarehouseStorage/StorageMax`; Granary level 1 holds no node and is set to 150 explicitly; see Warehouse Storage and Ramps |
+| Egyptian Granaries | 160476 | Asset pool of Granary `152969`, `153059`, `153060`; Fulvia target |
+| Piers | 31666 | Asset pool of Harbor Pier `31608`, `31611`, `179570`; Fulvia target |
+| Trading Posts | 37202 | Asset pool of the Roman `184413`, Roman Celtic `184412` and Egyptian `159313` kontor pools, including Aegyptus river posts; Fulvia target |
 | All Buildings in Aegyptus | 151971 | Catalog only; do not use as a production-only target |
 | All Aegyptus Province Residences | 152041 | Catalog group from the site; verify before using as a ModOp target |
 | Add-next-sibling base asset | 41350 | Base asset anchor used to create mod-owned assets |
@@ -100,20 +102,45 @@ All active item display names use the `Gracchus` prefix. `Name LineId` is the it
 
 | Role | Display name | Item GUID | Buff GUID | Name LineId | Description LineId | Buff-name LineId |
 |---|---|---:|---:|---:|---:|---:|
-| Production +100%, warehouse +150% | Gracchus Tiberius | 1500050001 | 1500050002 | 1500059900 | 1500050002 | 1500059901 |
+| Production +150% | Gracchus Tiberius | 1500050001 | 1500050002 | 1500059900 | 1500050002 | 1500059901 |
 | Latium residence workforce | Gracchus Gaius | 1500050004 | 1500050005 | 1500059902 | 1500050005 | 1500059903 |
 | Albion residence workforce | Gracchus Lucius | 1500050120 | 1500050121 | 1500059959 | 1500050121 | 1500059960 |
 | Aegyptus residence workforce | Gracchus Agrippa | 1500050122 | 1500050123 | 1500059961 | 1500050123 | 1500059962 |
 | Army recruitment and combat | Gracchus Marcellus | 1500050055 | 1500050056 | 1500059932 | 1500050056 | 1500059933 |
 | All-residence population/stats | Gracchus Scipio | 1500050010 | 1500050011 | 1500059906 | 1500050011 | 1500059907 |
-| Production +250%, warehouse +150% | Gracchus Fulvia | 1500050013 | 1500050014 | 1500059908 | 1500050014 | 1500059909 |
+| Warehouse loading speed +450% | Gracchus Fulvia | 1500050013 | 1500050014 | 1500059908 | 1500050014 | 1500059909 |
 | Ship captain | Gracchus Duilius | 1500050016 | 1500050017 | 1500059910 | 1500050017 | 1500059911 |
-| Production +450%, warehouse +150% | Gracchus Crassus | 1500050031 | 1500050032 | 1500059924 | 1500050032 | 1500059925 |
+| Production +450% | Gracchus Crassus | 1500050031 | 1500050032 | 1500059924 | 1500050032 | 1500059925 |
 | Latium fertility | Gracchus Latinus | 1500050060 | 1500050061 to 1500050074 | 1500059950 | 1500059951 | 1500059952 |
 | Albion fertility | Gracchus Britannicus | 1500050080 | 1500050081 to 1500050095 | 1500059953 | 1500059954 | 1500059955 |
 | Aegyptus fertility | Gracchus Aegyptius | 1500050100 | 1500050101 to 1500050115 | 1500059956 | 1500059957 | 1500059958 |
 
 Retired specialist assets: Diocles item/buff `1500050043/1500050044`; Maecenas `1500050046/1500050047`; Varro `1500050048/1500050049`; Columella `2001000100/2001000101`; Lucius `1500050019/1500050020`; Agrippa `1500050040/1500050041`; Cornelia `1500050007/1500050008`; Julia `2001000097/2001000098`; Cassius `1500050025/1500050026`; Marius `1500050034/1500050035`; Appius `1500050037/1500050038`. Do not reuse retired GUIDs for a different specialist. Lucius and Agrippa are active again as regional workforce specialists with new GUIDs; their retired GUIDs (the old production-building workforce items) stay retired.
+
+## Warehouse Storage and Ramps
+
+Storage and ramps are always-on ModOps, because a specialist buff can change loading speed, a storage percentage and overflow risk, but not the ramp count (`LogisticNode/QueueConfiguration/ProcessingQueueParallelCount`). Game values were read from the game's `config.rda`. Level 1 assets hold no ramp node and inherit 2 from the Warehouse template; land warehouses hold `StorageMax` 0, and Granary level 1 holds none and inherits 100. Ramps are doubled at every level, so the gain grows with the level.
+
+| GUID | Asset | Level | Ramps, game to mod | Storage in tons, game to mod |
+| --- | --- | ---: | --- | --- |
+| 3310 | Warehouse Roman 01 | 1 | 2 to 4 | 0 to 50 |
+| 3311 | Warehouse Roman 02 | 2 | 4 to 8 | 0 to 50 |
+| 3312 | Warehouse Roman 03 | 3 | 6 to 12 | 0 to 50 |
+| 3313 | Warehouse Roman 04 (deprecated name) | 3 | 6 to 12 | 0 to 50 |
+| 7055 | Warehouse Roman Celtic 01 | 1 | 2 to 4 | 0 to 50 |
+| 7056 | Warehouse Roman Celtic 02 | 2 | 4 to 8 | 0 to 50 |
+| 7057 | Warehouse Roman Celtic 03 | 3 | 6 to 12 | 0 to 50 |
+| 149842 | Warehouse Greco Roman 01 | 1 | 2 to 4 | 0 to 50 |
+| 149848 | Warehouse Greco Roman 02 | 2 | 4 to 8 | 0 to 50 |
+| 149849 | Warehouse Greco Roman 03 | 3 | 6 to 12 | 0 to 50 |
+| 182646 | Warehouse Greco Roman Embankment 01 | 1 | 2 to 4 | 0 to 50 |
+| 182647 | Warehouse Greco Roman Embankment 02 | 2 | 4 to 8 | 0 to 50 |
+| 182648 | Warehouse Greco Roman Embankment 03 | 3 | 6 to 12 | 0 to 50 |
+| 152969 | Granary Egyptian 01 | 1 | 2 to 4 | 100 to 150 |
+| 153059 | Granary Egyptian 02 | 2 | 4 to 8 | 200 to 250 |
+| 153060 | Granary Egyptian 03 | 3 | 6 to 12 | 300 to 350 |
+
+Harbor warehouses (trading posts) and piers have their own ramp and pier values and are not changed. Fulvia raises their loading speed through buff targets only.
 
 ## Regional Workforce Specialists
 

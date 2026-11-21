@@ -18,14 +18,16 @@ Overpowered specialists for Anno 117: Pax Romana, all bearing the Gracchus name.
 
 ## ✨ Features
 
-- **12 Gracchus Specialists** - One all-residence stat specialist, a residence workforce specialist for each region, three production tiers, an army master, a ship captain, and a fertility specialist for each region
+- **12 Gracchus Specialists** - One all-residence stat specialist, a residence workforce specialist for each region, two production tiers, a warehouse specialist, an army master, a ship captain, and a fertility specialist for each region
 - **99 Denarii Each** - Purchasable from traders or granted by the
   **Gracchi Legacy Chest** (auto-granted at game start)
 - **Materials Care Package** - One-use chest with 100 of each of the 13 Construction Materials
-- **Warehouse Storage** - Adds 30t to each Granary and all normal warehouse tiers, including upgrades
+- **Warehouse Storage** - Adds 50t to each normal warehouse tier and every Granary tier, including upgrades and the embankment tiers
+- **Warehouse Ramps** - Doubles the parallel loading slots of every warehouse and Granary tier (level 1: 2 to 4, level 2: 4 to 8, level 3: 6 to 12), so the gain grows with the level
 - **Regional Fertility** - Latinus, Britannicus, and Aegyptus give the island they are equipped on every fertility and lode of Latium, Albion, or Aegyptus
 - **Extreme Buffs** - Designed for late-game empire domination
-- **Three Fixed Production Tiers** - +100%, +250%, or +450% productivity, each with +150% warehouse and trading-post loading speed
+- **Two Production Tiers** - +150% or +450% productivity
+- **Warehouse Speed** - Fulvia adds +450% loading speed to warehouses, granaries, trading posts, and piers
 - **Breaking Update** - The roster changes are not backward compatible with old specialist items
 - **GUID Tracked** - Mod-owned and target GUIDs are indexed in `references/guid.md`
 
@@ -51,9 +53,9 @@ All specialists follow the **lastname firstname** naming convention (e.g., "Grac
 
 | Name | Region/Role | What They Do |
 |------|-------------|--------------|
-| **Gracchus Tiberius** | Production tier 1 | +100% productivity; +150% warehouse and trading-post loading |
-| **Gracchus Fulvia** | Production tier 2 | +250% productivity; +150% warehouse and trading-post loading |
-| **Gracchus Crassus** | Production tier 3 | +450% productivity; +150% warehouse and trading-post loading |
+| **Gracchus Tiberius** | Production tier 1 | +150% productivity |
+| **Gracchus Fulvia** | Warehouse speed | +450% loading speed for warehouses, granaries, trading posts, and piers |
+| **Gracchus Crassus** | Production tier 2 | +450% productivity |
 | **Gracchus Scipio** | All residences | +5 population, +15 happiness, +10 health, fire safety, knowledge, belief, and prestige |
 | **Gracchus Gaius** | Latium workforce | Supplies all Latium workforce tiers to Latium residences within radius |
 | **Gracchus Lucius** | Albion workforce | Supplies all Albion workforce tiers to Albion residences within radius |
@@ -108,9 +110,9 @@ Marble, Mosaics, Rope, Sails, Weapons, Armour, Wattle & Daub, Granite, Mud Brick
 - Most effects limited to Villa/Officium radius
 - Affordable pricing for easy testing
 
-### Production Variants
+### Production and Warehouse Specialists
 
-Choose among the three Gracchus production specialists: +100%, +250%, or +450% productivity. All three also add +150% loading speed to warehouses and trading posts; the values are fixed, with no global power toggle.
+Choose between the two Gracchus production specialists: +150% or +450% productivity. Warehouse effects are separate: Fulvia adds +450% loading speed to warehouses, granaries, trading posts, and piers. Storage (+50t) and ramps (doubled parallel loading slots) are always on for every warehouse and Granary tier, because specialists cannot change them. The values are fixed, with no global power toggle.
 
 ## ⚠️ Compatibility
 
@@ -236,9 +238,9 @@ When uploading to mod.io, use these details:
 <h3>🎭 THE SPECIALISTS (99 Denarii each)</h3>
 
 <ul>
-<li><strong>Gracchus Tiberius</strong> - +100% production, +150% warehouse and trading-post loading</li>
-<li><strong>Gracchus Fulvia</strong> - +250% production, +150% warehouse and trading-post loading</li>
-<li><strong>Gracchus Crassus</strong> - +450% production, +150% warehouse and trading-post loading</li>
+<li><strong>Gracchus Tiberius</strong> - +150% production</li>
+<li><strong>Gracchus Fulvia</strong> - +450% loading speed for warehouses, granaries, trading posts, and piers</li>
+<li><strong>Gracchus Crassus</strong> - +450% production</li>
 <li><strong>Gracchus Scipio</strong> - +5 population, +15 happiness, and +10 to five residence attributes across all 14 residence types</li>
 <li><strong>Gracchus Gaius</strong> - Adds all Latium workforce tiers to nearby Latium residences</li>
 <li><strong>Gracchus Lucius</strong> - Adds all Albion workforce tiers to nearby Albion residences</li>
@@ -258,8 +260,8 @@ When uploading to mod.io, use these details:
 <ul>
 <li>12 Gracchus specialists across three regions, including a workforce and a fertility specialist for each</li>
 <li>One care package chest with 100 of all 13 Construction Materials</li>
-<li>Fixed +100%, +250%, and +450% production variants</li>
-<li>+150% warehouse and trading-post loading on every production variant</li>
+<li>Fixed +150% and +450% production tiers, plus a separate warehouse speed specialist</li>
+<li>+50t storage and doubled loading ramps on every warehouse and Granary tier</li>
 <li>Instant Access - Buy specialists from traders or use either auto-granted chest</li>
 <li>Extreme Buffs - For when "balanced" is boring</li>
 <li>Mod Compatible - Safe GUID range, plays nice with others</li>

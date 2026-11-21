@@ -7,10 +7,13 @@ All notable changes to this project are documented here. This project follows Se
 - Retired Lucius and Agrippa from the item assets, trader pool, and Legacy Chest; the active roster is now 12 specialists with Marcellus
 - Consolidated the five regional residence-stat specialists into universal Scipio; Gaius remains the universal workforce specialist
 - Retired Julia, Cornelia, Cassius, Marius, and Appius; the active roster is now 7 specialists
-- Added 30t of storage to each Granary and all normal warehouse tiers, including upgrades
+- Added 50t of storage to each normal warehouse tier and every Granary tier, including all upgrade tiers and the embankment tiers
 - Added Marcellus: -75% recruitment cost, +300% recruitment speed, +100% troop health/morale/movement, and +100 offense/defense/armor/shields/attack speed
 - Added Gracchus Latinus, Britannicus, and Aegyptius: each gives the island it is equipped on every fertility and lode of its region at 100% (Latium 14, Albion 15, Aegyptus 15); the active roster is now 10 specialists at 990 Denarii. In-game behavior is unverified
 - Split Gaius into three regional workforce specialists: Gaius (Latium), Lucius (Albion), and Agrippa (Aegyptus). Each supplies only its own region's workforces to that region's residences, and together they cover the same 14 residences and 14 workforces as before; the active roster is now 12 specialists at 1188 Denarii. Lucius and Agrippa use new GUIDs, and the retired GUIDs stay retired
+- Separated production from warehouse effects: Tiberius is now +150% productivity and Crassus +450%, with no warehouse bonus. Fulvia is now the warehouse specialist, with +450% loading speed for warehouses, granaries, trading posts, and piers. The +250% production tier is retired
+- Doubled the parallel loading slots (ramps) of every warehouse and Granary tier: level 1 from 2 to 4, level 2 from 4 to 8, level 3 from 6 to 12
+- Fixed the storage bonus coverage: it now reaches the embankment warehouse upgrades and Granary tiers 1 to 3 (Granary level 1 could not be selected by the old patch and is now set explicitly)
 
 ## [2.1.0] - 2026-11-09
 - Added a separately auto-granted, one-use Materials Care Package chest with 100 of each of the 13 Construction Materials

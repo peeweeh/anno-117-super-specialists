@@ -86,9 +86,9 @@ All 12 active items use Gracchus names. Each costs 99 Denarii and appears in the
 
 | Specialist | Role | Fixed Effect |
 |------------|------|--------------|
-| Gracchus Tiberius | Production tier 1 | +100% productivity, +150% loading |
-| Gracchus Fulvia | Production tier 2 | +250% productivity, +150% loading |
-| Gracchus Crassus | Production tier 3 | +450% productivity, +150% loading |
+| Gracchus Tiberius | Production tier 1 | +150% productivity |
+| Gracchus Fulvia | Warehouse speed | +450% loading speed on warehouses, granaries, trading posts, and piers |
+| Gracchus Crassus | Production tier 2 | +450% productivity |
 | Gracchus Scipio | All residences | +5 population, +15 happiness, +10 to five other attributes |
 | Gracchus Gaius | Latium workforce | Adds all Latium workforce tiers to Latium residences in radius |
 | Gracchus Lucius | Albion workforce | Adds all Albion workforce tiers to Albion residences in radius |
@@ -107,6 +107,13 @@ See [references/guid.md](references/guid.md) for active GUIDs and target groups.
 - **Mechanism**: a `BuildingBuff` with `FactoryUpgrade/AddedFertility` holds one fertility GUID; omitting `FertilityPercent` gives 100%. Each item lists one buff per fertility and targets every fertility building of its region with `ObjectsInArea` (island only).
 - **Adding a fertility**: add a buff, append its GUID to the item's `Buffs`, append the building GUIDs to `Targets`, and update the table in [references/guid.md](references/guid.md).
 - **Unverified in game**: `ObjectsInArea` with `AddedFertility`, and many `AddedFertility` buffs stacking on one building. If a building honors only one of its buffs, fall back to one item per fertility group.
+
+### Warehouse Specialist, Storage and Ramps
+
+- **Fulvia**: a `BuildingBuff` with `WarehouseUpgrade/AdditionalLoadingSpeedInPercent` +450, targeting the asset pools 38564 (all 13 land warehouses), 160476 (the 3 Egyptian granaries), 37202 (trading posts) and 31666 (piers). The base game's own Mercury unload effect targets the same kinds of pools.
+- **Always on, not specialist-gated**: a buff can only change loading speed, a storage percentage and overflow risk. The ramp count (`LogisticNode/QueueConfiguration/ProcessingQueueParallelCount`) has no buff, so ramps are doubled by ModOps on the assets: 2 to 4, 4 to 8, 6 to 12. Level 1 assets hold no ramp node and inherit 2 from the Warehouse template.
+- **Storage**: `Merge` on `StorageMax` only selects assets that already hold the node. Granary level 1 holds none and inherits 100 from the template, so it is set to 150 by a separate ModOp.
+- **Source of the values**: read from the game's `config.rda` with `RdaConsole extract` (bundled with the Anno Modding Tools extension); see the table in [references/guid.md](references/guid.md).
 
 ### Historical Context
 - **Tiberius Gracchus** (163-133 BC): Roman tribune who championed land reform for the common people

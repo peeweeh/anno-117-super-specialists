@@ -8,7 +8,7 @@
        ================================================================ -->
 
   <!-- ================================================================
-      GRACCHUS TIBERIUS - Production 100% + Warehouse 150% (Item GUID 1500050001; Buff GUID 1500050002; text IDs: name 1500059900, description 1500050002, buff label 1500059901; targets 38370, 38564, 152969, 153059, 153060, 37202)
+      GRACCHUS TIBERIUS - Production 150% (Item GUID 1500050001; Buff GUID 1500050002; text IDs: name 1500059900, description 1500050002, buff label 1500059901; target 38370)
        ================================================================ -->
 
   <!-- Gracchus Tiberius Item GUID 1500050001; Buff GUID 1500050002; Text GUID 1500059900. -->
@@ -26,7 +26,7 @@
           <LocaText><English><Text>Specialist</Text><Status>Exported</Status><ExportCount>1</ExportCount></English></LocaText>
           <OasisId>1500059900</OasisId>
         </Text>
-        <Effect><EffectScope>ObjectsInArea</EffectScope><Buffs><Item><GUID>1500050002</GUID></Item></Buffs><Targets><!-- Production Buildings 38370; Warehouses 38564; Additional warehouse assets 152969, 153059, 153060; Trading Posts 37202 --><Item><GUID>38370</GUID></Item><Item><GUID>38564</GUID></Item><Item><GUID>152969</GUID></Item><Item><GUID>153059</GUID></Item><Item><GUID>153060</GUID></Item><Item><GUID>37202</GUID></Item></Targets><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+        <Effect><EffectScope>ObjectsInArea</EffectScope><Buffs><Item><GUID>1500050002</GUID></Item></Buffs><Targets><!-- Production Buildings 38370 --><Item><GUID>38370</GUID></Item></Targets><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
         <Item><MaxStackSize>20</MaxStackSize><Rarity>Legendary</Rarity><ItemType>Specialist</ItemType><Allocation>GuildHouse</Allocation><TradePrice>99</TradePrice><TradePriceOnlineCurrency>99</TradePriceOnlineCurrency><Niche>Economy</Niche></Item>
         <Locked><DefaultLockedState>0</DefaultLockedState></Locked>
       </Values>
@@ -43,7 +43,7 @@
         <Text><OasisId>1500059901</OasisId></Text>
         
         
-      <FactoryUpgrade><ProductivityUpgrade><Value>100</Value><Percental>1</Percental></ProductivityUpgrade></FactoryUpgrade><WarehouseUpgrade><AdditionalLoadingSpeedInPercent>150</AdditionalLoadingSpeedInPercent></WarehouseUpgrade></Values>
+      <FactoryUpgrade><ProductivityUpgrade><Value>150</Value><Percental>1</Percental></ProductivityUpgrade></FactoryUpgrade></Values>
     </Asset>
   </ModOp>
 
@@ -191,7 +191,7 @@
   </ModOp>
 
   <!-- ================================================================
-      GRACCHUS FULVIA - Production 250% + Warehouse 150% (Item/Buff 1500050013/1500050014; text IDs: name 1500059908, description 1500050014, buff label 1500059909; targets 38370, 38564, 152969, 153059, 153060, 37202)
+      GRACCHUS FULVIA - Warehouse Speed 450% (Item/Buff 1500050013/1500050014; text IDs: name 1500059908, description 1500050014, buff label 1500059909; targets 38564 warehouses, 160476 Egyptian granaries, 37202 trading posts, 31666 piers)
        ================================================================ -->
 
   <!-- Gracchus Fulvia Item -->
@@ -215,7 +215,7 @@
           </LocaText>
           <OasisId>1500059908</OasisId>
         </Text>
-        <Effect><EffectScope>ObjectsInArea</EffectScope><Buffs><Item><GUID>1500050014</GUID></Item></Buffs><Targets><!-- Production Buildings 38370; Warehouses 38564; Additional warehouse assets 152969, 153059, 153060; Trading Posts 37202 --><Item><GUID>38370</GUID></Item><Item><GUID>38564</GUID></Item><Item><GUID>152969</GUID></Item><Item><GUID>153059</GUID></Item><Item><GUID>153060</GUID></Item><Item><GUID>37202</GUID></Item></Targets><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+        <Effect><EffectScope>ObjectsInArea</EffectScope><Buffs><Item><GUID>1500050014</GUID></Item></Buffs><Targets><!-- Warehouses 38564; Egyptian Granaries 160476; Trading Posts 37202; Piers 31666 --><Item><GUID>38564</GUID></Item><Item><GUID>160476</GUID></Item><Item><GUID>37202</GUID></Item><Item><GUID>31666</GUID></Item></Targets><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
         <Item>
           <MaxStackSize>20</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -242,7 +242,7 @@
           <OasisId>1500059909</OasisId>
         </Text>
         
-      <Buff><SourceCategory>Item</SourceCategory></Buff><FactoryUpgrade><ProductivityUpgrade><Value>250</Value><Percental>1</Percental></ProductivityUpgrade></FactoryUpgrade><WarehouseUpgrade><AdditionalLoadingSpeedInPercent>150</AdditionalLoadingSpeedInPercent></WarehouseUpgrade></Values>
+      <Buff><SourceCategory>Item</SourceCategory></Buff><WarehouseUpgrade><AdditionalLoadingSpeedInPercent>450</AdditionalLoadingSpeedInPercent></WarehouseUpgrade></Values>
     </Asset>
   </ModOp>
 
@@ -395,7 +395,7 @@
 
 
   <!-- ================================================================
-      GRACCHUS CRASSUS - Production 450% + Warehouse 150% (Item/Buff 1500050031/1500050032; text IDs: name 1500059924, description 1500050032, buff label 1500059925; targets 38370, 38564, 152969, 153059, 153060, 37202)
+      GRACCHUS CRASSUS - Production 450% (Item/Buff 1500050031/1500050032; text IDs: name 1500059924, description 1500050032, buff label 1500059925; target 38370)
        ================================================================ -->
 
   <!-- Gracchus Crassus Item -->
@@ -419,7 +419,7 @@
           </LocaText>
           <OasisId>1500059924</OasisId>
         </Text>
-        <Effect><EffectScope>ObjectsInArea</EffectScope><Buffs><Item><GUID>1500050032</GUID></Item></Buffs><Targets><!-- Production Buildings 38370; Warehouses 38564; Additional warehouse assets 152969, 153059, 153060; Trading Posts 37202 --><Item><GUID>38370</GUID></Item><Item><GUID>38564</GUID></Item><Item><GUID>152969</GUID></Item><Item><GUID>153059</GUID></Item><Item><GUID>153060</GUID></Item><Item><GUID>37202</GUID></Item></Targets><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+        <Effect><EffectScope>ObjectsInArea</EffectScope><Buffs><Item><GUID>1500050032</GUID></Item></Buffs><Targets><!-- Production Buildings 38370 --><Item><GUID>38370</GUID></Item></Targets><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
         <Item>
           <MaxStackSize>20</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -450,7 +450,7 @@
           <OasisId>1500059925</OasisId>
         </Text>
         
-      <FactoryUpgrade><ProductivityUpgrade><Value>450</Value><Percental>1</Percental></ProductivityUpgrade></FactoryUpgrade><WarehouseUpgrade><AdditionalLoadingSpeedInPercent>150</AdditionalLoadingSpeedInPercent></WarehouseUpgrade></Values>
+      <FactoryUpgrade><ProductivityUpgrade><Value>450</Value><Percental>1</Percental></ProductivityUpgrade></FactoryUpgrade></Values>
     </Asset>
   </ModOp>
 
@@ -482,11 +482,27 @@
   
   
 
-  <!-- Add 30t to the Granary and every normal warehouse tier, including upgrades. -->
-  <ModOp Merge="//Asset[Values/Standard/GUID = '152969' or Values/Standard/GUID = '3310' or Values/Standard/GUID = '3311' or Values/Standard/GUID = '3312' or Values/Standard/GUID = '3313' or Values/Standard/GUID = '7055' or Values/Standard/GUID = '7056' or Values/Standard/GUID = '7057' or Values/Standard/GUID = '149842' or Values/Standard/GUID = '149848' or Values/Standard/GUID = '149849' or Values/Standard/GUID = '182646']/Values/Warehouse/WarehouseStorage/StorageMax">
+  <!-- Add 50t to every normal warehouse tier and the Granary upgrades, including embankment tiers. Only assets that already hold StorageMax are selected; Granary level 1 is set below. -->
+  <ModOp Merge="//Asset[Values/Standard/GUID = '3310' or Values/Standard/GUID = '3311' or Values/Standard/GUID = '3312' or Values/Standard/GUID = '3313' or Values/Standard/GUID = '7055' or Values/Standard/GUID = '7056' or Values/Standard/GUID = '7057' or Values/Standard/GUID = '149842' or Values/Standard/GUID = '149848' or Values/Standard/GUID = '149849' or Values/Standard/GUID = '182646' or Values/Standard/GUID = '182647' or Values/Standard/GUID = '182648' or Values/Standard/GUID = '153059' or Values/Standard/GUID = '153060']/Values/Warehouse/WarehouseStorage/StorageMax">
     <StorageMax>
-      <ModValue Insert="self::node() + 30" />
+      <ModValue Insert="self::node() + 50" />
     </StorageMax>
+  </ModOp>
+
+  <!-- Granary level 1 has no StorageMax of its own and inherits 100 from the Warehouse template, so it is set explicitly to 100 + 50. -->
+  <ModOp Type="merge" GUID="152969" Path="/Values/Warehouse">
+    <WarehouseStorage><StorageMax>150</StorageMax></WarehouseStorage>
+  </ModOp>
+
+  <!-- Ramps: double the parallel loading slots of every warehouse and granary tier. Level 1 inherits 2 from the template, level 2 has 4 and level 3 has 6, so the gain scales with level (+2, +4, +6). -->
+  <ModOp Type="merge" GUID="3310,7055,149842,182646,152969" Path="/Values/LogisticNode/QueueConfiguration">
+    <ProcessingQueueParallelCount>4</ProcessingQueueParallelCount>
+  </ModOp>
+  <ModOp Type="merge" GUID="3311,7056,149848,182647,153059" Path="/Values/LogisticNode/QueueConfiguration">
+    <ProcessingQueueParallelCount>8</ProcessingQueueParallelCount>
+  </ModOp>
+  <ModOp Type="merge" GUID="3312,7057,149849,182648,3313,153060" Path="/Values/LogisticNode/QueueConfiguration">
+    <ProcessingQueueParallelCount>12</ProcessingQueueParallelCount>
   </ModOp>
 
   <!-- Gracchus Marcellus Item GUID 1500050055; Buff GUID 1500050056; all-recruitment army specialist. -->
