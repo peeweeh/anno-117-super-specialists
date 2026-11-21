@@ -42,7 +42,7 @@ Super Fertility currently has 28 module-limit operations. Wheat Farm variants `2
 
 The downloaded Praefectus Liberius XML contains the five workforce IDs but does not label their names. The current roster uses the IDs in tier bundles as a provisional crosswalk; confirm those names against extracted game assets before describing them as specific occupations.
 
-Scipio is the single residence-stat specialist and targets all 14 residence assets. Gaius separately supplies all 14 known regional workforce GUIDs.
+Scipio is the single residence-stat specialist and targets all 14 residence assets. Gaius (Latium), Lucius (Albion), and Agrippa (Aegyptus) each supply their own region's workforce GUIDs to that region's residences; together they cover all 14 residences and all 14 workforce GUIDs exactly once.
 
 The Aegyptus workforce names remain provisional pending extracted game-data confirmation.
 
@@ -101,7 +101,9 @@ All active item display names use the `Gracchus` prefix. `Name LineId` is the it
 | Role | Display name | Item GUID | Buff GUID | Name LineId | Description LineId | Buff-name LineId |
 |---|---|---:|---:|---:|---:|---:|
 | Production +100%, warehouse +150% | Gracchus Tiberius | 1500050001 | 1500050002 | 1500059900 | 1500050002 | 1500059901 |
-| All-region residence workforce | Gracchus Gaius | 1500050004 | 1500050005 | 1500059902 | 1500050005 | 1500059903 |
+| Latium residence workforce | Gracchus Gaius | 1500050004 | 1500050005 | 1500059902 | 1500050005 | 1500059903 |
+| Albion residence workforce | Gracchus Lucius | 1500050120 | 1500050121 | 1500059959 | 1500050121 | 1500059960 |
+| Aegyptus residence workforce | Gracchus Agrippa | 1500050122 | 1500050123 | 1500059961 | 1500050123 | 1500059962 |
 | Army recruitment and combat | Gracchus Marcellus | 1500050055 | 1500050056 | 1500059932 | 1500050056 | 1500059933 |
 | All-residence population/stats | Gracchus Scipio | 1500050010 | 1500050011 | 1500059906 | 1500050011 | 1500059907 |
 | Production +250%, warehouse +150% | Gracchus Fulvia | 1500050013 | 1500050014 | 1500059908 | 1500050014 | 1500059909 |
@@ -111,7 +113,19 @@ All active item display names use the `Gracchus` prefix. `Name LineId` is the it
 | Albion fertility | Gracchus Britannicus | 1500050080 | 1500050081 to 1500050095 | 1500059953 | 1500059954 | 1500059955 |
 | Aegyptus fertility | Gracchus Aegyptius | 1500050100 | 1500050101 to 1500050115 | 1500059956 | 1500059957 | 1500059958 |
 
-Retired specialist assets: Diocles item/buff `1500050043/1500050044`; Maecenas `1500050046/1500050047`; Varro `1500050048/1500050049`; Columella `2001000100/2001000101`; Lucius `1500050019/1500050020`; Agrippa `1500050040/1500050041`; Cornelia `1500050007/1500050008`; Julia `2001000097/2001000098`; Cassius `1500050025/1500050026`; Marius `1500050034/1500050035`; Appius `1500050037/1500050038`. Do not reuse retired GUIDs for a different specialist.
+Retired specialist assets: Diocles item/buff `1500050043/1500050044`; Maecenas `1500050046/1500050047`; Varro `1500050048/1500050049`; Columella `2001000100/2001000101`; Lucius `1500050019/1500050020`; Agrippa `1500050040/1500050041`; Cornelia `1500050007/1500050008`; Julia `2001000097/2001000098`; Cassius `1500050025/1500050026`; Marius `1500050034/1500050035`; Appius `1500050037/1500050038`. Do not reuse retired GUIDs for a different specialist. Lucius and Agrippa are active again as regional workforce specialists with new GUIDs; their retired GUIDs (the old production-building workforce items) stay retired.
+
+## Regional Workforce Specialists
+
+Each specialist is an `ItemWithBoost` item with `Radius` scope. Its buff adds the region's workforce GUIDs through `BuildingUpgrade/AdditionalWorkforces`, and it targets only that region's residences. Together the three cover each of the 14 residence assets and 14 workforce GUIDs exactly once.
+
+| Specialist | Region | Residence targets | Workforce GUIDs |
+| --- | --- | --- | --- |
+| Gracchus Gaius | Latium | 3087, 3141, 3142, 3145 | 2181, 2184, 2185, 2186 |
+| Gracchus Lucius | Albion | 6414, 6471, 6472, 6475, 6514 | 2192, 2196, 2197, 2198, 2199 |
+| Gracchus Agrippa | Aegyptus | 149684, 150584, 150585, 150586, 150587 | 149685, 150543, 150544, 150545, 150546 |
+
+Aegyptus workforce names and tiers remain provisional (see Aegyptus Residents and Workforce). Evidence status: structure validated offline; the previous all-region Gaius used the same mechanism, so in-game behavior per region is expected to match but is not re-verified.
 
 ## Regional Fertility Specialists
 

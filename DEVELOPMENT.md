@@ -82,7 +82,7 @@ Follow semantic versioning (MAJOR.MINOR.PATCH):
 
 ## Current Specialists
 
-All 10 active items use Gracchus names. Each costs 99 Denarii and appears in the trader pool and Legacy Chest.
+All 12 active items use Gracchus names. Each costs 99 Denarii and appears in the trader pool and Legacy Chest.
 
 | Specialist | Role | Fixed Effect |
 |------------|------|--------------|
@@ -90,7 +90,9 @@ All 10 active items use Gracchus names. Each costs 99 Denarii and appears in the
 | Gracchus Fulvia | Production tier 2 | +250% productivity, +150% loading |
 | Gracchus Crassus | Production tier 3 | +450% productivity, +150% loading |
 | Gracchus Scipio | All residences | +5 population, +15 happiness, +10 to five other attributes |
-| Gracchus Gaius | All residences | Adds all known regional workforce tiers to residences in radius |
+| Gracchus Gaius | Latium workforce | Adds all Latium workforce tiers to Latium residences in radius |
+| Gracchus Lucius | Albion workforce | Adds all Albion workforce tiers to Albion residences in radius |
+| Gracchus Agrippa | Aegyptus workforce | Adds all Aegyptus workforce tiers to Aegyptus residences in radius |
 | Gracchus Marcellus | Recruitment buildings | -75% recruitment cost, +300% recruitment speed, and broad unit upgrades |
 | Gracchus Duilius | Ship captain | Retained heavy-warship buffs |
 | Gracchus Latinus | Latium fertility | All 14 Latium fertilities and lodes on the island |
@@ -328,12 +330,12 @@ Feel free to fork and extend this mod! This README contains comprehensive guidan
 - **Targets:** 38370 (All Production Buildings)
 - **Icon:** icon_3d_roman_male_002.png
 
-#### 2. Gracchus Gaius - All-Residence Workforce Master
-- **GUIDs:** Item 1500050004; buff 1500050005; text IDs 1500059902, 1500050005, 1500059903
-- **Effect:** Adds all 14 known regional workforce types to nearby residences
+#### 2. Gracchus Gaius, Lucius, Agrippa - Regional Workforce Masters
+- **GUIDs:** Gaius item 1500050004, buff 1500050005; Lucius item 1500050120, buff 1500050121; Agrippa item 1500050122, buff 1500050123 (text IDs in [references/guid.md](references/guid.md))
+- **Effect:** Each adds its region's workforce types (Latium 4, Albion 5, Aegyptus 5) to that region's residences in radius
 - **Template:** ItemWithBoost
 - **Scope:** Radius
-- **Targets:** 14 residence assets across Latium, Albion, and Aegyptus
+- **Targets:** The region's residence assets (Latium 4, Albion 5, Aegyptus 5); together they cover all 14 once
 - **Icon:** icon_3d_roman_male_027.png
 
 #### 3. Gracchus Cornelia - Workshop Master

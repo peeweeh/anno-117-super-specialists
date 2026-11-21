@@ -2,9 +2,9 @@
 <ModOps>
 
   <!-- ================================================================
-      SUPER SPECIALISTS MOD - 10 Gracchus Specialists
+      SUPER SPECIALISTS MOD - 12 Gracchus Specialists
        All purchaseable from traders (GUIDs 43018,43021,43019,43020)
-      Total Cost: 990 Denarii (10 specialists × 99 each)
+      Total Cost: 1188 Denarii (12 specialists × 99 each)
        ================================================================ -->
 
   <!-- ================================================================
@@ -47,14 +47,14 @@
     </Asset>
   </ModOp>
 
-  <!-- Gracchus Gaius Item GUID 1500050004; Buff GUID 1500050005; all-region residence workforce specialist. -->
+  <!-- Gracchus Gaius Item GUID 1500050004; Buff GUID 1500050005; Latium residence workforce specialist. -->
   <ModOp GUID="41350" Type="addNextSibling">
     <Asset>
       <Template>ItemWithBoost</Template>
       <Values>
         <Standard><GUID>1500050004</GUID><Name>Gracchus Gaius</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_027.png</IconFilename><InfoDescription>1500050005</InfoDescription></Standard>
         <Text><LocaText><English><Text>Specialist</Text><Status>Exported</Status><ExportCount>1</ExportCount></English></LocaText><OasisId>1500059902</OasisId></Text>
-        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>1500050005</GUID></Item></Buffs><Targets><!-- Latium residences 3087, 3141, 3142, 3145; Albion 6414, 6471, 6472, 6475, 6514; Aegyptus 149684, 150584, 150585, 150586, 150587 --><Item><GUID>3087</GUID></Item><Item><GUID>3141</GUID></Item><Item><GUID>3142</GUID></Item><Item><GUID>3145</GUID></Item><Item><GUID>6414</GUID></Item><Item><GUID>6471</GUID></Item><Item><GUID>6472</GUID></Item><Item><GUID>6475</GUID></Item><Item><GUID>6514</GUID></Item><Item><GUID>149684</GUID></Item><Item><GUID>150584</GUID></Item><Item><GUID>150585</GUID></Item><Item><GUID>150586</GUID></Item><Item><GUID>150587</GUID></Item></Targets></Effect>
+        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>1500050005</GUID></Item></Buffs><Targets><!-- Latium residences 3087, 3141, 3142, 3145 --><Item><GUID>3087</GUID></Item><Item><GUID>3141</GUID></Item><Item><GUID>3142</GUID></Item><Item><GUID>3145</GUID></Item></Targets></Effect>
         <Item><MaxStackSize>20</MaxStackSize><Rarity>Legendary</Rarity><ItemType>Specialist</ItemType><Allocation>GuildHouse</Allocation><TradePrice>99</TradePrice><TradePriceOnlineCurrency>99</TradePriceOnlineCurrency><Niche>Civic</Niche></Item>
         <Locked><DefaultLockedState>0</DefaultLockedState></Locked>
         <ItemWithBoost><BoostBuffs><Item><GUID>1500050005</GUID></Item></BoostBuffs><BoostHint>-6903508852426753616</BoostHint></ItemWithBoost>
@@ -62,7 +62,7 @@
     </Asset>
   </ModOp>
 
-  <!-- Gracchus Gaius Buff GUID 1500050005; supplies all 14 known regional workforces to residences. -->
+  <!-- Gracchus Gaius Buff GUID 1500050005; supplies the 4 Latium workforces to Latium residences. -->
   <ModOp Type="addNextSibling" GUID="41350">
     <Asset>
       <Template>BuildingBuff</Template>
@@ -71,10 +71,66 @@
         <Buff><SourceCategory>Item</SourceCategory></Buff>
         <Text><OasisId>1500059903</OasisId></Text>
         
-      <BuildingUpgrade><AdditionalWorkforces><!-- Latium: 2181, 2184, 2185, 2186; Albion: 2192, 2196-2199; Aegyptus: 149685, 150543-150546 --><Item><WorkforceGUID>2181</WorkforceGUID></Item><Item><WorkforceGUID>2184</WorkforceGUID></Item><Item><WorkforceGUID>2185</WorkforceGUID></Item><Item><WorkforceGUID>2186</WorkforceGUID></Item><Item><WorkforceGUID>2192</WorkforceGUID></Item><Item><WorkforceGUID>2196</WorkforceGUID></Item><Item><WorkforceGUID>2197</WorkforceGUID></Item><Item><WorkforceGUID>2198</WorkforceGUID></Item><Item><WorkforceGUID>2199</WorkforceGUID></Item><Item><WorkforceGUID>149685</WorkforceGUID></Item><Item><WorkforceGUID>150543</WorkforceGUID></Item><Item><WorkforceGUID>150544</WorkforceGUID></Item><Item><WorkforceGUID>150545</WorkforceGUID></Item><Item><WorkforceGUID>150546</WorkforceGUID></Item></AdditionalWorkforces></BuildingUpgrade></Values>
+      <BuildingUpgrade><AdditionalWorkforces><!-- Latium: 2181, 2184, 2185, 2186 --><Item><WorkforceGUID>2181</WorkforceGUID></Item><Item><WorkforceGUID>2184</WorkforceGUID></Item><Item><WorkforceGUID>2185</WorkforceGUID></Item><Item><WorkforceGUID>2186</WorkforceGUID></Item></AdditionalWorkforces></BuildingUpgrade></Values>
     </Asset>
   </ModOp>
 
+
+  <!-- Gracchus Lucius Item GUID 1500050120; Buff GUID 1500050121; Albion residence workforce specialist. -->
+  <ModOp GUID="41350" Type="addNextSibling">
+    <Asset>
+      <Template>ItemWithBoost</Template>
+      <Values>
+        <Standard><GUID>1500050120</GUID><Name>Gracchus Lucius</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_033.png</IconFilename><InfoDescription>1500050121</InfoDescription></Standard>
+        <Text><LocaText><English><Text>Specialist</Text><Status>Exported</Status><ExportCount>1</ExportCount></English></LocaText><OasisId>1500059959</OasisId></Text>
+        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>1500050121</GUID></Item></Buffs><Targets><!-- Albion residences 6414, 6471, 6472, 6475, 6514 --><Item><GUID>6414</GUID></Item><Item><GUID>6471</GUID></Item><Item><GUID>6472</GUID></Item><Item><GUID>6475</GUID></Item><Item><GUID>6514</GUID></Item></Targets></Effect>
+        <Item><MaxStackSize>20</MaxStackSize><Rarity>Legendary</Rarity><ItemType>Specialist</ItemType><Allocation>GuildHouse</Allocation><TradePrice>99</TradePrice><TradePriceOnlineCurrency>99</TradePriceOnlineCurrency><Niche>Civic</Niche></Item>
+        <Locked><DefaultLockedState>0</DefaultLockedState></Locked>
+        <ItemWithBoost><BoostBuffs><Item><GUID>1500050121</GUID></Item></BoostBuffs><BoostHint>-6903508852426753616</BoostHint></ItemWithBoost>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Gracchus Lucius Buff GUID 1500050121; supplies the 5 Albion workforces to Albion residences. -->
+  <ModOp Type="addNextSibling" GUID="41350">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard><GUID>1500050121</GUID><Name>Gracchus Lucius Buff</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_033.png</IconFilename></Standard>
+        <Buff><SourceCategory>Item</SourceCategory></Buff>
+        <Text><OasisId>1500059960</OasisId></Text>
+        <BuildingUpgrade><AdditionalWorkforces><!-- Albion: 2192, 2196-2199 --><Item><WorkforceGUID>2192</WorkforceGUID></Item><Item><WorkforceGUID>2196</WorkforceGUID></Item><Item><WorkforceGUID>2197</WorkforceGUID></Item><Item><WorkforceGUID>2198</WorkforceGUID></Item><Item><WorkforceGUID>2199</WorkforceGUID></Item></AdditionalWorkforces></BuildingUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Gracchus Agrippa Item GUID 1500050122; Buff GUID 1500050123; Aegyptus residence workforce specialist. -->
+  <ModOp GUID="41350" Type="addNextSibling">
+    <Asset>
+      <Template>ItemWithBoost</Template>
+      <Values>
+        <Standard><GUID>1500050122</GUID><Name>Gracchus Agrippa</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_90.png</IconFilename><InfoDescription>1500050123</InfoDescription></Standard>
+        <Text><LocaText><English><Text>Specialist</Text><Status>Exported</Status><ExportCount>1</ExportCount></English></LocaText><OasisId>1500059961</OasisId></Text>
+        <Effect><EffectScope>Radius</EffectScope><Buffs><Item><GUID>1500050123</GUID></Item></Buffs><Targets><!-- Aegyptus residences 149684, 150584, 150585, 150586, 150587 --><Item><GUID>149684</GUID></Item><Item><GUID>150584</GUID></Item><Item><GUID>150585</GUID></Item><Item><GUID>150586</GUID></Item><Item><GUID>150587</GUID></Item></Targets></Effect>
+        <Item><MaxStackSize>20</MaxStackSize><Rarity>Legendary</Rarity><ItemType>Specialist</ItemType><Allocation>GuildHouse</Allocation><TradePrice>99</TradePrice><TradePriceOnlineCurrency>99</TradePriceOnlineCurrency><Niche>Civic</Niche></Item>
+        <Locked><DefaultLockedState>0</DefaultLockedState></Locked>
+        <ItemWithBoost><BoostBuffs><Item><GUID>1500050123</GUID></Item></BoostBuffs><BoostHint>-6903508852426753616</BoostHint></ItemWithBoost>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Gracchus Agrippa Buff GUID 1500050123; supplies the 5 Aegyptus workforces to Aegyptus residences (tier mapping provisional). -->
+  <ModOp Type="addNextSibling" GUID="41350">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard><GUID>1500050123</GUID><Name>Gracchus Agrippa Buff</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_90.png</IconFilename></Standard>
+        <Buff><SourceCategory>Item</SourceCategory></Buff>
+        <Text><OasisId>1500059962</OasisId></Text>
+        <BuildingUpgrade><AdditionalWorkforces><!-- Aegyptus: 149685, 150543-150546 --><Item><WorkforceGUID>149685</WorkforceGUID></Item><Item><WorkforceGUID>150543</WorkforceGUID></Item><Item><WorkforceGUID>150544</WorkforceGUID></Item><Item><WorkforceGUID>150545</WorkforceGUID></Item><Item><WorkforceGUID>150546</WorkforceGUID></Item></AdditionalWorkforces></BuildingUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
 
   <!-- GRACCHUS SCIPIO - All Regional Residences (Item/Buff 1500050010/1500050011; targets 14 residence assets) -->
 
@@ -502,7 +558,7 @@
 
   <!-- TRADER POOLS: Roman 43018, 43021, 43019, 43020; Aegyptus candidate pools 153068, 153070 (unverified). -->
 
-  <ModOp Type="add" GUID="43018,43021,43019,43020,153068,153070" Path="/Values/RewardPool/ItemsPool"><Item><ItemLink>1500050001</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050004</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050010</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050013</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050016</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050031</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050055</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050060</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050080</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050100</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item></ModOp>
+  <ModOp Type="add" GUID="43018,43021,43019,43020,153068,153070" Path="/Values/RewardPool/ItemsPool"><Item><ItemLink>1500050001</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050004</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050010</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050013</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050016</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050031</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050055</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050060</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050080</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050100</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050120</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050122</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item></ModOp>
 
 <!-- Trader slot GUIDs: Diana 32777, Procurator Corvinus 27124, Valeria 32778, Manx 27079, Heron 153067, Kandis 153069. -->
 <ModOp Type="replace" GUID="32777,27124,32778,27079,153067,153069" Path="/Values/Trader/ItemSlotUnlocks">
@@ -532,7 +588,7 @@
 </ItemSlotUnlocks>
 </ModOp>
 
-  <!-- GRACCHI LEGACY CHEST - Item GUID 1500050050; text GUID 1500059936; start trigger GUID 1500050052; grants all 10 active Gracchus items. -->
+  <!-- GRACCHI LEGACY CHEST - Item GUID 1500050050; text GUID 1500059936; start trigger GUID 1500050052; grants all 12 active Gracchus items. -->
 
   <ModOp GUID="41350" Type="addNextSibling">
     <Asset>
@@ -586,7 +642,7 @@
                         </ActionAddGoodsToItemContainer>
                       </Values>
                     </Action>
-                  </Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050001</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050004</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050010</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050013</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050016</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050031</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050055</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050060</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050080</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050100</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item></Actions>
+                  </Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050001</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050004</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050010</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050013</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050016</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050031</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050055</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050060</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050080</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050100</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050120</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050122</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item></Actions>
               </ActionList>
             </Values>
           </ItemActions>

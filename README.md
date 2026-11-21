@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Me-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/mrfixit027)
 
-Overpowered specialists for Anno 117: Pax Romana, all bearing the Gracchus name. The 7-item roster includes one all-residence stat specialist and one all-residence workforce specialist, plus production, army, and ship specialists. It is sold by traders and granted by the Gracchi Legacy Chest.
+Overpowered specialists for Anno 117: Pax Romana, all bearing the Gracchus name. The 12-item roster includes one all-residence stat specialist, a residence workforce specialist and a fertility specialist for each region, plus production, army, and ship specialists. It is sold by traders and granted by the Gracchi Legacy Chest.
 
 ## 📋 Table of Contents
 - [Features](#-features)
@@ -18,7 +18,7 @@ Overpowered specialists for Anno 117: Pax Romana, all bearing the Gracchus name.
 
 ## ✨ Features
 
-- **10 Gracchus Specialists** - One all-residence stat specialist, one all-residence workforce specialist, three production tiers, an army master, a ship captain, and a fertility specialist for each region
+- **12 Gracchus Specialists** - One all-residence stat specialist, a residence workforce specialist for each region, three production tiers, an army master, a ship captain, and a fertility specialist for each region
 - **99 Denarii Each** - Purchasable from traders or granted by the
   **Gracchi Legacy Chest** (auto-granted at game start)
 - **Materials Care Package** - One-use chest with 100 of each of the 13 Construction Materials
@@ -55,18 +55,20 @@ All specialists follow the **lastname firstname** naming convention (e.g., "Grac
 | **Gracchus Fulvia** | Production tier 2 | +250% productivity; +150% warehouse and trading-post loading |
 | **Gracchus Crassus** | Production tier 3 | +450% productivity; +150% warehouse and trading-post loading |
 | **Gracchus Scipio** | All residences | +5 population, +15 happiness, +10 health, fire safety, knowledge, belief, and prestige |
-| **Gracchus Gaius** | All residences | Supplies all known regional workforce tiers to residences within radius |
+| **Gracchus Gaius** | Latium workforce | Supplies all Latium workforce tiers to Latium residences within radius |
+| **Gracchus Lucius** | Albion workforce | Supplies all Albion workforce tiers to Albion residences within radius |
+| **Gracchus Agrippa** | Aegyptus workforce | Supplies all Aegyptus workforce tiers to Aegyptus residences within radius |
 | **Gracchus Marcellus** | Army recruitment | -75% recruitment cost, +300% recruitment speed; +100% troop health, morale, and movement; +100 offense, defense, armor, shields, and attack speed |
 | **Gracchus Duilius** | Ships | +300% speed and attack speed, +5000 hull, +9 cargo, +100 discovery, -75% maintenance |
 | **Gracchus Latinus** | Latium fertility | Gives the island all 14 Latium fertilities and lodes at 100% |
 | **Gracchus Britannicus** | Albion fertility | Gives the island all 15 Albion fertilities and lodes at 100% |
 | **Gracchus Aegyptius** | Aegyptus fertility | Gives the island all 15 Aegyptus fertilities and lodes at 100% |
 
-Scipio adds +5 population, +15 happiness, and +10 health, fire safety, knowledge, belief, and prestige to all 14 residence types. Gaius supplies the regional workforce tiers.
+Scipio adds +5 population, +15 happiness, and +10 health, fire safety, knowledge, belief, and prestige to all 14 residence types. Gaius, Lucius, and Agrippa supply the workforce tiers of Latium, Albion, and Aegyptus to that region's residences.
 
 The fertility specialists work island-wide: equip one on an island to give that island every fertility and lode of its region at 100%. Other islands are unaffected. They add fertility to the buildings that need it; the island's own fertility list does not change, and mines and quarries still need their mountain slots.
 
-**Total Cost:** 990 Denarii (10 specialists × 99 each)
+**Total Cost:** 1188 Denarii (12 specialists × 99 each)
 
 ### Historical Context
 
@@ -79,6 +81,8 @@ Each specialist is named after a real Roman historical figure:
 - **Gaius Duilius** (c. 260 BC) - First Roman admiral with major naval victory
 - **Marcellus** - Marcus Claudius Marcellus, Roman general known for campaigning against Carthage
 - **Crassus** - Marcus Licinius Crassus (115-53 BC), wealthiest man in Rome who subsidizes your housing costs
+- **Lucius** - Lucius Licinius Lucullus (118-56 BC), wealthy Roman general and administrator
+- **Agrippa** - Marcus Vipsanius Agrippa (63-12 BC), general and public builder under Augustus
 - **Latinus, Britannicus, Aegyptius** - Roman epithets meaning "of Latium", "of Britain", and "of Egypt"; each grants the fertilities of the matching region
 
 ## 🎮 Usage
@@ -89,7 +93,7 @@ Each specialist is named after a real Roman historical figure:
 
 ### 🎁 Gracchi Legacy Chest
 
-The Legacy Chest is auto-granted once at game start and contains all 10 specialists plus 75 each of
+The Legacy Chest is auto-granted once at game start and contains all 12 specialists plus 75 each of
 Timber, Tiles, Concrete, Marble, Mosaics, Wattle & Daub, and Granite. The trader purchase option still
 works independently if you'd rather buy specialists one at a time.
 
@@ -218,7 +222,7 @@ When uploading to mod.io, use these details:
 
 **Name:** Super Specialists
 
-**Summary:** 10 Gracchus specialists for three regions, including an all-residence workforce and stat pair, an army master, and a fertility specialist per region, with a one-use materials chest.
+**Summary:** 12 Gracchus specialists for three regions, including a workforce and a fertility specialist per region, an all-residence stat specialist, and an army master, with a one-use materials chest.
 
 **Description:**
 ```html
@@ -227,7 +231,7 @@ When uploading to mod.io, use these details:
 
 <hr />
 
-<p>10 Gracchus specialists across Latium, Albion, and Aegyptus: Scipio buffs all residences, Gaius supplies regional workforces, Marcellus streamlines and strengthens army recruitment, and Latinus, Britannicus, and Aegyptius give an island every fertility of their region. A separate one-use chest grants 100 of each Construction Material. Each specialist costs 99 Denarii.</p>
+<p>12 Gracchus specialists across Latium, Albion, and Aegyptus: Scipio buffs all residences, Gaius, Lucius, and Agrippa supply each region's workforces, Marcellus streamlines and strengthens army recruitment, and Latinus, Britannicus, and Aegyptius give an island every fertility of their region. A separate one-use chest grants 100 of each Construction Material. Each specialist costs 99 Denarii.</p>
 
 <h3>🎭 THE SPECIALISTS (99 Denarii each)</h3>
 
@@ -236,7 +240,9 @@ When uploading to mod.io, use these details:
 <li><strong>Gracchus Fulvia</strong> - +250% production, +150% warehouse and trading-post loading</li>
 <li><strong>Gracchus Crassus</strong> - +450% production, +150% warehouse and trading-post loading</li>
 <li><strong>Gracchus Scipio</strong> - +5 population, +15 happiness, and +10 to five residence attributes across all 14 residence types</li>
-<li><strong>Gracchus Gaius</strong> - Adds all known regional workforce tiers to nearby residences</li>
+<li><strong>Gracchus Gaius</strong> - Adds all Latium workforce tiers to nearby Latium residences</li>
+<li><strong>Gracchus Lucius</strong> - Adds all Albion workforce tiers to nearby Albion residences</li>
+<li><strong>Gracchus Agrippa</strong> - Adds all Aegyptus workforce tiers to nearby Aegyptus residences</li>
 <li><strong>Gracchus Marcellus</strong> - -75% troop recruitment cost, +300% recruitment speed, +100% troop health/morale/movement, and +100 offense/defense/armor/shields/attack speed</li>
 <li><strong>Gracchus Duilius</strong> - Ship captain for heavy Roman warships</li>
 <li><strong>Gracchus Latinus</strong> - Gives the island all 14 Latium fertilities and lodes</li>
@@ -244,13 +250,13 @@ When uploading to mod.io, use these details:
 <li><strong>Gracchus Aegyptius</strong> - Gives the island all 15 Aegyptus fertilities and lodes</li>
 </ul>
 
-<p>Scipio buffs all 14 residence types; Gaius supplies their regional workforce tiers.</p>
-<p><strong>Total Cost:</strong> 990 Denarii (10 × 99 each)</p>
+<p>Scipio buffs all 14 residence types; Gaius, Lucius, and Agrippa supply the workforce tiers of Latium, Albion, and Aegyptus.</p>
+<p><strong>Total Cost:</strong> 1188 Denarii (12 × 99 each)</p>
 
 <h3>✨ WHY THIS MOD ROCKS</h3>
 
 <ul>
-<li>10 Gracchus specialists across three regions, including a fertility specialist for each</li>
+<li>12 Gracchus specialists across three regions, including a workforce and a fertility specialist for each</li>
 <li>One care package chest with 100 of all 13 Construction Materials</li>
 <li>Fixed +100%, +250%, and +450% production variants</li>
 <li>+150% warehouse and trading-post loading on every production variant</li>

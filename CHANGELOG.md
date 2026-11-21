@@ -10,6 +10,7 @@ All notable changes to this project are documented here. This project follows Se
 - Added 30t of storage to each Granary and all normal warehouse tiers, including upgrades
 - Added Marcellus: -75% recruitment cost, +300% recruitment speed, +100% troop health/morale/movement, and +100 offense/defense/armor/shields/attack speed
 - Added Gracchus Latinus, Britannicus, and Aegyptius: each gives the island it is equipped on every fertility and lode of its region at 100% (Latium 14, Albion 15, Aegyptus 15); the active roster is now 10 specialists at 990 Denarii. In-game behavior is unverified
+- Split Gaius into three regional workforce specialists: Gaius (Latium), Lucius (Albion), and Agrippa (Aegyptus). Each supplies only its own region's workforces to that region's residences, and together they cover the same 14 residences and 14 workforces as before; the active roster is now 12 specialists at 1188 Denarii. Lucius and Agrippa use new GUIDs, and the retired GUIDs stay retired
 
 ## [2.1.0] - 2026-11-09
 - Added a separately auto-granted, one-use Materials Care Package chest with 100 of each of the 13 Construction Materials
