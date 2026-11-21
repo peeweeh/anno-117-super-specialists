@@ -1,0 +1,168 @@
+<ModOps>
+
+  <!-- ================================================================
+       REGIONAL FERTILITY SPECIALISTS
+       Equip one on an island to give that island every fertility and lode of its region at 100%.
+       Scope ObjectsInArea = the island only. AddedFertility holds a single fertility GUID,
+       so each item carries one buff per fertility and targets the region's fertility buildings.
+       Gracchus Latinus      item 1500050060; buffs 1500050061 to 1500050074; texts 1500059950 to 1500059952
+       Gracchus Britannicus  item 1500050080; buffs 1500050081 to 1500050095; texts 1500059953 to 1500059955
+       Gracchus Aegyptius    item 1500050100; buffs 1500050101 to 1500050115; texts 1500059956 to 1500059958
+       ================================================================ -->
+
+  <!-- Gracchus Latinus Item GUID 1500050060; Latium fertilities. -->
+  <ModOp GUID="41350" Type="addNextSibling">
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1500050060</GUID>
+          <Name>Gracchus Latinus</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename>
+          <InfoDescription>1500059951</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText><English><Text>Specialist</Text><Status>Exported</Status><ExportCount>1</ExportCount></English></LocaText>
+          <OasisId>1500059950</OasisId>
+        </Text>
+        <Effect>
+          <EffectScope>ObjectsInArea</EffectScope>
+          <Buffs>
+            <Item><GUID>1500050061</GUID></Item><Item><GUID>1500050062</GUID></Item><Item><GUID>1500050063</GUID></Item><Item><GUID>1500050064</GUID></Item><Item><GUID>1500050065</GUID></Item><Item><GUID>1500050066</GUID></Item><Item><GUID>1500050067</GUID></Item>
+            <Item><GUID>1500050068</GUID></Item><Item><GUID>1500050069</GUID></Item><Item><GUID>1500050070</GUID></Item><Item><GUID>1500050071</GUID></Item><Item><GUID>1500050072</GUID></Item><Item><GUID>1500050073</GUID></Item><Item><GUID>1500050074</GUID></Item>
+          </Buffs>
+          <Targets>
+            <!-- Flax 2669; Grapes 2694, 23723; Mackerel 2956; Oysters 8586; Lavender 2698; Olives 2699; Iron 2918, 5982; Murex 8580; Sandarac 8579; Minerals 2920; Marble 2954; Sturgeon 2971; Gold 31753, 50280; Resin 31752, 31761 -->
+            <Item><GUID>2669</GUID></Item><Item><GUID>2694</GUID></Item><Item><GUID>23723</GUID></Item><Item><GUID>2956</GUID></Item><Item><GUID>8586</GUID></Item><Item><GUID>2698</GUID></Item>
+            <Item><GUID>2699</GUID></Item><Item><GUID>2918</GUID></Item><Item><GUID>5982</GUID></Item><Item><GUID>8580</GUID></Item><Item><GUID>8579</GUID></Item><Item><GUID>2920</GUID></Item>
+            <Item><GUID>2954</GUID></Item><Item><GUID>2971</GUID></Item><Item><GUID>31753</GUID></Item><Item><GUID>50280</GUID></Item><Item><GUID>31752</GUID></Item><Item><GUID>31761</GUID></Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Item><MaxStackSize>20</MaxStackSize><Rarity>Legendary</Rarity><ItemType>Specialist</ItemType><Allocation>GuildHouse</Allocation><TradePrice>99</TradePrice><TradePriceOnlineCurrency>99</TradePriceOnlineCurrency><Niche>Agriculture</Niche></Item>
+        <Locked><DefaultLockedState>0</DefaultLockedState></Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Gracchus Latinus Buffs 1500050061 to 1500050074; label text 1500059952. -->
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050061</GUID><Name>Gracchus Latinus Fertility Flax</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>2202</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050062</GUID><Name>Gracchus Latinus Fertility Grapes</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>2205</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050063</GUID><Name>Gracchus Latinus Fertility Mackerel</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>2206</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050064</GUID><Name>Gracchus Latinus Fertility Oysters</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>2208</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050065</GUID><Name>Gracchus Latinus Fertility Lavender</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>2209</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050066</GUID><Name>Gracchus Latinus Fertility Olives</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>2210</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050067</GUID><Name>Gracchus Latinus Fertility Iron Ore</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>4049</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050068</GUID><Name>Gracchus Latinus Fertility Murex Snails</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>4051</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050069</GUID><Name>Gracchus Latinus Fertility Sandarac</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>4052</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050070</GUID><Name>Gracchus Latinus Fertility Minerals</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>4053</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050071</GUID><Name>Gracchus Latinus Fertility Marble</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>4062</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050072</GUID><Name>Gracchus Latinus Fertility Sturgeon</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>8577</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050073</GUID><Name>Gracchus Latinus Fertility Gold Ore</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>32027</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050074</GUID><Name>Gracchus Latinus Fertility Resin</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_011.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059952</OasisId></Text><FactoryUpgrade><AddedFertility>51212</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+
+  <!-- Gracchus Britannicus Item GUID 1500050080; Albion fertilities. -->
+  <ModOp GUID="41350" Type="addNextSibling">
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1500050080</GUID>
+          <Name>Gracchus Britannicus</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename>
+          <InfoDescription>1500059954</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText><English><Text>Specialist</Text><Status>Exported</Status><ExportCount>1</ExportCount></English></LocaText>
+          <OasisId>1500059953</OasisId>
+        </Text>
+        <Effect>
+          <EffectScope>ObjectsInArea</EffectScope>
+          <Buffs>
+            <Item><GUID>1500050081</GUID></Item><Item><GUID>1500050082</GUID></Item><Item><GUID>1500050083</GUID></Item><Item><GUID>1500050084</GUID></Item><Item><GUID>1500050085</GUID></Item><Item><GUID>1500050086</GUID></Item><Item><GUID>1500050087</GUID></Item><Item><GUID>1500050088</GUID></Item>
+            <Item><GUID>1500050089</GUID></Item><Item><GUID>1500050090</GUID></Item><Item><GUID>1500050091</GUID></Item><Item><GUID>1500050092</GUID></Item><Item><GUID>1500050093</GUID></Item><Item><GUID>1500050094</GUID></Item><Item><GUID>1500050095</GUID></Item>
+          </Buffs>
+          <Targets>
+            <!-- Flax 5971; Ponies 5975; Barley 2799; Herbs 31764; Dye Plants 2800; Saltwort 2796; Small Birds 5851; Iron 5982; Copper 5290; Tin 5291; Granite 5295; Beaver 31759; Sea Shells 8431; Silver 5980; Resin 31761 -->
+            <Item><GUID>5971</GUID></Item><Item><GUID>5975</GUID></Item><Item><GUID>2799</GUID></Item><Item><GUID>31764</GUID></Item><Item><GUID>2800</GUID></Item>
+            <Item><GUID>2796</GUID></Item><Item><GUID>5851</GUID></Item><Item><GUID>5982</GUID></Item><Item><GUID>5290</GUID></Item><Item><GUID>5291</GUID></Item>
+            <Item><GUID>5295</GUID></Item><Item><GUID>31759</GUID></Item><Item><GUID>8431</GUID></Item><Item><GUID>5980</GUID></Item><Item><GUID>31761</GUID></Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Item><MaxStackSize>20</MaxStackSize><Rarity>Legendary</Rarity><ItemType>Specialist</ItemType><Allocation>GuildHouse</Allocation><TradePrice>99</TradePrice><TradePriceOnlineCurrency>99</TradePriceOnlineCurrency><Niche>Agriculture</Niche></Item>
+        <Locked><DefaultLockedState>0</DefaultLockedState></Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Gracchus Britannicus Buffs 1500050081 to 1500050095; label text 1500059955. -->
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050081</GUID><Name>Gracchus Britannicus Fertility Flax</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>2202</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050082</GUID><Name>Gracchus Britannicus Fertility Ponies</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>2211</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050083</GUID><Name>Gracchus Britannicus Fertility Barley</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>2212</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050084</GUID><Name>Gracchus Britannicus Fertility Herbs</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>2214</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050085</GUID><Name>Gracchus Britannicus Fertility Dye Plants</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>2217</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050086</GUID><Name>Gracchus Britannicus Fertility Saltwort</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>2218</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050087</GUID><Name>Gracchus Britannicus Fertility Small Birds</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>2219</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050088</GUID><Name>Gracchus Britannicus Fertility Iron Ore</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>4049</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050089</GUID><Name>Gracchus Britannicus Fertility Copper Ore</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>4063</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050090</GUID><Name>Gracchus Britannicus Fertility Tin Ore</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>4064</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050091</GUID><Name>Gracchus Britannicus Fertility Granite</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>4066</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050092</GUID><Name>Gracchus Britannicus Fertility Beaver</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>4082</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050093</GUID><Name>Gracchus Britannicus Fertility Sea Shells</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>8432</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050094</GUID><Name>Gracchus Britannicus Fertility Silver Ore</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>8487</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050095</GUID><Name>Gracchus Britannicus Fertility Resin</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/celtic_male/icon_3d_celtic_male_001.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059955</OasisId></Text><FactoryUpgrade><AddedFertility>51212</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+
+  <!-- Gracchus Aegyptius Item GUID 1500050100; Aegyptus fertilities (Dawn of the Delta). -->
+  <ModOp GUID="41350" Type="addNextSibling">
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1500050100</GUID>
+          <Name>Gracchus Aegyptius</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename>
+          <InfoDescription>1500059957</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText><English><Text>Specialist</Text><Status>Exported</Status><ExportCount>1</ExportCount></English></LocaText>
+          <OasisId>1500059956</OasisId>
+        </Text>
+        <Effect>
+          <EffectScope>ObjectsInArea</EffectScope>
+          <Buffs>
+            <Item><GUID>1500050101</GUID></Item><Item><GUID>1500050102</GUID></Item><Item><GUID>1500050103</GUID></Item><Item><GUID>1500050104</GUID></Item><Item><GUID>1500050105</GUID></Item><Item><GUID>1500050106</GUID></Item><Item><GUID>1500050107</GUID></Item><Item><GUID>1500050108</GUID></Item>
+            <Item><GUID>1500050109</GUID></Item><Item><GUID>1500050110</GUID></Item><Item><GUID>1500050111</GUID></Item><Item><GUID>1500050112</GUID></Item><Item><GUID>1500050113</GUID></Item><Item><GUID>1500050114</GUID></Item><Item><GUID>1500050115</GUID></Item>
+          </Buffs>
+          <Targets>
+            <!-- Flax 152142, 155405; Grapes 152141; Lavender 152152; Olives 152153; Barley 151993, 155404; Iron 152243; Minerals 152247; Copper 152006; Tin 152005; Granite 152007; Sesame 151994, 155406; Blue Lotus 152107; Hippos 152000; Pomegranates 152145; Gold 152204, 152249 -->
+            <Item><GUID>152142</GUID></Item><Item><GUID>155405</GUID></Item><Item><GUID>152141</GUID></Item><Item><GUID>152152</GUID></Item><Item><GUID>152153</GUID></Item><Item><GUID>151993</GUID></Item><Item><GUID>155404</GUID></Item>
+            <Item><GUID>152243</GUID></Item><Item><GUID>152247</GUID></Item><Item><GUID>152006</GUID></Item><Item><GUID>152005</GUID></Item><Item><GUID>152007</GUID></Item><Item><GUID>151994</GUID></Item><Item><GUID>155406</GUID></Item>
+            <Item><GUID>152107</GUID></Item><Item><GUID>152000</GUID></Item><Item><GUID>152145</GUID></Item><Item><GUID>152204</GUID></Item><Item><GUID>152249</GUID></Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Item><MaxStackSize>20</MaxStackSize><Rarity>Legendary</Rarity><ItemType>Specialist</ItemType><Allocation>GuildHouse</Allocation><TradePrice>99</TradePrice><TradePriceOnlineCurrency>99</TradePriceOnlineCurrency><Niche>Agriculture</Niche></Item>
+        <Locked><DefaultLockedState>0</DefaultLockedState></Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Gracchus Aegyptius Buffs 1500050101 to 1500050115; label text 1500059958. -->
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050101</GUID><Name>Gracchus Aegyptius Fertility Flax</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>2202</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050102</GUID><Name>Gracchus Aegyptius Fertility Grapes</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>2205</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050103</GUID><Name>Gracchus Aegyptius Fertility Lavender</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>2209</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050104</GUID><Name>Gracchus Aegyptius Fertility Olives</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>2210</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050105</GUID><Name>Gracchus Aegyptius Fertility Barley</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>2212</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050106</GUID><Name>Gracchus Aegyptius Fertility Iron Ore</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>4049</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050107</GUID><Name>Gracchus Aegyptius Fertility Minerals</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>4053</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050108</GUID><Name>Gracchus Aegyptius Fertility Copper Ore</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>4063</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050109</GUID><Name>Gracchus Aegyptius Fertility Tin Ore</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>4064</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050110</GUID><Name>Gracchus Aegyptius Fertility Granite</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>4066</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050111</GUID><Name>Gracchus Aegyptius Fertility Sesame</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>149818</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050112</GUID><Name>Gracchus Aegyptius Fertility Blue Lotus</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>149819</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050113</GUID><Name>Gracchus Aegyptius Fertility Hippos</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>149820</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050114</GUID><Name>Gracchus Aegyptius Fertility Pomegranates</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>150477</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="41350"><Asset><Template>BuildingBuff</Template><Values><Standard><GUID>1500050115</GUID><Name>Gracchus Aegyptius Fertility Gold Ore</Name><IconFilename>data/ui/fhd/base/icon_content/items_specialist/roman_female/icon_3d_roman_female_010.png</IconFilename></Standard><Buff><SourceCategory>Item</SourceCategory></Buff><Text><OasisId>1500059958</OasisId></Text><FactoryUpgrade><AddedFertility>150506</AddedFertility></FactoryUpgrade></Values></Asset></ModOp>
+
+</ModOps>

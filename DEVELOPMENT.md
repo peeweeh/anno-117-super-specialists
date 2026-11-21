@@ -82,7 +82,7 @@ Follow semantic versioning (MAJOR.MINOR.PATCH):
 
 ## Current Specialists
 
-All 7 active items use Gracchus names. Each costs 99 Denarii and appears in the trader pool and Legacy Chest.
+All 10 active items use Gracchus names. Each costs 99 Denarii and appears in the trader pool and Legacy Chest.
 
 | Specialist | Role | Fixed Effect |
 |------------|------|--------------|
@@ -93,8 +93,18 @@ All 7 active items use Gracchus names. Each costs 99 Denarii and appears in the 
 | Gracchus Gaius | All residences | Adds all known regional workforce tiers to residences in radius |
 | Gracchus Marcellus | Recruitment buildings | -75% recruitment cost, +300% recruitment speed, and broad unit upgrades |
 | Gracchus Duilius | Ship captain | Retained heavy-warship buffs |
+| Gracchus Latinus | Latium fertility | All 14 Latium fertilities and lodes on the island |
+| Gracchus Britannicus | Albion fertility | All 15 Albion fertilities and lodes on the island |
+| Gracchus Aegyptius | Aegyptus fertility | All 15 Aegyptus fertilities and lodes on the island |
 
 See [references/guid.md](references/guid.md) for active GUIDs and target groups.
+
+### Regional Fertility Specialists
+
+- **Files**: items and buffs live in `data/base/config/export/fertility.include.xml`, pulled in by an `<Include>` line in `assets.xml`; texts are in `texts_english.xml`.
+- **Mechanism**: a `BuildingBuff` with `FactoryUpgrade/AddedFertility` holds one fertility GUID; omitting `FertilityPercent` gives 100%. Each item lists one buff per fertility and targets every fertility building of its region with `ObjectsInArea` (island only).
+- **Adding a fertility**: add a buff, append its GUID to the item's `Buffs`, append the building GUIDs to `Targets`, and update the table in [references/guid.md](references/guid.md).
+- **Unverified in game**: `ObjectsInArea` with `AddedFertility`, and many `AddedFertility` buffs stacking on one building. If a building honors only one of its buffs, fall back to one item per fertility group.
 
 ### Historical Context
 - **Tiberius Gracchus** (163-133 BC): Roman tribune who championed land reform for the common people
@@ -175,7 +185,8 @@ super-specialists/
 │   ├── base/
 │   │   └── config/
 │   │       ├── export/
-│   │       │   └── assets.xml      # Specialist definitions
+│   │       │   ├── assets.xml      # Specialist definitions
+│   │       │   └── fertility.include.xml # Regional fertility specialists
 │   │       └── gui/
 │   │           └── texts_english.xml # English localization
 │   └── graphics/       # (Reserved for custom graphics)

@@ -96,7 +96,7 @@ Construction Material goods granted by the Materials Care Package, 100 each: Tim
 
 ## Active Gracchus Roster GUIDs
 
-All active item display names use the `Gracchus` prefix. `Name LineId` is the item's displayed name; `Description LineId` is the buff GUID; `Buff-name LineId` is the active buff label.
+All active item display names use the `Gracchus` prefix. `Name LineId` is the item's displayed name; `Description LineId` is the buff GUID, except for the fertility specialists, which have dedicated description LineIds; `Buff-name LineId` is the active buff label.
 
 | Role | Display name | Item GUID | Buff GUID | Name LineId | Description LineId | Buff-name LineId |
 |---|---|---:|---:|---:|---:|---:|
@@ -107,8 +107,53 @@ All active item display names use the `Gracchus` prefix. `Name LineId` is the it
 | Production +250%, warehouse +150% | Gracchus Fulvia | 1500050013 | 1500050014 | 1500059908 | 1500050014 | 1500059909 |
 | Ship captain | Gracchus Duilius | 1500050016 | 1500050017 | 1500059910 | 1500050017 | 1500059911 |
 | Production +450%, warehouse +150% | Gracchus Crassus | 1500050031 | 1500050032 | 1500059924 | 1500050032 | 1500059925 |
+| Latium fertility | Gracchus Latinus | 1500050060 | 1500050061 to 1500050074 | 1500059950 | 1500059951 | 1500059952 |
+| Albion fertility | Gracchus Britannicus | 1500050080 | 1500050081 to 1500050095 | 1500059953 | 1500059954 | 1500059955 |
+| Aegyptus fertility | Gracchus Aegyptius | 1500050100 | 1500050101 to 1500050115 | 1500059956 | 1500059957 | 1500059958 |
 
 Retired specialist assets: Diocles item/buff `1500050043/1500050044`; Maecenas `1500050046/1500050047`; Varro `1500050048/1500050049`; Columella `2001000100/2001000101`; Lucius `1500050019/1500050020`; Agrippa `1500050040/1500050041`; Cornelia `1500050007/1500050008`; Julia `2001000097/2001000098`; Cassius `1500050025/1500050026`; Marius `1500050034/1500050035`; Appius `1500050037/1500050038`. Do not reuse retired GUIDs for a different specialist.
+
+## Regional Fertility Specialists
+
+Each specialist is an `ObjectsInArea` item (island only). Every buff adds one fertility through `FactoryUpgrade/AddedFertility`; omitting `FertilityPercent` gives the full 100%. The item applies all of its buffs to all of its target buildings, so one island receives the whole regional set. Definitions live in `data/base/config/export/fertility.include.xml`.
+
+Fertility and building GUID pairs were cross-checked against the published The Perfect Fertilities Pack (mod.io 5489605). Evidence status: structure and pairings validated offline; in-game behavior of `ObjectsInArea` with `AddedFertility`, and of many `AddedFertility` buffs stacking on one building, is unverified.
+
+| Fertility | Fertility GUID | Latinus (Latium): buff, buildings | Britannicus (Albion): buff, buildings | Aegyptius (Aegyptus): buff, buildings |
+| --- | ---: | --- | --- | --- |
+| Flax | 2202 | 1500050061: 2669 | 1500050081: 5971 | 1500050101: 152142, 155405 |
+| Grapes | 2205 | 1500050062: 2694, 23723 | none | 1500050102: 152141 |
+| Mackerel | 2206 | 1500050063: 2956 | none | none |
+| Oysters | 2208 | 1500050064: 8586 | none | none |
+| Lavender | 2209 | 1500050065: 2698 | none | 1500050103: 152152 |
+| Olives | 2210 | 1500050066: 2699 | none | 1500050104: 152153 |
+| Ponies | 2211 | none | 1500050082: 5975 | none |
+| Barley | 2212 | none | 1500050083: 2799 | 1500050105: 151993, 155404 |
+| Herbs | 2214 | none | 1500050084: 31764 | none |
+| Dye Plants | 2217 | none | 1500050085: 2800 | none |
+| Saltwort | 2218 | none | 1500050086: 2796 | none |
+| Small Birds | 2219 | none | 1500050087: 5851 | none |
+| Iron Ore | 4049 | 1500050067: 2918, 5982 | 1500050088: 5982 | 1500050106: 152243 |
+| Murex Snails | 4051 | 1500050068: 8580 | none | none |
+| Sandarac | 4052 | 1500050069: 8579 | none | none |
+| Minerals | 4053 | 1500050070: 2920 | none | 1500050107: 152247 |
+| Marble | 4062 | 1500050071: 2954 | none | none |
+| Copper Ore | 4063 | none | 1500050089: 5290 | 1500050108: 152006 |
+| Tin Ore | 4064 | none | 1500050090: 5291 | 1500050109: 152005 |
+| Granite | 4066 | none | 1500050091: 5295 | 1500050110: 152007 |
+| Beavers | 4082 | none | 1500050092: 31759 | none |
+| Sea Shells | 8432 | none | 1500050093: 8431 | none |
+| Silver Ore | 8487 | none | 1500050094: 5980 | none |
+| Sturgeon | 8577 | 1500050072: 2971 | none | none |
+| Gold Ore (Latium) | 32027 | 1500050073: 31753, 50280 | none | none |
+| Resin | 51212 | 1500050074: 31752, 31761 | 1500050095: 31761 | none |
+| Sesame | 149818 | none | none | 1500050111: 151994, 155406 |
+| Blue Lotus | 149819 | none | none | 1500050112: 152107 |
+| Hippos | 149820 | none | none | 1500050113: 152000 |
+| Pomegranates | 150477 | none | none | 1500050114: 152145 |
+| Gold Ore (Aegyptus) | 150506 | none | none | 1500050115: 152204, 152249 |
+
+Buildings `5982` (Iron Ore) and `31761` (Resin) are shared by Latium and Albion and appear in both lists. Aegyptus gold has its own fertility GUID `150506`. Do not use fertility GUIDs `1999100001` or `1999100538`; they belong to another mod's compatibility layer.
 
 ## External Super Specialists GUID Reference
 

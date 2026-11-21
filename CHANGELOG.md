@@ -9,6 +9,7 @@ All notable changes to this project are documented here. This project follows Se
 - Retired Julia, Cornelia, Cassius, Marius, and Appius; the active roster is now 7 specialists
 - Added 30t of storage to each Granary and all normal warehouse tiers, including upgrades
 - Added Marcellus: -75% recruitment cost, +300% recruitment speed, +100% troop health/morale/movement, and +100 offense/defense/armor/shields/attack speed
+- Added Gracchus Latinus, Britannicus, and Aegyptius: each gives the island it is equipped on every fertility and lode of its region at 100% (Latium 14, Albion 15, Aegyptus 15); the active roster is now 10 specialists at 990 Denarii. In-game behavior is unverified
 
 ## [2.1.0] - 2026-11-09
 - Added a separately auto-granted, one-use Materials Care Package chest with 100 of each of the 13 Construction Materials

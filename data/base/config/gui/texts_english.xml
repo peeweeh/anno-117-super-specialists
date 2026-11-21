@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?><ModOps>
 <ModOp Add="/TextExport/Texts"><Text><Text>Gracchi Materials Care Package</Text><LineId>1500059940</LineId></Text></ModOp>
 <ModOp Add="/TextExport/Texts"><Text><Text>Contains 100 of each of the 13 Construction Materials.</Text><LineId>1500059941</LineId></Text></ModOp>
+<ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Latinus</Text><LineId>1500059950</LineId></Text></ModOp>
+<ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Latinus gives the island every Latium fertility and lode: Flax, Grapes, Mackerel, Oysters, Lavender, Olives, Iron, Murex Snails, Sandarac, Minerals, Marble, Sturgeon, Gold and Resin.</Text><LineId>1500059951</LineId></Text></ModOp>
+<ModOp Add="/TextExport/Texts"><Text><Text>All Latium Fertilities</Text><LineId>1500059952</LineId></Text></ModOp>
+<ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Britannicus</Text><LineId>1500059953</LineId></Text></ModOp>
+<ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Britannicus gives the island every Albion fertility and lode: Flax, Ponies, Barley, Herbs, Dye Plants, Saltwort, Small Birds, Iron, Copper, Tin, Granite, Beavers, Sea Shells, Silver and Resin.</Text><LineId>1500059954</LineId></Text></ModOp>
+<ModOp Add="/TextExport/Texts"><Text><Text>All Albion Fertilities</Text><LineId>1500059955</LineId></Text></ModOp>
+<ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Aegyptius</Text><LineId>1500059956</LineId></Text></ModOp>
+<ModOp Add="/TextExport/Texts"><Text><Text>Gracchus Aegyptius gives the island every Aegyptus fertility and lode: Flax, Grapes, Lavender, Olives, Barley, Iron, Minerals, Copper, Tin, Granite, Sesame, Blue Lotus, Hippos, Pomegranates and Gold.</Text><LineId>1500059957</LineId></Text></ModOp>
+<ModOp Add="/TextExport/Texts"><Text><Text>All Aegyptus Fertilities</Text><LineId>1500059958</LineId></Text></ModOp>
   
 
   

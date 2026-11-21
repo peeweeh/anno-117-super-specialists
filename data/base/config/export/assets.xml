@@ -2,9 +2,9 @@
 <ModOps>
 
   <!-- ================================================================
-      SUPER SPECIALISTS MOD - 7 Gracchus Specialists
+      SUPER SPECIALISTS MOD - 10 Gracchus Specialists
        All purchaseable from traders (GUIDs 43018,43021,43019,43020)
-      Total Cost: 693 Denarii (7 specialists × 99 each)
+      Total Cost: 990 Denarii (10 specialists × 99 each)
        ================================================================ -->
 
   <!-- ================================================================
@@ -498,9 +498,11 @@
     </Asset>
   </ModOp>
 
+  <Include File="fertility.include.xml" />
+
   <!-- TRADER POOLS: Roman 43018, 43021, 43019, 43020; Aegyptus candidate pools 153068, 153070 (unverified). -->
 
-  <ModOp Type="add" GUID="43018,43021,43019,43020,153068,153070" Path="/Values/RewardPool/ItemsPool"><Item><ItemLink>1500050001</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050004</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050010</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050013</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050016</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050031</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050055</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item></ModOp>
+  <ModOp Type="add" GUID="43018,43021,43019,43020,153068,153070" Path="/Values/RewardPool/ItemsPool"><Item><ItemLink>1500050001</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050004</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050010</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050013</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050016</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050031</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050055</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050060</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050080</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item><Item><ItemLink>1500050100</ItemLink><Weight>99</Weight><ProductionPerMinute>5</ProductionPerMinute><Limit>50</Limit></Item></ModOp>
 
 <!-- Trader slot GUIDs: Diana 32777, Procurator Corvinus 27124, Valeria 32778, Manx 27079, Heron 153067, Kandis 153069. -->
 <ModOp Type="replace" GUID="32777,27124,32778,27079,153067,153069" Path="/Values/Trader/ItemSlotUnlocks">
@@ -530,7 +532,7 @@
 </ItemSlotUnlocks>
 </ModOp>
 
-  <!-- GRACCHI LEGACY CHEST - Item GUID 1500050050; text GUID 1500059936; start trigger GUID 1500050052; grants all 7 active Gracchus items. -->
+  <!-- GRACCHI LEGACY CHEST - Item GUID 1500050050; text GUID 1500059936; start trigger GUID 1500050052; grants all 10 active Gracchus items. -->
 
   <ModOp GUID="41350" Type="addNextSibling">
     <Asset>
@@ -584,7 +586,7 @@
                         </ActionAddGoodsToItemContainer>
                       </Values>
                     </Action>
-                  </Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050001</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050004</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050010</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050013</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050016</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050031</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050055</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item></Actions>
+                  </Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050001</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050004</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050010</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050013</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050016</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050031</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050055</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050060</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050080</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item><Item><Action><Template>ActionAddItemToMetaStorage</Template><Values><Action /><ActionAddItemToMetaStorage><ItemGUID><Value>1500050100</Value></ItemGUID></ActionAddItemToMetaStorage></Values></Action></Item></Actions>
               </ActionList>
             </Values>
           </ItemActions>
